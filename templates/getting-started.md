@@ -4,7 +4,7 @@ description: 115-145 characters including spaces. Edit the intro para describing
 services: service-name-with-dashes
 keywords: Don’t add or edit keywords without consulting your SEO champ.
 author: github-alias
-ms.author: alias
+ms.author: { alias }
 ms.date: 12/05/2017
 ms.topic: quickstart
 # Use only one of the following. Use ms.service for services, ms.prod for on-prem. Remove the # before the relevant field.
