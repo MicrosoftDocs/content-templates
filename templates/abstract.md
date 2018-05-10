@@ -3,9 +3,9 @@ title: Intent and product brand in a unique string of 43-59 chars including spac
 description: 115-145 characters including spaces. Edit the intro para describing article intent to fit here. This abstract displays in the search result.
 services: service-name-with-dashes
 keywords: Don’t add or edit keywords without consulting your SEO champ.
-author: { githubID }
-ms.author: { alias }
-ms.date: { ms.date }
+author: {github-id}
+ms.author: {ms-alias}
+ms.date: {@date}
 ms.topic: overview
 # Use only one of the following. Use ms.service for services, ms.prod for on-prem. Remove the # before the relevant field.
 # ms.service: service-name-from-white-list
