@@ -1,8 +1,8 @@
 ---
-author: {author}
-ms.author: {ms.author}
-ms.date: {ms.date}
-template-description: "Template for feature specs used internally by the docs.microsoft.com team. Use after high-level vision has already been agreed upon to provide detailed requirements to engineering. A feature should be scoped to a shippable unity of work, usually 1 - 3 weeks of engineering."
+author: {github-id}
+ms.author: {ms-alias} # Microsoft employees only
+ms.date: {@date}
+# A simple template for small feature specifications
 ---
 # [Feature title here]
 
