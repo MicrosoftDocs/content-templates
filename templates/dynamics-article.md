@@ -6,7 +6,7 @@ title: [Topic name]
 description: [Full description that appears in the search results. Often the first paragraph of your topic.]
 author: [author's GitHub alias]
 manager: AnnBe
-ms.date: {ms.date}
+ms.date: {@date}
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
