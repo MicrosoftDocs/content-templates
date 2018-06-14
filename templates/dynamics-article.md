@@ -1,4 +1,5 @@
 ---
+# This template provides a basic structure for Dynamics 365 articles.
 # required metadata
 
 title: [Topic name]

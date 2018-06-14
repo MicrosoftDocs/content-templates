@@ -1,5 +1,5 @@
 ---   
-                             
+# This template provides a structure for Office 365 new feature announcements.                             
 # For details about MAX content metadata requirements, see https://review.docs.microsoft.com/en-us/office-authoring-guide/metadata-for-max-content-on-dmc?branch=master
 
 # REQUIRED METADATA
