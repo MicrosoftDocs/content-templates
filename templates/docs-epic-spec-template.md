@@ -2,6 +2,7 @@
 author: {github-id}
 ms.author: {ms-alias} # Microsoft employees only
 ms.date: {@date}
+template_name: Epic Spec
 ---
 # Epic Spec Title
 
