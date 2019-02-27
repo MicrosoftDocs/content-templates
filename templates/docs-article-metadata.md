@@ -16,6 +16,6 @@ ms.topic: article-type-from-white-list
 # ms.custom: can-be-multiple-comma-separated
 # ms.reviewer: MSFT-alias-of-reviewer
 # manager: MSFT-alias-of-manager-or-PM-counterpart
-template_name: Metadata-Only Template
+docs_authoring_template_name: Metadata-Only Template
 ---
 # Heading 1
