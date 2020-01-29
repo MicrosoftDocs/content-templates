@@ -7,9 +7,9 @@ description: [Full description that appears in the search results. Often the fir
 author: [author's GitHub alias]
 manager: AnnBe
 ms.date: {@date}
-ms.topic: article
+#ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+#ms.service: Dynamics365Operations
 ms.technology: 
 
 # optional metadata

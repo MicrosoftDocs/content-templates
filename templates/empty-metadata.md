@@ -4,9 +4,9 @@
 # Mandatory fields.
 title: Intent and product brand in a unique string of 43-59 chars including spaces. Do not include site identifier (it is auto-generated).
 description: 115-145 characters including spaces. This abstract displays in the search result.
-author: {github-id}
-ms.author: {ms-alias} # Microsoft employees only
-ms.date: {@date}
+author: 
+ms.author: ""
+ms.date: ''
 ms.topic: article-type-from-white-list
 # Use ms.service for services or ms.prod for on-prem products. Remove the # before the relevant field.
 # ms.service: service-name-from-white-list
