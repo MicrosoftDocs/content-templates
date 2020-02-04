@@ -20,8 +20,6 @@ docs_authoring_template_name: Metadata-Only Template
 
 # Heading 1
 
-https://www.Microsoft.com/en-us/videoplayer/embed/RE1XVQS
-
 |Column1  |Column2  |Column3  |Column4  |
 |---------|---------|---------|---------|
 |Row1     |         |         |         |
