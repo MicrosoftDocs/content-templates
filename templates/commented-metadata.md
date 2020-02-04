@@ -30,6 +30,15 @@ ms.dyn365.ops.version: [name of release that feature was introduced in, see list
 
 # Metadata and Markdown template
 
+|Column1  |Column2  |Column3  |Column4  |
+|---------|---------|---------|---------|
+|Row1     |         |         |         |
+|Row2     |         |         |         |
+|Row3     |         |         |         |
+|Row4     |         |         |         |
+
+words
+
 [!include[banner](../includes/banner.md)]
 
 
