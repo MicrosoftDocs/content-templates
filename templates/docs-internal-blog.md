@@ -34,7 +34,7 @@ Provide thorough details on how this change affects your stakeholders:
 
 ## What comes next?
 
-If this change is rolling out in stages or has additional phases of planned work, then let them in on the secret. 
+If this change is rolling out in stages or has additional phases of planned work, then let them in on the secret.
 
 ## Acknowledgments
 
@@ -44,9 +44,9 @@ Include recognition of all team members and others who made this release possibl
 
 We love hearing from you!
 
-- Need to report a bug? -  please use SiteHelp. 
-- Got ideas you want to share with us, or changes you’d like to suggest? Please give us your Feature Feedback.
-- Or maybe you just have a question? Post them to the Docs Support Teams channel.
+- Need to report a bug? Please use [SiteHelp](https://sitehelp.microsoft.com/).
+- Got ideas you want to share with us, or changes you’d like to suggest? Please give us your [Feature Feedback](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3Dv4j5cvGGr0GRqy180BHbR58F1e8abtdClyZxD246zYJURTMwWkRHUExCOE8wV1YyNEU4OTRPS0VUMi4u&data=02%7C01%7CJames.Denyer%40microsoft.com%7C78f65389a1b04ed4fd0a08d7a3783242%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637157609621468693&sdata=IviLbC%2BsWZgVhPC2AItWJfPTGwrWI5O4b%2BU9APtd25M%3D&reserved=0).
+- Or maybe you just have a question? Post them to the [Docs Support](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fteams.microsoft.com%2Fl%2Fchannel%2F19%253a7ecffca1166a4a3986fed528cf0870ee%2540thread.skype%2FGeneral%3FgroupId%3Dde9ddba4-2574-4830-87ed-41668c07a1ca%26tenantId%3D72f988bf-86f1-41af-91ab-2d7cd011db47&data=02%7C01%7CJames.Denyer%40microsoft.com%7C78f65389a1b04ed4fd0a08d7a3783242%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637157609621468693&sdata=9XyQfEvKTaDHJasFI4AVt4Jbso%2BZfJwxOdJsxkDkte8%3D&reserved=0) Teams channel.
 
 :::row:::
     :::column span="2":::
