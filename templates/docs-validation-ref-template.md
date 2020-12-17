@@ -9,7 +9,9 @@ ms.prod: non-product-specific
 ---
 # [error-code]
 
-## Error | Warning | Info
+Applies to:
+
+## Error | Warning | Suggestion
 
 ``
 
