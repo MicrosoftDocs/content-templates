@@ -95,7 +95,7 @@ If you're not going to continue to use this application, delete
 <resources> with the following steps:
 
 1. From the left-hand menu...
-2. ...click Delete, type...and then click Delete
+1. ...click Delete, type...and then click Delete
 
 <!-- 7. Next steps
 Required: A single link in the blue box format. Point to the next logical tutorial 
