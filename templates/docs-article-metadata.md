@@ -8,6 +8,7 @@ author: {github-id}
 ms.author: {ms-alias} # Microsoft employees only
 ms.date: {@date}
 ms.topic: article-type-from-white-list
+docs_authoring_template_name: Article Metadata
 # Use ms.service for services or ms.prod for on-prem products. Remove the # before the relevant field.
 # ms.service: service-name-from-white-list
 # ms.prod: product-name-from-white-list

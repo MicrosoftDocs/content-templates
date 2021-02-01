@@ -7,6 +7,7 @@ ms.service: #Required; service per approved list. slug assigned by ACOM.
 ms.topic: article #Required; leave this attribute/value as-is.
 ms.date: #Required; mm/dd/yyyy format.
 ms.custom: template-concept #Required; leave this attribute/value as-is.
+docs_authoring_template_name: Concept article
 ---
 
 <!--Remove all the comments in this template before you sign-off or merge to the 
