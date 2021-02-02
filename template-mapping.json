@@ -6,6 +6,13 @@
         "learn-scaffolding",
         "docs-markdown-testing"
       ]
+    },
+    {
+      "templateFileName": "docs-coming-soon",
+      "repos": [
+        "learn-scaffolding",
+        "docs-markdown-testing"
+      ]
     }
   ]
 }
