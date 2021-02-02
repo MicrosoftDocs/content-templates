@@ -1,6 +1,11 @@
 {
-  "templateFileName": "docs-article-metadata",
-  "repos":[
-  "learn-scaffolding", "docs-markdown-testing"
+  "templates": [
+    {
+      "templateFileName": "docs-article-metadata",
+      "repos": [
+        "learn-scaffolding",
+        "docs-markdown-testing"
+      ]
+    }
   ]
 }
