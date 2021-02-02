@@ -1,11 +1,6 @@
 {
   "templateFileName": "docs-article-metadata",
-  "units":[
-    {
-      "type": "introduction",
-      "moduleUnitTemplatePath": "..\\content-templates\\default-unit.yml",
-      "contentTemplatePath": "..\\content-templates\\default-introduction-unit.md",
-      "scaffoldFilename": "1-introduction"
-    }
+  "repos":[
+  "learn-scaffolding", "docs-markdown-testing"
   ]
 }
