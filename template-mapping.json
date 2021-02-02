@@ -1,7 +1,11 @@
 {
-  "docs-article-metadata":[
+  "templateFileName": "introduction",
+  "units":[
     {
-      "friendlyName": "docs-markdown-testing"
+      "type": "introduction",
+      "moduleUnitTemplatePath": "..\\content-templates\\default-unit.yml",
+      "contentTemplatePath": "..\\content-templates\\default-introduction-unit.md",
+      "scaffoldFilename": "1-introduction"
     }
   ]
 }
