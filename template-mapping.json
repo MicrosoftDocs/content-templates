@@ -13,6 +13,12 @@
         "learn-scaffolding",
         "docs-markdown-testing"
       ]
+    },
+    {
+      "templateFileName": "docs-concept-article",
+      "repos": [
+        "all"
+      ]
     }
   ]
 }
