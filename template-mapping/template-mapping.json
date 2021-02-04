@@ -2,6 +2,7 @@
   "templates": [
     {
       "templateFileName": "..\\docs-article-metadata.md",
+      "templateFriendlyName": "Docs article metadata",
       "repos": [
         "learn-scaffolding",
         "docs-markdown-testing"
