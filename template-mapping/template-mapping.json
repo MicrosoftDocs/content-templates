@@ -1,27 +1,27 @@
 {
   "templates": [
     {
-      "templateFileName": "docs-article-metadata.md",
+      "templateFileName": "..\\docs-article-metadata.md",
       "repos": [
         "learn-scaffolding",
         "docs-markdown-testing"
       ]
     },
     {
-      "templateFileName": "docs-coming-soon.md",
+      "templateFileName": "..\\docs-coming-soon.md",
       "repos": [
         "learn-scaffolding",
         "docs-markdown-testing"
       ]
     },
     {
-      "templateFileName": "docs-concept-article.md",
+      "templateFileName": "..\\docs-concept-article.md",
       "repos": [
         "*"
       ]
     },
     {
-      "templateFileName": "docs-how-to-article.md",
+      "templateFileName": "..\\docs-how-to-article.md",
       "repos": [
         "*"
       ]
