@@ -7,7 +7,6 @@ author: {github-id}
 ms.author: {ms-alias}
 ms.date: {@date}
 ms.custom: docs-coming-soon
-docs_authoring_template_name: Coming soon
 ---
 # Heading - 2 line max
 

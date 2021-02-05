@@ -2,7 +2,7 @@
   "templates": [
     {
       "templateFileName": "..\\docs-article-metadata.md",
-      "templateFriendlyName": "Docs article metadata",
+      "templateFriendlyName": "Docs Article Metadata",
       "repos": [
         "learn-scaffolding",
         "docs-markdown-testing"
@@ -10,6 +10,7 @@
     },
     {
       "templateFileName": "..\\docs-coming-soon.md",
+      "templateFriendlyName": "Docs Coming Soon",
       "repos": [
         "learn-scaffolding",
         "docs-markdown-testing"
@@ -17,12 +18,14 @@
     },
     {
       "templateFileName": "..\\docs-concept-article.md",
+      "templateFriendlyName": "Docs Concept Article",
       "repos": [
         "*"
       ]
     },
     {
       "templateFileName": "..\\docs-how-to-article.md",
+      "templateFriendlyName": "Docs article metadata",
       "repos": [
         "*"
       ]
