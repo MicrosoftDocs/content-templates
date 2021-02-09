@@ -29,6 +29,12 @@
       "repos": [
         "*"
       ]
+    },
+    {
+      "templateFileName": "..\\docs-internal-blog.md",
+      "repos": [
+        "*"
+      ]
     }
   ]
 }
