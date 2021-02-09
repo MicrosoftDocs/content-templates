@@ -25,7 +25,7 @@
     },
     {
       "templateFileName": "..\\docs-how-to-article.md",
-      "templateFriendlyName": "Docs article metadata",
+      "templateFriendlyName": "Docs How To Article",
       "repos": [
         "*"
       ]
