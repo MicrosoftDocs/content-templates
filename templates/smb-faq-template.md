@@ -12,10 +12,11 @@ ms.topic: troubleshooting          # (Required) Choose from: article, conceptual
 ms.service: o365-administration    # (Required) Always o365-administration for SMB admin articles 
 localization_priority: Normal      # (Required) Choose from: Normal, Priority, None
 ms.collection:                     # (Required) Always include M365-subscription-management for SMB admin articles for reporting purposes
-- M365-subscription-management     # See metadata requirements link above for additional values; OK to add custom team values for tracking
+- M365-subscription-management         # See metadata requirements link above for additional values; OK to add custom team values for tracking
 - Adm_O365
-- Adm_TOC
-ms.custom: AdminSurgePortfolio     # (Optional) To help with reporting, always include AdminSurgePortfolio for SMB admin articles
+ms.custom:                         # (Optional) Helps with reporting 
+- AdminSurgePortfolio                  # Always include AdminSurgePortfolio for SMB admin articles
+- okr_smb                              # Include okr_smb for SMB admin articles that map to a VSB onboarding scenario
 search.appverid: MET150            # (Optional) Use MET150 if you want the article to show up in Minimaven in the admin center
 description: "Frequently-asked questions about <subject>."   # (Required) Important for SEO. Recommended character length is 115-145 characters.
 ---
