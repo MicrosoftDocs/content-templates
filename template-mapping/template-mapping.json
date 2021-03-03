@@ -1,0 +1,74 @@
+{
+  "templates": [
+    {
+      "templateFileName": "..\\docs-article-metadata.md",
+      "templateFriendlyName": "Markdown article with standard metadata",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-coming-soon.md",
+      "templateFriendlyName": "Feature announcement: Coming Soon",
+      "repos": [
+        "new-hope"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-concept-article.md",
+      "templateFriendlyName": "Docs template: Concept article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-how-to-article.md",
+      "templateFriendlyName": "Docs template: How-to article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-overview-article.md",
+      "templateFriendlyName": "Docs template: Overview article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-quickstart-article.md",
+      "templateFriendlyName": "Docs template: Quickstart article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-tutorial-article.md",
+      "templateFriendlyName": "Docs template: Tutorial article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-product-update.md",
+      "templateFriendlyName": "Feature announcement: Product Update",
+      "repos": [
+        "new-hope"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-released.md",
+      "templateFriendlyName": "Feature announcement: Released",
+      "repos": [
+        "new-hope"
+      ]
+    },
+    {
+      "templateFileName": "..\\docs-validation-ref-template.md",
+      "templateFriendlyName": "Contributor Guide: Error reference",
+      "repos": [
+        "docs-help-pr"
+      ]
+    }
+  ]
+}
