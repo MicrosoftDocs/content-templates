@@ -74,14 +74,14 @@
       "templateFileName": "..\\smb-article-template.md",
       "templateFriendlyName": "Contributor Guide: SMB article",
       "repos": [
-        "*"
+        "microsoft-365-docs-pr"
       ]
     },
     {
       "templateFileName": "..\\smb-faq-template.md",
       "templateFriendlyName": "SMB FAQ",
       "repos": [
-        "*"
+        "microsoft-365-docs-pr"
       ]
     }
   ]
