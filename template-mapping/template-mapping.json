@@ -69,6 +69,20 @@
       "repos": [
         "docs-help-pr"
       ]
+    },
+    {
+      "templateFileName": "..\\smb-article-template.md",
+      "templateFriendlyName": "Contributor Guide: SMB article",
+      "repos": [
+        "*"
+      ]
+    },
+    {
+      "templateFileName": "..\\smb-faq-template.md",
+      "templateFriendlyName": "SMB FAQ",
+      "repos": [
+        "*"
+      ]
     }
   ]
 }
