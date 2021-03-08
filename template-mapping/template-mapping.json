@@ -72,7 +72,7 @@
     },
     {
       "templateFileName": "..\\smb-article-template.md",
-      "templateFriendlyName": "Contributor Guide: SMB article",
+      "templateFriendlyName": "SMB article",
       "repos": [
         "microsoft-365-docs-pr"
       ]
