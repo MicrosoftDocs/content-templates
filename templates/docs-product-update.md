@@ -7,6 +7,7 @@ author: {github-id}
 ms.author: {ms-alias}
 ms.date: {@date}
 ms.custom: docs-product-update
+ms.prod: non-product-specific
 ---
 # Heading - 2 line max
 
