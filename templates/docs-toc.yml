@@ -1,0 +1,43 @@
+items:
+- name:   #Landing page TOC title. "<Service name> documentation"
+  href: index.yml
+  items:
+  - name: Overview
+    items:
+    - name:     #Starts with "What is <Service name>?"
+      href: overview.md #Relative link to the overview
+  - name: Quickstarts
+    expanded: true
+    items:      
+    - name:     #TOC title for quickstart 1. Start the TOC title with a verb
+      href:     #Relative link to the quickstart 1
+    - name:     #TOC title for quickstart 2. Start the TOC title with a verb
+      href:     #Relative link to the quickstart 2
+  - name: Tutorials
+    items:      
+    - name:     #TOC title for tutorial 1
+      href:     #Relative link to the tutorial 1
+    - name:     #TOC title for quickstart 2
+      href:     #Relative link to the quickstart 2 
+  - name: Concepts
+    items:      
+    - name:     #TOC title for concept 1. Start the TOC title with a noun
+      href:     #Relative link to the concept 1
+    - name:     #TOC title for concept 2. Start the TOC title with a noun
+      href:     #Relative link to the concept 2 
+  - name: How-to guides
+    items:      
+    - name:     #TOC title for how-to procedure 1. Start the TOC title with a verb
+      href:     # relative link to how-to procedure 1
+    - name:     #TOC title for how-to procedure 2. Start the TOC title with a verb
+      href:     # relative link to how-to procedure 1
+  - name: Reference
+    items:      
+    - name:     #TOC title for reference content
+      href:     # link to reference documentation
+  - name: Resources
+    items:      
+    - name:     #TOC title for resource1
+      href:     # link to resource1    
+    - name:     #TOC title for resource2
+      href:     # link to resource2  
