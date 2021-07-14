@@ -15,6 +15,13 @@
       ]
     },
     {
+      "templateFileName": "..\\docs-toc.yml",
+      "templateFriendlyName": "Docs template: TOC",
+      "repos": [
+        "*"
+      ]
+    },
+    {
       "templateFileName": "..\\docs-concept-article.md",
       "templateFriendlyName": "Docs template: Concept article",
       "repos": [
