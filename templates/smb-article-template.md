@@ -14,6 +14,7 @@ ms.service: microsoft-365-business # (Required) Typically microsoft-365-business
 ms.localizationpriority: medium    # (Required) Choose from: medium, high, null
 ms.collection:                     # (Optional) Add values to identify specific content sets, if needed, or see metadata requirements link above for list of existing values.
 - M365-subscription-management         # For SMB articles, always add M365-subscription-management.
+- scotvorg                             # For reporting purposes, add scotvorg to all articles owned by scotv's team.
 - highpri                              # Add highpri only if the article is strategically critical for VSBs.
 ms.custom:                         # (Optional) Add values to define your own content collections, if needed. Per guidance, use this field sparingly. 
 - OptionalValue1                   
