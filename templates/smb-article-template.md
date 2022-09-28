@@ -1,23 +1,25 @@
 ---
 # This template provides a structure for M365 SMB admin articles.
-# For details about MARVEL content metadata requirements, see https://review.docs.microsoft.com/office-authoring-guide/metadata-for-marvel-content-on-docs
+# For details about MARVEL content metadata requirements, see https://review.docs.microsoft.com/office-authoring-guide/metadata-for-marvel-content-on-docs.
 
-title: "Article title goes here"   # (Required) Very important for SEO. See https://aka.ms/seo-for-writers-cheat-sheet
+title: "Article title goes here"   # (Required) Very important for SEO. See https://aka.ms/seo-for-writers-cheat-sheet.
 f1.keywords: NOCSH                 # (Optional) Choose from: CSH (if article is called from in-app UX), NOCSH (if article is not called from in-app UX)
-ms.author: YourMicrosoftAlias      # (Required) Your Microsoft alias without @microsoft.com
-author: YourGitHubUserName         # (Required) Your GitHub alias, not your Microsoft alias
-manager: MicrosoftAliasOfManager   # (Required for MARVEL) Your manager's Microsoft alias without @microsoft.com
+ms.author: YourMicrosoftAlias      # (Required) Your Microsoft alias
+author: YourGitHubUserName         # (Required) Your GitHub user name
+manager: MicrosoftAliasOfManager   # (Required for MARVEL) Your manager's Microsoft alias
+ms.reviewer: MicrosoftAliasOfPM    # (Optional) Microsoft alias of PM owner(s) or SME(s). Include as a best practice to streamline article maintenance. Separate multiple aliases with a comma.
 audience: Admin                    # (Required) Always Admin for SMB admin articles (options: Admin, ITPro, Developer)
-ms.topic: article                  # (Required) Choose from: article, conceptual, reference, troubleshooting 
-ms.service: o365-administration    # (Required) Always o365-administration for SMB admin articles 
-localization_priority: Normal      # (Required) Choose from: Normal, Priority, None
-ms.collection:                     # (Required) Always include M365-subscription-management for SMB admin articles for reporting purposes
-- M365-subscription-management         # See metadata requirements link above for additional values; OK to add custom team values for tracking
-- Adm_O365
-ms.custom:                         # (Optional) Helps with reporting 
-- AdminSurgePortfolio                  # Always include AdminSurgePortfolio for SMB admin articles
-- okr_smb                              # Include okr_smb for SMB admin articles that map to a VSB onboarding scenario                         
-search.appverid: MET150            # (Optional) Use MET150 if you want the article to show up in Minimaven in the admin center
+ms.topic: conceptual               # (Required) Most common: conceptual, overview, how-to, troubleshooting, hub-page, landing-page. See metadata requirements link above for complete list. 
+ms.service: microsoft-365-business # (Required) Typically microsoft-365-business for SMB admin articles. See metadata requirements link above for other product- or service-specific values.
+ms.localizationpriority: medium    # (Required) Choose from: medium, high, null
+ms.collection:                     # (Optional) Add values to identify specific content sets, if needed, or see metadata requirements link above for list of existing values.
+- M365-subscription-management         # For SMB articles, always add M365-subscription-management.
+- scotvorg                             # For reporting purposes, add scotvorg to all articles owned by scotv's team.
+- highpri                              # Add highpri only if the article is strategically critical for VSBs.
+ms.custom:                         # (Optional) Add values to define your own content collections, if needed. Per guidance, use this field sparingly. 
+- OptionalValue1                   
+- OptionalValue2                                            
+search.appverid: MET150            # (Optional) Use MET150 to enable surfacing of the article in the help pane in the M365 admin center.
 description: "Brief summary of article here"   # (Required) Important for SEO. Recommended character length is 115-145 characters.
 ---
 
