@@ -9,11 +9,9 @@ ms.prod: non-product-specific
 ---
 # [error-code]
 
-Applies to:
+`` <!-- add error message as inline code -->
 
-## Error | Warning | Suggestion
-
-``
+## Description
 
 ## Resolution
 
