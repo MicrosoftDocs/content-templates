@@ -1,3 +1,5 @@
+<!-- Use the aac-browse-header.yml -->
+
 > The H1 title is a noun phrase with a present tense verb that describes the scenario (no gerunds, "-ing" verbs). Don't enter it here, but as the **name** value in the corresponding YML file.> 
 > Include the solution idea header note at the top of the solution idea. This adds clarification why this is a scaled-back architecture (and provides consistency with our other SIs)...
 

@@ -7,30 +7,16 @@ ms.date: <Publish or major update date - mm/dd/yyyy>
 ms.topic: conceptual
 ---
 
-# Industry solution overview
+# Industry design areas
 
-## Industry overview 
+See guidance here: https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-waf-for-workloads-design-areas?branch=main  
 
- 
+## Concept 1  
 
-## Azure support for <Industry> 
-
- 
-
-## Common challenges with <Industry> solution 
+Bulleted list of recommendations 
 
  
 
-## Recommended approach 
+## Concept N  
 
-This section should have a table containing links to other articles: 
-
-Design Principles 
-
-Architecture 
-
-Design Areas 
-
- 
-
-## Example solution for <Industry> - link to RI 
+Bulleted list of recommendations 

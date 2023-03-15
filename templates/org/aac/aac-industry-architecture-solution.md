@@ -7,30 +7,22 @@ ms.date: <Publish or major update date - mm/dd/yyyy>
 ms.topic: conceptual
 ---
 
-# Industry solution overview
+# Architecture for <Industry> solution 
 
-## Industry overview 
-
- 
-
-## Azure support for <Industry> 
+This document is for the architecture of the system. Please see summaries of each of the 4 listed sections here: https://review.docs.microsoft.com/en-us/help/contribute/architecture-center/templates/reference-architecture-templates?branch=main 
 
  
 
-## Common challenges with <Industry> solution 
+## Intent 
 
  
 
-## Recommended approach 
-
-This section should have a table containing links to other articles: 
-
-Design Principles 
-
-Architecture 
-
-Design Areas 
+## Architecture 
 
  
 
-## Example solution for <Industry> - link to RI 
+## Components 
+
+ 
+
+## Workflow 

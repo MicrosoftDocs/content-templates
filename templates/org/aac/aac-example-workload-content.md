@@ -1,3 +1,5 @@
+<!-- Use the aac-browse-header.yml   -->
+
 > Introductory section - no heading
 >   In this section, include 1-2 sentences to briefly explain this architecture. 
 >   The full scenario info will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Alternatives" H3 header, and above the "Considerations" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
