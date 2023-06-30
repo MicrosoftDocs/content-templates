@@ -1,65 +1,109 @@
 ---
-title: #Required; page title is displayed in search results. Include the brand.
-description: #Required; article description that is displayed in search results. 
+title: #Required; "What is <product>?"
+description: #Required; article description that is displayed in search results.
 author: #Required; your GitHub user alias, with correct capitalization.
-ms.author: #Required; microsoft alias of author; optional team alias.
+ms.author: #Required; microsoft alias of author
+ms.service: #Required; use the name-string related to slug in ms.product/ms.service
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: #Required; mm/dd/yyyy format.
-ms.custom: template-overview #Required; leave this attribute/value as-is.
+
+#CustomerIntent: As a <type of user>, I want <what?> so that <why?>.
 ---
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 
 main branch.
+
+This template provides the basic structure of a Overview article pattern. See the [instructions - Overview](../level4/article-overview.md) in the pattern library.
+
+You can provide feedback about this template at: https://aka.ms/patterns-feedback
+
+Overview is an article pattern that covers two aspects of a product or service:
+
+* What is it?
+* What is it used for?
+
+An Overview article talks about the product or service from a technical point of view. It's not intended to define the benefits or value proposition. That just duplicates marketing.
+
+<!-- 1. H1 -----------------------------------------------------------------------------
+
+Required: This is the primary heading at the top of the article.
+
+Use the format "What is <service>?" 
+
+You can also use this in the TOC if your service name doesn’t cause the phrase to wrap.
+
 -->
 
-<!--
-This template provides the basic structure of a service/product overview article.
-See the [overview guidance](contribute-how-write-overview.md) in the contributor guide.
+# What is <product/service>? 
+TODO: Add your heading
 
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
+<!-- 2. Introductory paragraph ----------------------------------------------------------
+
+Required: Lead with a light intro that describes what the article covers. Answer the fundamental “why would I want to know this?” question. Keep it short.
+
+Many services add artwork or videos below the Introduction.
+
 -->
 
-<!-- 1. H1
-Required. Set expectations for what the content covers, so customers know the 
-content meets their needs. H1 format is # What is <product/service>?
--->
+[Introductory paragraph]
+TODO: Add your introductory paragraph
 
-# What is <product/service>?
+<!---Avoid notes, tips, and important boxes. Readers tend to skip over them. Better to put that info
+directly into the article text.
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes what the article covers. Answer the 
-fundamental “why would I want to know this?” question. Keep it short.
--->
+--->
 
-[add your introductory paragraph]
+<!-- 3. H2s (Article body)------------------------------------------------------------ 
 
-<!-- 3. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
+Required: The article body should discuss the features that answer the "Why should I care?" question with a bit more depth.
+
+Give each H2 a heading that sets expectations for the content that follows. 
 Follow the H2 headings with a sentence about how the section contributes to the whole.
+Add images, code blocks, or other graphical elements after the information it illustrates.
+
+* Call out any basic requirements and dependencies.
+* Call out limitations or overhead.
+* Don't catalog every feature. Some might only need to be mentioned as available, without any discussion.
+* Give each H2 a heading that sets expectations for the content that follows.
+* Follow the H2 headings with a sentence about how the section contributes to the whole.
+* Images, code blocks, or other graphical elements come after the text block it illustrates.
+Don't number H2s.
+
 -->
 
-## [Section 1 H2]
-<!-- add your content here -->
+## [Section 1 heading]
+TODO: add your content
 
-## [Section 2 H2]
-<!-- add your content here -->
+## [Section 2 heading]
+TODO: add your content
 
-## [Section n H2]
-<!-- add your content here -->
+## [Section n heading]
+TODO: add your content
 
-<!-- 4. Next steps
-Required. Provide at least one next step and no more than three. Include some 
-context so the customer can determine why they would click the link.
+<!-- 4. Next step/Related content ------------------------------------------------------------------------ 
+
+Optional: You have two options for manually curated links in this pattern: Next step and Related content. You don't have to use either, but don't use both.
+  - For Next step, provide one link to the next step in a sequence. Use the blue box format
+  - For Related content provide 1-3 links. Include some context so the customer can determine why they would click the link. Add a context sentence for the following links.
+
 -->
 
-## Next steps
-<!-- Add a context sentence for the following links -->
-- [Write an overview](contribute-how-to-write-overview.md)
-- [Links](links-how-to.md)
+## Next step
+
+TODO: Add your next step link(s)
+
+> [!div class="nextstepaction"]
+> [Write concepts](article-concept.md)
+
+<!-- OR -->
+
+## Related content
+
+TODO: Add your next step link(s)
+
+- [Write concepts](article-concept.md)
 
 <!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
+Remove all the comments in this template before you sign-off or merge to the main branch.
 -->
