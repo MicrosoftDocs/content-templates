@@ -1,88 +1,143 @@
 ---
-title: #Required; page title is displayed in search results. Include the brand.
-description: #Required; article description that is displayed in search results. 
-author: #Required; your GitHub user alias, with correct capitalization.
-ms.author: #Required; microsoft alias of author; optional team alias.
-ms.service: #Required; service per approved list. slug assigned by ACOM.
-ms.topic: how-to #Required; leave this attribute/value as-is.
-ms.date: #Required; mm/dd/yyyy format.
-ms.custom: template-how-to #Required; leave this attribute/value as-is.
+title: #Required; "<verb> * <noun>"
+description: #Required; Keep the description within 100- and 165-characters including spaces.
+author: #Required; your GitHub user alias, with correct capitalization
+ms.author: #Required; microsoft alias of author
+ms.service: #Required; use the name-string related to slug in ms.product/ms.service
+ms.topic: how-to #Required; leave this attribute/value as-is
+ms.date: #Required; mm/dd/yyyy format
+
+#CustomerIntent: As a < type of user >, I want < what? > so that < why? >.
 ---
 
 <!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
+Remove all the comments in this template before you sign-off or merge to the main branch.
+
+This template provides the basic structure of a How-to article pattern. See the
+[instructions - How-to](../level4/article-how-to-guide.md) in the pattern library.
+
+You can provide feedback about this template at: https://aka.ms/patterns-feedback
+
+How-to is a procedure-based article pattern that show the user how to complete a task in their own environment. A task is a work activity that has a definite beginning and ending, is observable, consist of two or more definite steps, and leads to a product, service, or decision.
+
 -->
 
-<!--
-This template provides the basic structure of a how-to article.
-See the [how-to guidance](contribute-how-to-write-howto.md) in the contributor guide.
+<!-- 1. H1 -----------------------------------------------------------------------------
 
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
+Required: Use a "<verb> * <noun>" format for your H1. Pick an H1 that clearly conveys the task the user will complete.
+
+For example: "Migrate data from regular tables to ledger tables" or "Create a new Azure SQL Database".
+
+* Include only a single H1 in the article.
+* Don't start with a gerund.
+* Don't include "Tutorial" in the H1.
+
 -->
 
-<!-- 1. H1
-Required. Start your H1 with a verb. Pick an H1 that clearly conveys the task the 
-user will complete.
+# "<verb> * <noun>"
+TODO: Add your heading
+
+<!-- 2. Introductory paragraph ----------------------------------------------------------
+
+Required: Lead with a light intro that describes, in customer-friendly language, what the customer will do. Answer the fundamental “why would I want to do this?” question. Keep it short.
+
+Readers should have a clear idea of what they will do in this article after reading the introduction.
+
+* Introduction immediately follows the H1 text.
+* Introduction section should be between 1-3 paragraphs.
+* Don't use a bulleted list of article H2 sections.
+
+Example: In this article, you will migrate your user databases from IBM Db2 to SQL Server by using SQL Server Migration Assistant (SSMA) for Db2.
+
 -->
 
-# [H1 heading here]
+TODO: Add your introductory paragraph
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
+<!---Avoid notes, tips, and important boxes. Readers tend to skip over them. Better to put that info directly into the article text.
+
 -->
 
-[Add your introductory paragraph]
+<!-- 3. Prerequisites --------------------------------------------------------------------
 
-<!-- 3. Prerequisites 
-Optional. If you need prerequisites, make them your first H2 in a how-to guide. 
-Use clear and unambiguous language and use a list format.
+Required: Make Prerequisites the first H2 after the H1. 
+
+* Provide a bulleted list of items that the user needs.
+* Omit any preliminary text to the list.
+* If there aren't any prerequisites, list "None" in plain text, not as a bulleted item.
+
 -->
 
 ## Prerequisites
 
-- <!-- prerequisite 1 -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
-<!-- remove this section if prerequisites are not needed -->
+TODO: List the prerequisites
 
-<!-- 4. H2s 
-Required. A how-to article explains how to do a task. The bulk of each H2 should be 
-a procedure.
+<!-- 4. Task H2s ------------------------------------------------------------------------------
+
+Required: Multiple procedures should be organized in H2 level sections. A section contains a major grouping of steps that help users complete a task. Each section is represented as an H2 in the article.
+
+For portal-based procedures, minimize bullets and numbering.
+
+* Each H2 should be a major step in the task.
+* Phrase each H2 title as "<verb> * <noun>" to describe what they'll do in the step.
+* Don't start with a gerund.
+* Don't number the H2s.
+* Begin each H2 with a brief explanation for context.
+* Provide a ordered list of procedural steps.
+* Provide a code block, diagram, or screenshot if appropriate
+* An image, code block, or other graphical element comes after numbered step it illustrates.
+* If necessary, optional groups of steps can be added into a section.
+* If necessary, alternative groups of steps can be added into a section.
+
 -->
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+## "\<verb\> * \<noun\>"
+TODO: Add introduction sentence(s)
+[Include a sentence or two to explain only what is needed to complete the procedure.]
+TODO: Add ordered list of procedure steps
+1. Step 1
+1. Step 2
+1. Step 3
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+## "\<verb\> * \<noun\>"
+TODO: Add introduction sentence(s)
+[Include a sentence or two to explain only what is needed to complete the procedure.]
+TODO: Add ordered list of procedure steps
+1. Step 1
+1. Step 2
+1. Step 3
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+## "\<verb\> * \<noun\>"
+TODO: Add introduction sentence(s)
+[Include a sentence or two to explain only what is needed to complete the procedure.]
+TODO: Add ordered list of procedure steps
+1. Step 1
+1. Step 2
+1. Step 3
 
-<!-- 5. Next steps
-Required. Provide at least one next step and no more than three. Include some 
-context so the customer can determine why they would click the link.
+<!-- 5. Next step/Related content------------------------------------------------------------------------
+
+Optional: You have two options for manually curated links in this pattern: Next step and Related content. You don't have to use either, but don't use both.
+  - For Next step, provide one link to the next step in a sequence. Use the blue box format
+  - For Related content provide 1-3 links. Include some context so the customer can determine why they would click the link. Add a context sentence for the following links.
+
 -->
 
-## Next steps
-<!-- Add a context sentence for the following links -->
-- [Write how-to guides](contribute-how-to-write-howto.md)
-- [Links](links-how-to.md)
+## Next step
+
+TODO: Add your next step link(s)
+
+> [!div class="nextstepaction"]
+> [Write concepts](article-concept.md)
+
+<!-- OR -->
+
+## Related content
+
+TODO: Add your next step link(s)
+
+- [Write concepts](article-concept.md)
 
 <!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
+Remove all the comments in this template before you sign-off or merge to the main branch.
 -->
+
