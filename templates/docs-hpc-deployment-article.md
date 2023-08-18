@@ -1,10 +1,9 @@
 title: Deploy /<workload name> on an Azure virtual machine 
 description: # Add a short description of the article, including keywords. List facts about what the product intends to do along with the targeted industry/business process. The description must include the product name and related use cases but refrain from using marketing jargon or campaigning statements.
-author:
-ms.author:
-ms.topic:
-ms.service:
-ms.date:
+ms.topic: conceptual
+ms.service: architecture-center
+ms.subservice: azure-guide
+ms.date: #Required; mm/dd/yyyy format.
 
 # Deploy /<workload name> on a virtual machine 
 
