@@ -78,6 +78,13 @@
       ]
     },
     {
+      "templateFileName": "..\\docs-hpc-deployment-article.md",
+      "templateFriendlyName": "HPC deployment article",
+      "repos": [
+        "architecture-center-pr"
+      ]
+    },
+    {
       "templateFileName": "..\\smb-faq-template.md",
       "templateFriendlyName": "SMB FAQ",
       "repos": [
