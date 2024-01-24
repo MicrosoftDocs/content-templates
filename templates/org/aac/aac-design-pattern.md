@@ -14,7 +14,7 @@ pnp.pattern.categories: Replace this text based on the guidance in Completing th
 
 _Your article can have only one **H1 heading (#)**, which is the article title. The H1 heading is always followed by a succinct descriptive paragraph that informs the reader what the article is about and how it can help them. Do not start the article with a note or tip. Descriptive text always appears in italics. Descriptive text should be deleted or replaced with your text prior to publication._
 
-_This template is specific to **Cloud Design Patterns**. Your article should describe the problem that the pattern addresses, identify considerations for applying the pattern, and provide an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. Your article should be broken down into six subheadings (H2, ## in markdown)--Context and problem, Solution, Issues and considerations, When to use this pattern, Example, and Next steps. The H2 headings and descriptions are included in this template. If you need to create a new heading under one of the H2 headings, use an H3 heading (###)._
+_This template is specific to **Cloud Design Patterns**. Your article should describe the problem that the pattern addresses, identify considerations for applying the pattern, and provide an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. Your article should be broken down into six subheadings (H2, ## in markdown)--Context and problem, Solution, Issues and considerations, When to use this pattern, Workload design, Example, and Next steps. The H2 headings and descriptions are included in this template. If you need to create a new heading under one of the H2 headings, use an H3 heading (###)._
 
 _**Completing the metadata:**_
 _This section provides guidance on completing the metadata section at the top of this template. Update the placeholder text based on the following guidance:_
@@ -59,6 +59,22 @@ This pattern might not be suitable:
 - Item 1
 - Item 2
 - Item 3
+
+## Workload design
+
+An architect should evaluate how the \<pattern name> can be used in their workloads's design to addresses the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). For example:
+
+_Include just the rows that are relevant. This list should be a pivot of the data on the design patterns lists in the Azure Well-Architected Framework, so the two lists should maintain pairity. Do not add something here that isn't also in WAF's lists._
+
+| Pillar | How this pattern supports pillar goals |
+| :----- | :------------------------------------- |
+| [Reliability](/azure/well-architected/reliability/checklist) provides continued functionality by building enough **resilience and the ability to recover from failure** into the workload. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/reliability/design-patterns>.<br/><br/> - [RE:nm Relevent guide name]()<br/> - [RE:nn Relevant guide name]() |
+| [Security](/azure/well-architected/security/checklist) protects **confidentiality**, **integrity**, and **availability** in the workload. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/security/design-patterns>.<br/><br/> - [SE:nm Relevent guide name]()<br/> - [SE:nn Relevant guide name]() |
+| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) is focused on **sustaining and improving** your workload's **return on investment**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/cost-optimization/design-patterns>.<br/><br/> - [CO:nm Relevent guide name]()<br/> - [CO:nn Relevant guide name]() |
+| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) delivers **workload quality through standardized processes and team cohesion**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br/><br/> - [OE:nm Relevent guide name]()<br/> - [OE:nn Relevant guide name]() |
+| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands through optimizations in scaling, data, code.** | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br/><br/> - [PE:nm Relevent guide name]()<br/> - [PE:nn Relevant guide name]() |
+
+As with any design decision, consider any tradeoffs against the goals of the other pillars that might introduced with this pattern.
 
 ## Example
 
