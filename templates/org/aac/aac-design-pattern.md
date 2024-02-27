@@ -74,7 +74,7 @@ _Include just the rows that are relevant. This list should be a pivot of the dat
 | [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br/><br/> - [OE:nm Relevant guide name]()<br/> - [OE:nn Relevant guide name]() |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, code. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br/><br/> - [PE:nm Relevant guide name]()<br/> - [PE:nn Relevant guide name]() |
 
-As with any design decision, consider any tradeoffs against the goals of the other pillars that might introduced with this pattern.
+As with any design decision, consider any tradeoffs against the goals of the other pillars that might be introduced with this pattern.
 
 ## Example
 
