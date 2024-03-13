@@ -29,20 +29,18 @@ The following workflow (or dataflow) corresponds to the above diagram:
 
 ### Components
 
-> A bullet list of components in the architecture (including all relevant Azure services) with links to the product service pages. This is for lead generation (what business, marketing, and PG want). It helps drive revenue.
+> A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Archictected Framework service guide for the product.
 
 > Why is each component there?
 > What does it do and why was it necessary?
-> Link the name of the service (via embedded link) to the service's product service page. Be sure to exclude the localization part of the URL (such as "en-US/").
+> Link the name of the service (via embedded link) to the Azure Well-Architected service guide (if it exists), otherwise the service's product page. Be sure to exclude the localization part of the URL (such as "en-US/").
 
 - Examples: 
-  - [Azure App Service](https://azure.microsoft.com/services/app-service)
-  - [Azure Bot Service](https://azure.microsoft.com/services/bot-service)
-  - [Azure Cognitive Services Language Understanding](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service)
-  - [Azure Cognitive Services Speech Services](https://azure.microsoft.com/services/cognitive-services/speech-services)
-  - [Azure SQL Database](https://azure.microsoft.com/services/sql-database)
-  - [Azure Monitor](https://azure.microsoft.com/services/monitor): Application Insights is a feature of Azure Monitor.
-  - [Resource Groups][resource-groups] is a logical container for Azure resources.  We use resource groups to organize everything related to this project in the Azure console.
+  - [Azure App Service](https://azure.microsoft.com/services/app-service) is a compute service that is specifically built to host web applications. In this architecture ….
+  - [Azure Cosmos DB for NoSQL](/azure/well-architected/service-guides/cosmos-db) is a …. In this architecture ….
+  - [Azure OpenAI](/azure/well-architected/service-guides/azure-openai) is a .... In this architecture ….
+  - [Log Analytics](/azure/well-architected/service-guides/azure-log-analytics) is a …. In this architecture ….
+  - [Virtual Machines](/azure/well-architected/service-guides/virtual-machines) is a …. In this architecture ….
 
 ### Alternatives
 
@@ -68,7 +66,7 @@ The following workflow (or dataflow) corresponds to the above diagram:
 
 > REQUIRED STATEMENT: Include the following statement to introduce this section:
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/architecture/framework).
+These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/well-architected/).
 
 > Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
 > How do I need to think about managing, maintaining, and monitoring this long term?
@@ -81,7 +79,7 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the reliability pillar](/azure/architecture/framework/resiliency/overview).
+Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
 
 > This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think they should be separated.
 > Are there any key resiliency and reliability considerations (past the typical)?
@@ -90,7 +88,7 @@ Reliability ensures your application can meet the commitments you make to your c
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the security pillar](/azure/architecture/framework/security/overview).
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
 
 > This section includes identity and data sovereignty considerations.
 > Are there any security considerations (past the typical) that I should know about this?
@@ -102,7 +100,7 @@ Security provides assurances against deliberate attacks and the abuse of your va
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the cost optimization pillar](/azure/architecture/framework/cost/overview).
+Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
 > How much will this cost to run? See if you can answer this without dollar amounts.
 > Are there ways I could save cost?
@@ -110,14 +108,14 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 > What are the components that make up the cost?
 > How does scale affect the cost?
 
-> Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
+> Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
 > If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
 ### Operational excellence
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the operational excellence pillar](/azure/architecture/framework/devops/overview).
+Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 
 > This includes DevOps, monitoring, and diagnostics considerations.
 > How do I need to think about operating this solution?
@@ -126,7 +124,7 @@ Operational excellence covers the operations processes that deploy an applicatio
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Performance efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+Performance efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
 > This includes scalability considerations.
 > Are there any key performance considerations (past the typical)?
@@ -148,16 +146,16 @@ Performance efficiency is the ability of your workload to scale to meet the dema
 
 Principal authors: > Only the primary authors. Listed alphabetically by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
 
- - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - > Continue for each primary author (even if there are 10 of them).
+- [Author 1 Name](https://linkedin.com/in/Profile/) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://linkedin.com/in/Profile/) | Title, such as "Cloud Solution Architect"
+- > Continue for each primary author (even if there are 10 of them).
 
 Other contributors: > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. Listed alphabetically by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
 
- - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - > Continue for each additional contributor (even if there are 10 of them).
- 
+- [Contributor 1 Name](https://linkedin.com/in/Profile/) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://linkedin.com/in/Profile/) | Title, such as "Cloud Solution Architect"
+- > Continue for each additional contributor (even if there are 10 of them).
+
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
@@ -170,13 +168,9 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 Examples:
 * [Azure Kubernetes Service (AKS) documentation](/azure/aks)
 * [Azure Machine Learning documentation](/azure/machine-learning)
-* [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
-* [What is Language Understanding (LUIS)?](/azure/cognitive-services/luis/what-is-luis)
-* [What is the Speech service?](/azure/cognitive-services/speech-service/overview)
 * [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-* [Introduction to Bot Framework Composer](/composer/introduction)
-* [What is Application Insights](/azure/azure-monitor/app/app-insights-overview)
- 
+* [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
+
 ## Related resources
 
 > Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
