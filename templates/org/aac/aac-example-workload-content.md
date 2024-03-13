@@ -1,8 +1,8 @@
 <!-- Use the aac-browse-header.yml   -->
 
 > Introductory section - no heading
->   In this section, include 1-2 sentences to briefly explain this architecture. 
->   The full scenario info will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Alternatives" H3 header, and above the "Considerations" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
+> In this section, include 1-2 sentences to briefly explain this architecture.
+> The full scenario info will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Alternatives" H3 header, and above the "Considerations" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
 
 ## Architecture
 
@@ -22,6 +22,7 @@
 > In this section, include a numbered list that annotates/describes the dataflow or workflow through the solution. Explain what each step does. Start from the user or external data source, and then follow the flow through the rest of the solution (as shown in the diagram).
 
 The following workflow (or dataflow) corresponds to the above diagram:
+
 1. Admin 1 adds, updates, or deletes an entry in Admin 1's fork of the Microsoft 365 config file.
 2. Admin 1 commits and syncs the changes to Admin 1's forked repository.
 3. Admin 1 creates a pull request (PR) to merge the changes to the main repository.
@@ -30,37 +31,40 @@ The following workflow (or dataflow) corresponds to the above diagram:
 ### Components
 
 > A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Archictected Framework service guide for the product.
+>
+> - Why is each component there?
+> - What does it do and why was it necessary?
+> - Link the name of the service (via embedded link) to the Azure Well-Architected service guide (if it exists), otherwise the service's product page. Be sure to exclude the localization part of the URL (such as "en-US/").
 
-> Why is each component there?
-> What does it do and why was it necessary?
-> Link the name of the service (via embedded link) to the Azure Well-Architected service guide (if it exists), otherwise the service's product page. Be sure to exclude the localization part of the URL (such as "en-US/").
+Examples:
 
-- Examples: 
-  - [Azure App Service](https://azure.microsoft.com/services/app-service) is a compute service that is specifically built to host web applications. In this architecture ….
-  - [Azure Cosmos DB for NoSQL](/azure/well-architected/service-guides/cosmos-db) is a …. In this architecture ….
-  - [Azure OpenAI](/azure/well-architected/service-guides/azure-openai) is a .... In this architecture ….
-  - [Log Analytics](/azure/well-architected/service-guides/azure-log-analytics) is a …. In this architecture ….
-  - [Virtual Machines](/azure/well-architected/service-guides/virtual-machines) is a …. In this architecture ….
+- [Azure App Service](https://azure.microsoft.com/services/app-service) is a compute service that is specifically built to host web applications. In this architecture ….
+- [Azure Cosmos DB for NoSQL](/azure/well-architected/service-guides/cosmos-db) is a …. In this architecture ….
+- [Azure OpenAI](/azure/well-architected/service-guides/azure-openai) is a …. In this architecture ….
+- [Log Analytics](/azure/well-architected/service-guides/azure-log-analytics) is a …. In this architecture ….
+- [Virtual Machines](/azure/well-architected/service-guides/virtual-machines) is a …. In this architecture ….
 
 ### Alternatives
 
 > Use this section to talk about alternative Azure services or architectures that you might consider for this solution. Include the reasons why you might choose these alternatives. Customers find this valuable because they want to know what other services or technologies they can use as part of this architecture.
-
-> What alternative technologies were considered and why didn't we use them?
+>
+> - What alternative technologies were considered and why didn't we use them?
 
 ## Scenario details
 
 > This should be an explanation of the business problem and why this scenario was built to solve it.
->   What prompted them to solve the problem?
->   What services were used in building out this solution?
->   What does this example scenario show? What are the customer's goals?
-> What were the benefits of implementing the solution?
+>
+> - What prompted them to solve the problem?
+> - What services were used in building out this solution?
+> - What does this example scenario show? What are the customer's goals?
+> - What were the benefits of implementing the solution?
 
 ### Potential use cases
 
-> What industry is the customer in? Use the following industry keywords, when possible, to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports. 
->   Are there any other use cases or industries where this would be a fit?
->   How similar or different are they to what's in this article?
+> What industry is the customer in? Use the following industry keywords, when possible, to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
+>
+> - Are there any other use cases or industries where this would be a fit?
+> - How similar or different are they to what's in this article?
 
 ## Considerations
 
@@ -70,10 +74,11 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 
 > Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
 > How do I need to think about managing, maintaining, and monitoring this long term?
-
-> REQUIREMENTS: 
->   You must include the "Cost optimization" section. 
->   You must include at least two of the other H3 sub-sections/pillars: Reliability, Security, Operational excellence, and Performance efficiency.
+>
+> REQUIREMENTS:
+>
+> - You must include the "Cost optimization" section.
+> - You must include at least two of the other H3 sub-sections/pillars: Reliability, Security, Operational excellence, and Performance efficiency.
 
 ### Reliability
 
@@ -97,7 +102,7 @@ Security provides assurances against deliberate attacks and the abuse of your va
 ### Cost optimization
 
 > REQUIRED: This section is required. Cost is of the utmost importance to our customers.
-
+>
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
 Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
@@ -107,8 +112,8 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 > If it scales linearly, than we should break it down by cost/unit. If it does not, why?
 > What are the components that make up the cost?
 > How does scale affect the cost?
-
-> Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
+>
+> Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>) with all of the components in the architecture included, even if they're a $0 or $1 usage.
 > If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
 ### Operational excellence
@@ -133,13 +138,13 @@ Performance efficiency is the ability of your workload to scale to meet the dema
 ## Deploy this scenario
 
 > (Optional, but greatly encouraged)
-
+>
 > Is there an example deployment that can show me this in action?  What would I need to change to run this in production?
 
 ## Contributors
 
 > (Expected, but this section is optional if all the contributors would prefer to not be mentioned.)
-
+>
 > Start with the explanation text (same for every section), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). Implement this format:
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.* 
@@ -166,10 +171,11 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 > Is there any other documentation that might be useful? Are there product documents that go into more detail on specific technologies that are not already linked?
 
 Examples:
-* [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-* [Azure Machine Learning documentation](/azure/machine-learning)
-* [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-* [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
+
+- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
+- [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
 
 ## Related resources
 
@@ -177,8 +183,9 @@ Examples:
 > Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
 
 Examples:
-  - [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
-  - [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
-  - [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-  - [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-  - [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+
+- [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
+- [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
