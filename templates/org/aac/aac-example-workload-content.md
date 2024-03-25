@@ -30,7 +30,7 @@ The following workflow (or dataflow) corresponds to the above diagram:
 
 ### Components
 
-> A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Archictected Framework service guide for the product.
+> A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Architected Framework service guide for the product.
 >
 > - Why is each component there?
 > - What does it do and why was it necessary?
@@ -147,7 +147,7 @@ Performance efficiency is the ability of your workload to scale to meet the dema
 >
 > Start with the explanation text (same for every section), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). Implement this format:
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.* 
+*This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal authors: > Only the primary authors. Listed alphabetically by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
 
