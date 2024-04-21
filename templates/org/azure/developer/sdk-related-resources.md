@@ -4,7 +4,7 @@ description: #Required; Keep the description within 100- and 165-characters incl
 author: #Required; your GitHub user alias, with correct capitalization
 ms.author: #Required; microsoft alias of author
 ms.service: #Required; use the name-string related to slug in ms.product/ms.service
-ms.topic: how-to #Required; leave this attribute/value as-is
+ms.topic: #Required; Valid values include: how-to-conceptual, how-to, conceptual, quickstart, faq, glossary
 ms.date: #Required; mm/dd/yyyy format
 
 #CustomerIntent: As a < type of user >, I want < what? > so that < why? >.

@@ -26,8 +26,6 @@ Required. The H1 can use the same text as the title, but it can be longer than 6
 
 -->
 
-# Get started with Azure [service] client libraries
-
 As you build applications to work with data resources in [service], your code primarily interacts with these resource types: [service or subservice name] accounts, [list of data plane objects]. This article explains these resource types and shows how they relate to one another. It also shows how application code uses the [service] client libraries to interact with these various resources.
 
 ## [service or subservice] resource types
