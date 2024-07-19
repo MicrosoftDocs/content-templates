@@ -81,22 +81,13 @@ TODO: add your content
 ## [Section n heading]
 TODO: add your content
 
-<!-- 4. Next step/Related content ------------------------------------------------------------------------ 
+<!-- 4. Related content ------------------------------------------------------------------------ 
 
-Optional: You have two options for manually curated links in this pattern: Next step and Related content. You don't have to use either, but don't use both.
-  - For Next step, provide one link to the next step in a sequence. Use the blue box format
+Optional: For manually curated links in this pattern.
+
   - For Related content provide 1-3 links. Include some context so the customer can determine why they would click the link. Add a context sentence for the following links.
 
 -->
-
-## Next step
-
-TODO: Add your next step link(s)
-
-> [!div class="nextstepaction"]
-> [Write concepts](article-concept.md)
-
-<!-- OR -->
 
 ## Related content
 
