@@ -1,8 +1,9 @@
 ---
 title: TOPIC NAME on Azure
 description: A guide to building running TOPIC NAME on Azure
-author: 
-ms.date: 2/4/2019
+author: <Contributor's GitHub username.>
+ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.> 
+ms.date: <Date of publish or major update in mm/dd/yyyy format>
 ms.topic: landing-page
 ms.service: azure-architecture-center
 ---
@@ -19,26 +20,25 @@ ms.service: azure-architecture-center
 
 <!-- markdownlint-enable MD034 -->
 
-<description of Topic>
+<description of TOPIC>
 
 ## Implementation checklist
 
-As you're looking to implement TOPIC, ensure you're reviewed the following topics:
+If you want to implement TOPIC, ensure that you've reviewed the following topics:
 
 <!-- markdownlint-disable MD032 -->
 
 > [!div class="checklist"]
-> - Important [SECTION1](#section1) 
-> - Important [SECTION2](#section2) 
+> - Important [SECTION1](#section1)
+> - Important [SECTION2](#section2)
 
 <!-- markdownlint-enable MD032 -->
 
 ## SECTION1
 
-
 ### SUB-SECTION
 
-This is a template that allows for the card layout on topic pages.  Use it for links to scenarios, reference architectures, and solutions.  Only the highlighted sections (link, image, title, & description) will need to be changed.
+This is a template that enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You only need to change the highlighted sections, including the link, image, title, and description.
 
 <ul class="columns is-multiline has-margin-left-none has-margin-bottom-none has-padding-top-medium">
     <li class="column is-one-third has-padding-top-small-mobile has-padding-bottom-small">
@@ -79,24 +79,37 @@ This is a template that allows for the card layout on topic pages.  Use it for l
     </li>
  </ul>
 
-
 ## Cost or pricing
 
-Details of how much this will cost and what effects it
+This section details of how much this will cost and what effects it.
 
 ## Security
 
 For an overview of security best practices on Azure, review the [Azure Security Documentation](https://learn.microsoft.com/azure/security/azure-security?context=/azure/architecture/topics/high-performance-computing/context/hpc-context).  
 
-
-Anything else that would relate to security
-
+> Include anything else that relates to security.
 
 ## Customer stories
 
-Links to case studies or customer stories running this workload
-
-## Other important information
-
+> Links to case studies or customer stories that run this workload.
 
 ## Next steps
+
+> Link to Learn articles. Can also link to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post.
+
+Examples:
+* [Azure Machine Learning documentation](/azure/machine-learning)
+* [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+
+## Related resources
+
+> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
+> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+
+> Here is an example section:
+
+Fully deployable architectures:
+
+* [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+* [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+* [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)

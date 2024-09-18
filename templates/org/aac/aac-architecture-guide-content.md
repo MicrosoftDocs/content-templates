@@ -1,9 +1,9 @@
 ---
 title: <Article title, which becomes the title metadata>
-description: <Write a 100-160 character description that ends with a period and ideally starts with a call to action. This becomes the browse card description.>
-author: <Contributor's GitHub username. If no GitHub account, use martinekuan>
-ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas. If no alias, use the Microsoft email alias "architectures".>
-ms.date: <Publish or major update date - mm/dd/yyyy>
+description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
+author: <Contributor's GitHub username.>
+ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas.>
+ms.date: <Date of publish or major update in mm/dd/yyyy format>
 ms.topic: conceptual
 ms.service: azure-architecture-center
 ms.subservice: architecture-guide
@@ -17,39 +17,43 @@ categories:
 ---
 
 # H1 title
-
-Other than the H2s listed below, there are no further content requirements for Architecture Guides, except to follow all Microsoft and Learn style and pull request criteria. Diagrams are not required for this content type, but if a diagram is included, it should have a Dataflow/Workflow section underneath the diagram to explain it. See the [Example workload template](sample-solution-templates) sections on Architecture and Dataflow for details.
-
-The Architecture Guide template requires the following sections at the end of the article:
+<!--Other than the H2s listed below, there are no further content requirements for Architecture Guides, except to follow all Microsoft and Learn style and pull request criteria. Diagrams are not required for this content type, but if a diagram is included, it include a subsequent *Dataflow* or *Workflow* section to explain it. For more information, see the [Example workload template](sample-solution-templates). The Architecture Guide template requires the following sections at the end of the article.-->
   
 ## Contributors
+<!--This section is expected, but is optional if all the contributors prefer not to include it.
 
-> (Expected, but this section is optional if all the contributors would prefer to not include it)
+1. Start with the explanation text in italics that's the same for every article. This makes it clear that Microsoft takes responsibility for the article and not a single contributor.
 
-> Start with the explanation text (same for every article), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Additional contributors" list (if there are additional contributors) (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). (The profiles can be linked to from the person's LinkedIn page, and we hope to automate that on the platform in the future). 
-> Implement this format:
+1. Include the "Principal authors" list and the "Additional contributors" list, if there are additional contributors. This should all be in plain text, not italics or bold.
+
+1. Link each contributor's name to the person's LinkedIn profile. 
+
+1. Insert a pipe symbol ("|") with spaces after the name, and then enter the person's title. To minimize edits or updates, don't include the person's company, MVP status, or links to additional profiles. You can link profiles from the person's LinkedIn page. In the future, we aim to automate this process on the platform.
+
+Use the following format:-->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
-Principal authors: > Only the primary authors. List them alphabetically, by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
+Principal authors: <!--Only list the primary authors. List them alphabetically and by last name. Use the *Fname Lname* format. If the article is rewritten, keep the original authors and add the new ones. List each primary author, even if there are 10 of them.-->
 
  * [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
  * [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- * > Continue for each primary author (even if there are 10 of them).
 
-Other contributors: > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. List them alphabetically, by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
+Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically and by last name. Use the *Fname Lname* format. It's okay to add newer contributors.-->
 
  * [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
  * [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 ## Next steps
-
-- Bulleted list of third-party and other Learn and Microsoft links.
-- Links shouldn't include en-us locale unless they don't work without it.
-- Learn links should be site-relative, for example (/azure/feature/article-name).
-- Don't include trailing slash in any links.
+<!--
+- This section is a bulleted list of third-party and other Learn and Microsoft links.
+- Links shouldn't include locales such as `en-us` unless they don't work without it.
+- Learn links should be site relative, such as (/azure/feature/article-name).
+- Don't include a trailing slash in any links.
+-->
 
 ## Related resources
-
-- Links to related Azure Architecture Center articles.
-- Links should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+<!--
+- This section is a bulleted list of links that are related to Azure Architecture Center articles.
+- Links should be repo relative, such as (../../solution-ideas/articles/article-name.yml).
+-->

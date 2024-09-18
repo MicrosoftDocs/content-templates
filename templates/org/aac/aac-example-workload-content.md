@@ -1,40 +1,41 @@
-<!-- Use the aac-browse-header.yml   -->
+<!-- Use the aac-browse-header.yml-->
 
-> Introductory section - no heading
-> In this section, include 1-2 sentences to briefly explain this architecture.
-> The full scenario info will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Alternatives" H3 header, and above the "Considerations" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
+<!--
+- Introductory section - no heading
+- In this section, include 1-2 sentences to briefly explain this architecture.
+- Information for the entire scenario will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Alternatives" H3 header, and above the "Considerations" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section.
+-->
 
 ## Architecture
-
-> Architecture diagram goes here. Use the following format:
+<!--Architecture diagram goes here. Use the following format:-->
 
 ![Diagram of the <solution name> architecture.](./images/<file-name>.png)
 
-> Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file: 
+<!-- Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file:-->
 
 *Download a [Visio file](https://arch-center.azureedge.net/[file-name].vsdx) of this architecture.*
 
-> Note that Visio or PowerPoint files are not allowed in the GitHub repo. Send the file or provide a link so the file can be uploaded to our limited-access CDN server.
+<!-- Note that Visio or PowerPoint files aren't allowed in the GitHub repo. Send the file or provide a link so that the file can be uploaded to our limited-access CDN server.-->
 
 ### Dataflow
+<!--
+- Title this section "Workflow" if data isn't involved.
+- Include a numbered list that describes the dataflow or workflow of each step in the solution. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example and should be updated for your specific article.-->
 
-> An alternate title for this sub-section is "Workflow" (if data isn't really involved).
-> In this section, include a numbered list that annotates/describes the dataflow or workflow through the solution. Explain what each step does. Start from the user or external data source, and then follow the flow through the rest of the solution (as shown in the diagram).
+The following dataflow corresponds to the previous diagram:
 
-The following workflow (or dataflow) corresponds to the above diagram:
-
-1. Admin 1 adds, updates, or deletes an entry in Admin 1's fork of the Microsoft 365 config file.
+1. Admin 1 adds, updates, or deletes an entry in Admin 1's fork of the Microsoft 365 configuration file.
 2. Admin 1 commits and syncs the changes to Admin 1's forked repository.
-3. Admin 1 creates a pull request (PR) to merge the changes to the main repository.
+3. Admin 1 creates a pull request to merge the changes to the main repository.
 4. The build pipeline runs on the PR.
 
 ### Components
-
-> A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Architected Framework service guide for the product.
->
-> - Why is each component there?
-> - What does it do and why was it necessary?
-> - Link the name of the service (via embedded link) to the Azure Well-Architected service guide (if it exists), otherwise the service's product page. Be sure to exclude the localization part of the URL (such as "en-US/").
+<!-- 
+- This is a bulleted list of components in the architecture. It includes all relevant Azure services and has links to the Well-Architected Framework service guide for the product.
+- Describe why each component is necessary and what it does.
+- Link the name of the service via embedded link to the Azure Well-Architected service guide if it exists, or to the service's product page. Be sure to exclude the localization part of the URL, such as `en-us`.
+- The following section contains example components but should be updated for your specific article.
+-->
 
 Examples:
 
@@ -45,80 +46,86 @@ Examples:
 - [Virtual Machines](/azure/well-architected/service-guides/virtual-machines) is a …. In this architecture ….
 
 ### Alternatives
-
-> Use this section to talk about alternative Azure services or architectures that you might consider for this solution. Include the reasons why you might choose these alternatives. Customers find this valuable because they want to know what other services or technologies they can use as part of this architecture.
->
-> - What alternative technologies were considered and why didn't we use them?
+<!--
+- List alternative Azure services or architectures that you might consider for this solution. 
+- Include the reasons why you might choose these alternatives. Customers find this valuable because they want to know what other services or technologies that they can use as part of this architecture.
+-->
 
 ## Scenario details
-
-> This should be an explanation of the business problem and why this scenario was built to solve it.
->
-> - What prompted them to solve the problem?
-> - What services were used in building out this solution?
-> - What does this example scenario show? What are the customer's goals?
-> - What were the benefits of implementing the solution?
+<!--
+- This should be an explanation of the business problem and why this scenario was built to solve it. It should answer the questions:
+- What prompted them to solve the problem?
+- What services were used to build out this solution?
+- What does this example scenario show? 
+- What are the customer's goals?
+- What are the benefits of implementing the solution?
+-->
 
 ### Potential use cases
-
-> What industry is the customer in? Use the following industry keywords, when possible, to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
->
-> - Are there any other use cases or industries where this would be a fit?
-> - How similar or different are they to what's in this article?
+<!--
+- Use the following industry keywords when possible to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
+- Describe any other use cases or industries where this would be a good fit.
+- Explain how similar or different they are to what's in this article.
+-->
 
 ## Considerations
-
-> REQUIRED STATEMENT: Include the following statement to introduce this section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
 
 These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/well-architected/).
 
-> Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
-> How do I need to think about managing, maintaining, and monitoring this long term?
+<!--Describe any lessons learned from running this that would be helpful for new customers. Describe what went wrong and what went right when building it out. Answer how to think about managing, maintaining, and monitoring this long term.
 >
 > REQUIREMENTS:
 >
-> - You must include the "Cost optimization" section.
-> - You must include at least two of the other H3 sub-sections/pillars: Reliability, Security, Operational excellence, and Performance efficiency.
+> - Include the "Cost optimization" section.
+> - Include at least two of the other H3 sub-sections/pillars: Reliability, Security, Operational excellence, and Performance efficiency.
+-->
 
 ### Reliability
 
-> REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: If you use this section, include the following statement to introduce the section:-->
 
 Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
 
-> This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think they should be separated.
-> Are there any key resiliency and reliability considerations (past the typical)?
+<!--
+- This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think they should be separated.
+- Are there any key resiliency and reliability considerations (past the typical)?-->
 
 ### Security
 
-> REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: If you use this section, include the following statement to introduce the section:-->
 
 Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
 
-> This section includes identity and data sovereignty considerations.
-> Are there any security considerations (past the typical) that I should know about this?
-> Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
+<!--
+- This section includes identity and data sovereignty considerations.
+- Describe any security considerations that aren't typical.
+- Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
+-->
 
 ### Cost optimization
 
-> REQUIRED: This section is required. Cost is of the utmost importance to our customers.
->
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--
+- REQUIRED: This section is required. Cost is of the utmost importance to our customers.
+- REQUIRED STATEMENT: Include the following statement to introduce the section:
+-->
 
 Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
-> How much will this cost to run? See if you can answer this without dollar amounts.
-> Are there ways I could save cost?
-> If it scales linearly, than we should break it down by cost/unit. If it does not, why?
-> What are the components that make up the cost?
-> How does scale affect the cost?
->
-> Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>) with all of the components in the architecture included, even if they're a $0 or $1 usage.
-> If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
+<!--
+Answer the following questions:
+- How much will this cost to run? Try to answer without using dollar amounts.
+- Are there ways I could save cost?
+- If it scales linearly, than we should break it down by cost/unit. If it does not, why?
+- What are the components that make up the cost?
+- How does scale affect the cost?
+- Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>) with all of the components in the architecture included, even if they're a $0 or $1 usage.
+- Include small, medium, or large configurations if it makes sense. Describe what needs to be changed as you move to larger sizes.
+-->
 
 ### Operational excellence
 
-> REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:-->
 
 Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 

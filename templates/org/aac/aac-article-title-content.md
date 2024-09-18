@@ -1,3 +1,5 @@
+<!-- Use the aac-browse-header.yml   -->
+
 > The H1 title is the same as the title metadata. Don't enter it here, but as the **name** value in the corresponding YAML file.
 
 _Brief introduction goes here (1-3 sentences, one paragraph only)._ [**Deploy this scenario**.](#deploy-this-scenario)
@@ -12,7 +14,7 @@ _Download a [Visio file](https://arch-center.azureedge.net/architecture.vsdx) th
 
 > Use a numbered list if there are corresponding numbers in the diagram. If not, use a bulleted list.
 
-The following workflow (or dataflow) corresponds to the above diagram:
+The following workflow (or dataflow) corresponds to the previous diagram:
 
 - **Thing 1**. Explain what happens with the first technology in the diagram.
 
@@ -20,20 +22,20 @@ The following workflow (or dataflow) corresponds to the above diagram:
 
 ### Components
 
-> A bulleted list of components in the architecture (including all relevant Azure services) with links to the product service pages. This is for lead generation (what business, marketing, and PG want). It helps drive revenue.
+> A bulleted list of components in the architecture, including all relevant Azure services, with links to the product service pages. This is for lead generation (what business, marketing, and PG want). It helps drive revenue.
 
 > Why is each component there?
 > What does it do and why was it necessary?
 > Link the name of the service (via embedded link) to the service's product service page. Be sure to exclude the localization part of the URL (such as "en-US/").
 
-- Examples: 
+- Examples:
   - [Azure App Service](https://azure.microsoft.com/services/app-service)
   - [Azure Bot Service](https://azure.microsoft.com/services/bot-service)
   - [Azure Cognitive Services Language Understanding](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service)
   - [Azure Cognitive Services Speech Services](https://azure.microsoft.com/services/cognitive-services/speech-services)
   - [Azure SQL Database](https://azure.microsoft.com/services/sql-database)
   - [Azure Monitor](https://azure.microsoft.com/services/monitor): Application Insights is a feature of Azure Monitor.
-  - [Resource Groups][resource-groups] is a logical container for Azure resources.  We use resource groups to organize everything related to this project in the Azure console.
+  - [Resource Groups][resource-groups] is a logical container for Azure resources. We use resource groups to organize everything related to this project in the Azure console.
 
 ### Alternatives
 
@@ -72,10 +74,10 @@ _Include considerations for deploying or configuring the elements of this archit
 
 These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/architecture/framework).
 
-> Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
+> Are there any lessons learned from running this that would be helpful for new customers? What went wrong when building it out? What went right?
 > How do I need to think about managing, maintaining, and monitoring this long term?
 
-> REQUIREMENTS: 
+> REQUIREMENTS:
 >   For a Reference Architecture, you must include all of these H3 sub-sections/WAF pillars: Reliability, Security, Cost optimization, Operational excellence, and Performance efficiency.
 
 ### Reliability
@@ -84,7 +86,7 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 
 Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the reliability pillar](/azure/architecture/framework/resiliency/overview).
 
-> This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think they should be separated.
+> This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think that they should be separated.
 > Are there any key resiliency and reliability considerations (past the typical)?
 
 ### Security
@@ -110,7 +112,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 > How does scale affect the cost?
 
 > Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
-> If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
+> If it makes sense, include small, medium, or large configurations. Describe what needs to be changed as you move to larger sizes.
 
 ### Operational excellence
 
