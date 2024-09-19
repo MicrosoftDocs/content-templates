@@ -1,8 +1,8 @@
 <!-- Use the aac-browse-header.yml   -->
 
-> The H1 title is the same as the title metadata. Don't enter it here, but as the **name** value in the corresponding YAML file.
-
-_Brief introduction goes here (1-3 sentences, one paragraph only)._ [**Deploy this scenario**.](#deploy-this-scenario)
+<!--
+- Match the H1 title to the title metadata. Don't enter it here, but as the **name** value in the corresponding YAML file.
+- Add a brief introduction of no more than three sentences and formatted as a single paragraph.-->[**Deploy this scenario**.](#deploy-this-scenario)
 
 ## Architecture
 

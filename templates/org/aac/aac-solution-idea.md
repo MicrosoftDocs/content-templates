@@ -1,30 +1,36 @@
 <!-- Use the aac-browse-header.yml -->
 
-> The H1 title is a noun phrase with a present tense verb that describes the scenario (no gerunds, "-ing" verbs). Don't enter it here, but as the **name** value in the corresponding YML file.> 
-> Include the solution idea header note at the top of the solution idea. This adds clarification why this is a scaled-back architecture (and provides consistency with our other SIs)...
+<!-- 
+- Use a noun phrase with a present tense verb that describes the scenario for the H1 title.
+  - Don't use gerunds, or "-ing" verbs. 
+  - Enter the H1 title as the **name** value in the corresponding YML file.> 
+> Include the solution idea header note at the top of the solution idea. This clarifies why this is a scaled-back architecture and provides consistency with our other SIs.
+-->
 
 [!INCLUDE [header_file](../../../includes/sol-idea-header.md)]
 
-> Introductory section - no heading
->> In this section, include 1-2 sentences to briefly explain this architecture. 
->> The full scenario info will go in the "Scenario details" section, which is below the "Architecture" H2 (top level) heading, below the "Components" H3 header, and above the "Contributors" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
+<!--
+- Add an introductory section without a heading.
+- Include 1-2 sentences to briefly explain this architecture. The full scenario info will go in the **Scenario details** section, which is below the "Architecture" H2 (top level) heading, below the "Components" H3 header, and above the "Contributors" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
+-->
 
 ## Architecture
 
 > Architecture diagram goes here. Use the following format:
 
-![Diagram of the <solution name> architecture.](./images/<file-name>.png)
+![Diagram that shows the <solution name> architecture.](./images/<file-name>.png)
 
 > Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file:
 
 *Download a [Visio file](https://arch-center.azureedge.net/[file-name].vsdx) of this architecture.*
 
-> Note that Visio or PowerPoint files are not allowed in the GitHub repo. Send the file or provide a link so the file can be uploaded to our limited-access CDN server.
+<!-- Note that Visio or PowerPoint files aren't allowed in the GitHub repo. Send the file or provide a link so that the file can be uploaded to our limited-access CDN server.-->
 
 ### Dataflow
-
-> An alternate title for this sub-section is "Workflow" (if data isn't really involved).
-> In this section, include a numbered list that annotates/describes the dataflow or workflow through the solution. Explain what each step does. Start from the user or external data source, and then follow the flow through the rest of the solution (as shown in the diagram).
+<!--
+- Title this section "Workflow" if data isn't involved.
+- Include a numbered list that describes the dataflow or workflow of each step in the solution. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example and should be updated for your specific article. The following dataflow corresponds to the previous diagram:
+-->
 
 Examples:
 
@@ -34,13 +40,12 @@ Examples:
 4. The build pipeline runs on the PR.
 
 ### Components
-
-> A bullet list of components in the architecture (including all relevant Azure services) with links to the the Well-Architected Framework service guide for the product.
->
-> - Why is each component there?
-> - What does it do in this solution idea and why was it necessary?
-> - Link the name of the service (via embedded link) to the Azure Well-Architected service guide (if it exists), otherwise the service's product page. Be sure to exclude the localization part of the URL (such as "en-US/").
-
+<!-- 
+- Add a bulleted list of components in the architecture. It includes all relevant Azure services and has links to the Well-Architected Framework service guide for the product.
+- Describe why each component is necessary and what it does.
+- Link the name of the service via embedded link to the Azure Well-Architected service guide if it exists, or to the service's product page. Exclude the localization part of the URL, such as `en-us`.
+- The following section contains example components but should be updated for your specific article.
+-->
 Example:
 
 - [Azure App Service](https://azure.microsoft.com/services/app-service) is a compute service that is specifically built to host web applications. In this architecture ….
@@ -48,26 +53,27 @@ Example:
 - [Log Analytics](/azure/well-architected/service-guides/azure-log-analytics) is a …. In this architecture ….
 
 ## Scenario details
-
-> This should be an explanation of the business problem and why this scenario was built to solve it.
->
-> - What prompted them to solve the problem?
-> - What services were used in building out this solution?
-> - What does this example scenario show? What are the customer's goals?
-> - What were the benefits of implementing the solution?
+<!--
+This should be an explanation of the business problem and why this scenario was built to solve it.
+- What prompted them to solve the problem?
+- What services were used in building out this solution?
+- What does this example scenario show? What are the customer's goals?
+- What were the benefits of implementing the solution?
+-->
 
 ### Potential use cases
 
-> What industry is the customer in? Use the following industry keywords, when possible, to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
->
-> - Are there any other use cases or industries where this would be a fit?
-> - How similar or different are they to what's in this article?
+<!--
+- Use the following industry keywords when possible to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
+- Describe any other use cases or industries where this would be a good fit.
+- Explain how similar or different they are to what's in this article.
+--> 
 
 ## Contributors
 
-> (Expected, but this section is optional if all the contributors would prefer to not include it)
+<!-- (Expected, but this section is optional if all the contributors would prefer to not include it)
 >
-> Start with the explanation text (same for every section), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). Implement this format:
+> Start with the explanation text (same for every section), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates).-->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
@@ -87,7 +93,12 @@ Other contributors: > (If applicable.) Include contributing (but not primary) au
 
 ## Next steps
 
-> Links to articles on Microsoft Learn. Could also be to appropriate sources outside of Learn, such as third-party documentation, GitHub repos, or an official technical blog post.
+<!--
+- Add a bulleted list of links to third-party and other Learn and Microsoft topics. These topics can include links to pages that provide additional context or that might be useful in a next-steps context.
+- Format Learn links to be site relative, such as (/azure/feature/article-name).
+- Don't include locales such as `en-us` in links unless they don't work without it.
+- Don't include a trailing slash in any links.
+-->
 
 Examples:
 
@@ -96,11 +107,11 @@ Examples:
 - [What are Azure AI services?](/azure/ai-services/what-are-ai-services)
 
 ## Related resources
-
-> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
-> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
-
-> Here are example sections:
+<!--
+- Use this section for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to but can be from a repo other than the AAC repo.
+- Ensure that links to articles in the AAC repo are repo-relative, such as (../../solution-ideas/articles/article-name.yml).
+- Update the following examples.
+-->
 
 Related architecture guides:
 

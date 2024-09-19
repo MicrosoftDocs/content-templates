@@ -1,18 +1,18 @@
 ---
-title: TOPIC NAME on Azure
-description: A guide to building running TOPIC NAME on Azure
-author: <Contributor's GitHub username.>
+title: <Topic name> on Azure
+description: A guide to building running <Topic name> on Azure
+author: <Contributor's GitHub username>
 ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.> 
-ms.date: <Date of publish or major update in mm/dd/yyyy format>
+ms.date: <Date of publish or major update, in mm/dd/yyyy format>
 ms.topic: landing-page
 ms.service: azure-architecture-center
 ---
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD026 -->
 
-# TOPIC NAME
+# <!--Topic name-->
 
-## Introduction to TOPIC
+## Introduction to <!--Topic-->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -20,11 +20,11 @@ ms.service: azure-architecture-center
 
 <!-- markdownlint-enable MD034 -->
 
-<description of TOPIC>
+<!--Add the <Topic> description.-->
 
 ## Implementation checklist
 
-If you want to implement TOPIC, ensure that you've reviewed the following topics:
+If you want to implement <!--Topic name-->, ensure that you've reviewed the following topics:
 
 <!-- markdownlint-disable MD032 -->
 
@@ -37,8 +37,7 @@ If you want to implement TOPIC, ensure that you've reviewed the following topics
 ## SECTION1
 
 ### SUB-SECTION
-
-This is a template that enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You only need to change the highlighted sections, including the link, image, title, and description.
+<!-- This template enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You only need to change the highlighted sections, including the link, image, title, and description.-->
 
 <ul class="columns is-multiline has-margin-left-none has-margin-bottom-none has-padding-top-medium">
     <li class="column is-one-third has-padding-top-small-mobile has-padding-bottom-small">
@@ -53,7 +52,7 @@ This is a template that enables the card layout on topic pages. Use this templat
                         <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computer-aided engineering services on Azure</h3>
                     </div>
                     <div class="is-size-7 has-margin-top-small has-line-height-reset">
-                        <p>Provide a software-as-a-service (SaaS) platform for computer-aided engineering (CAE) on Azure.</p>
+                        <p>Provide a software as a service (SaaS) platform for computer-aided engineering (CAE) on Azure.</p>
                     </div>
                 </div>
             </article>
@@ -68,7 +67,7 @@ This is a template that enables the card layout on topic pages. Use this templat
                     </figure>
                 <div class="card-content has-text-overflow-ellipsis">
                     <div class="has-padding-bottom-none">
-                        <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computational fluid dynamics (CFD) simulations on Azure</h3>
+                        <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computational fluid dynamics (CFD) simulations on Azure.</h3>
                     </div>
                     <div class="is-size-7 has-margin-top-small has-line-height-reset">
                         <p>Execute computational fluid dynamics (CFD) simulations on Azure.</p>
@@ -80,36 +79,37 @@ This is a template that enables the card layout on topic pages. Use this templat
  </ul>
 
 ## Cost or pricing
-
-This section details of how much this will cost and what effects it.
+<!--This section details cost and what affects it.-->
 
 ## Security
 
-For an overview of security best practices on Azure, review the [Azure Security Documentation](https://learn.microsoft.com/azure/security/azure-security?context=/azure/architecture/topics/high-performance-computing/context/hpc-context).  
+For more information about security best practices on Azure, see [Azure security documentation](https://learn.microsoft.com/azure/security/azure-security?context=/azure/architecture/topics/high-performance-computing/context/hpc-context).  
 
-> Include anything else that relates to security.
+<!--Add security-related information.-->
 
 ## Customer stories
-
-> Links to case studies or customer stories that run this workload.
+<!--Add a bulleted list of links to case studies or customer stories that run this workload.-->
 
 ## Next steps
+<!--
+- Add a bulleted list of links to Learn articles. You can also link to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. 
 
-> Link to Learn articles. Can also link to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post.
+- Update the following example links.
+-->
 
 Examples:
-* [Azure Machine Learning documentation](/azure/machine-learning)
-* [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
 
 ## Related resources
-
-> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
-> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
-
-> Here is an example section:
+<!--
+- Add a bulleted list of related resource links.
+- Use this section for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to but can be from a repo other than the AAC repo.
+- Ensure that links to articles in the AAC repo are repo-relative, such as (../../solution-ideas/articles/article-name.yml).
+-->
 
 Fully deployable architectures:
 
-* [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-* [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-* [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
