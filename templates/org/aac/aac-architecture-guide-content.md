@@ -3,7 +3,7 @@ title: <Article title, which becomes the title metadata>
 description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
 author: <Contributor's GitHub username>
 ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas.>
-ms.date: <Date of publish or major update in mm/dd/yyyy format>
+ms.date: <Date of publish or major update, in mm/dd/yyyy format>
 ms.topic: conceptual
 ms.service: azure-architecture-center
 ms.subservice: architecture-guide
