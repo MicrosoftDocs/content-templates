@@ -28,7 +28,7 @@
 
 ### Dataflow
 <!--
-- Title this section "Workflow" if data isn't involved.
+- Title this section "Workflow" if data isn't in the scenario.
 - Include a numbered list that describes the dataflow or workflow of each step in the solution. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example and should be updated for your specific article. The following dataflow corresponds to the previous diagram:
 -->
 

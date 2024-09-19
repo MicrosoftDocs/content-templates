@@ -19,7 +19,7 @@
 
 ### Dataflow
 <!--
-- Title this section **Workflow** if data isn't involved.
+- Title this section **Workflow** if data isn't in the scenario.
 - Include a numbered list that describes the dataflow or workflow of each step in the solution. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example.
 -->
 
@@ -72,10 +72,9 @@ Examples:
 ## Considerations
 <!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Azure Well-Architected Framework](/azure/well-architected/).
+These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/well-architected/).
 
 <!--
-
 - Describe any lessons learned from running this that would be helpful for new customers. 
 - Describe what went wrong and what went right when building it out. 
 - Describe how to manage, maintain, and monitor this long term.
@@ -93,6 +92,7 @@ Reliability ensures that your application can meet the commitments you make to y
 <!--
 - Include resiliency and availability considerations. They can also be H4 headers in this section, if you think that they should be separate.
 - Describe any key resilience and reliability considerations that aren't typical.
+-->
 
 ### Security
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
@@ -102,7 +102,7 @@ Security provides assurances against deliberate attacks and the abuse of your va
 <!--
 - Include identity and data sovereignty considerations in this section.
 - Describe any security considerations that aren't typical.
-- Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
+- Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines.
 -->
 
 ### Cost optimization
@@ -142,7 +142,7 @@ Performance efficiency refers to the ability of your workload to scale efficient
 <!--
 - Include scalability considerations in this section.
 - Answer the following questions:
-  - Are there any key performance considerations beyond the typical?
+  - Are there any key performance considerations beyond the typical?`
   - Are there any size considerations around this solution specifically?
   - What scale does this work at?  
   - At what point do things break or not make sense for this architecture?
@@ -166,7 +166,6 @@ Performance efficiency refers to the ability of your workload to scale efficient
 1. Link each contributor's name to the person's LinkedIn profile. 
 
 1. Insert a pipe symbol ("|") with spaces after the name, and then enter the person's title. To minimize edits or updates, don't include the person's company, MVP status, or links to additional profiles. You can link profiles from the person's LinkedIn page. In the future, we aim to automate this process on the platform.
-
 -->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
