@@ -80,8 +80,8 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 - Describe how to manage, maintain, and monitor this long term.
 
 REQUIREMENTS:
-- Include the **Cost optimization** section.
-- Include at least two of the other H3 sub-sections. These sub-sections are Reliability, Security, Operational excellence, and Performance efficiency.
+- Include the **Cost Optimization** section.
+- Include at least two of the other H3 sub-sections. These sub-sections are Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency.
 -->
 
 ### Reliability
@@ -105,13 +105,13 @@ Security provides assurances against deliberate attacks and the abuse of your va
 - Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines.
 -->
 
-### Cost optimization
+### Cost Optimization
 <!--
 - REQUIRED: This section is required. Cost is of the utmost importance to our customers.
 - REQUIRED STATEMENT: Include the following statement to introduce the section:
 -->
 
-Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
 <!--
 - Answer the following questions:
@@ -124,20 +124,20 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 - Include small, medium, or large configurations if it makes sense to. Describe what needs to be changed when you move to larger sizes.
 -->
 
-### Operational excellence
+### Operational Excellence
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 
 <!--
 - Include DevOps, monitoring, and diagnostics considerations in this section.
 - Describe how to think about operating this solution.
 -->
 
-### Performance efficiency
+### Performance Efficiency
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Performance efficiency refers to the ability of your workload to scale efficiently to meet user demands. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
+Performance Efficiency refers to the ability of your workload to scale efficiently to meet user demands. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
 <!--
 - Include scalability considerations in this section.
