@@ -6,7 +6,7 @@
 
 ## Architecture
 
-![alt text.](./media/folder_name/architecture-diagram.png)
+![Diagram that shows the components of the reference architecture.](./media/folder_name/architecture-diagram.png)
 
 _Download a [Visio file](https://arch-center.azureedge.net/architecture.vsdx) that contains this architecture diagram. This file must be uploaded to `https://arch-center.azureedge.net/`_
 
@@ -17,7 +17,7 @@ _Download a [Visio file](https://arch-center.azureedge.net/architecture.vsdx) th
 - Use a numbered list that describes the dataflow or workflow of each step in the solution. Use a bulleted list if there are no numbers in the diagram. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example and should be updated for your specific article. The following dataflow corresponds to the previous diagram:
 -->
 
-The following workflow (or dataflow) corresponds to the previous diagram:
+The following dataflow (or workflow) corresponds to the previous diagram:
 
 - **Thing 1**. Explain what happens with the first technology in the diagram.
 
