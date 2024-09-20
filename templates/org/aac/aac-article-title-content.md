@@ -10,7 +10,7 @@
 
 _Download a [Visio file](https://arch-center.azureedge.net/architecture.vsdx) that contains this architecture diagram. This file must be uploaded to `https://arch-center.azureedge.net/`_
 
-### Workflow
+### Dataflow
 
 <!--
 - Title this section "Workflow" if data isn't in the scenario.
@@ -36,14 +36,13 @@ The following workflow (or dataflow) corresponds to the previous diagram:
   - [Azure Cognitive Services Speech Services](https://azure.microsoft.com/services/cognitive-services/speech-services)
   - [Azure SQL Database](https://azure.microsoft.com/services/sql-database)
   - [Azure Monitor](https://azure.microsoft.com/services/monitor): Application Insights is a feature of Azure Monitor.
-  - [Resource Groups][resource-groups] is a logical container for Azure resources. We use resource groups to organize everything related to this project in the Azure console.
 
 ### Alternatives
 <!-- 
 
 - Use this section to talk about alternative Azure services or architectures that you might consider for this solution. 
 - Include the reasons why you might choose these alternatives. Customers find this valuable because they want to know what other services or technologies they can use as part of this architecture.
-> Describe alternative technologies that were considered and why they weren't used.
+- Describe alternative technologies that were considered and why they weren't used.
 -->
 
 ## Scenario details
@@ -59,7 +58,7 @@ The following workflow (or dataflow) corresponds to the previous diagram:
 ### Potential use cases
 <!--
 - Describe any other use cases or industries where this would be a fit.
-> Describe how similar or different they are to what's in the article.
+- Describe how similar or different they are to what's in the article.
 -->
 
 These other uses cases have similar design patterns:
