@@ -1,4 +1,4 @@
-<!--Add the aac-browse-header.yml here-->
+<!--Add the aac-browse-header.yml here.-->
 
 <!--
 - Add an introductory section that doesn't have a heading.
@@ -117,7 +117,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 - Answer the following questions:
     - How much will this cost to run? Try to answer without using dollar amounts.
     - Are there ways I could save cost?
-    - If it scales linearly, then should we break it down by cost or unit. If it doesn't scale linearly, why?
+    - If it scales linearly, then should we break it down by cost or unit? If it doesn't scale linearly, why?
     - What components make up the cost?
     - How does scale affect the cost?
 - Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>). Include all the components in the architecture, even if they have a $0 or $1 usage.

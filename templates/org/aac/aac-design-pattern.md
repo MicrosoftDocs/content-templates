@@ -14,7 +14,7 @@ pnp.pattern.categories: <Replace this text based on the guidance located in Comp
 <!--
 - This template is specific to Cloud Design Patterns. 
 - Don't start the article with an alert.
-- Ensure that your article only contains one H1 heading (#), which is the article title. The H1 heading is always followed by a short descriptive paragraph that describes what the article is about and how it can help the reader.
+- Ensure that your article contains only one H1 heading (#), which is the article title. The H1 heading is always followed by a short descriptive paragraph that describes what the article is about and how it can help the reader.
 - Describe the problem that the pattern addresses, identify considerations for how to apply the pattern, and provide an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure.
 - Group the content into six subheadings. These subheadings are **Context and problem**, **Solution**, **Issues and considerations**, **When to use this pattern**, **Workload design**, **Example**, and **Next steps**. The H2 headings (##) and descriptions are included in this template. If you need to create a new heading under one of the H2 headings, use an H3 heading (###).
 - Complete the metadata section at the top of this template. Update the placeholder text based on the following guidance:
@@ -51,7 +51,7 @@ Use this pattern when:
 
 <!--Add a bulleted-list of items that describe when this pattern should be used to help the reader determine if the solution is applicable to their scenario.-->
 
-This pattern might not be suitable:
+This pattern might not be suitable when:
 
 <!--Add a bulleted-list of items that describe when this pattern shouldn't be used to help the reader determine if the solution is applicable to their scenario.-->
 

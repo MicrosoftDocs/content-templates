@@ -1,6 +1,6 @@
 ---
 title: <Topic name> on Azure
-description: A guide to building running <Topic name> on Azure
+description: A guide to running <Topic name> on Azure.
 author: <Contributor's GitHub username>
 ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.> 
 ms.date: <Date of publish or major update, in mm/dd/yyyy format>
@@ -12,7 +12,6 @@ ms.service: azure-architecture-center
 
 # <!--Topic name-->
 
-## Introduction to <!--Topic-->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -37,7 +36,7 @@ If you want to implement <!--Topic name-->, ensure that you've reviewed the foll
 ## SECTION1
 
 ### SUB-SECTION
-<!-- This template enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You only need to change the highlighted sections, including the link, image, title, and description.-->
+<!-- This template enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You need to change only the highlighted sections, including the link, image, title, and description.-->
 
 <ul class="columns is-multiline has-margin-left-none has-margin-bottom-none has-padding-top-medium">
     <li class="column is-one-third has-padding-top-small-mobile has-padding-bottom-small">
@@ -99,7 +98,7 @@ For more information about security best practices on Azure, see [Azure security
 
 Examples:
 - [Azure Machine Learning documentation](/azure/machine-learning)
-- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [What is Azure AI Services?](/azure/cognitive-services/what-are-cognitive-services)
 
 ## Related resources
 <!--

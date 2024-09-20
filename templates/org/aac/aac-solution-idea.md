@@ -3,8 +3,8 @@
 <!-- 
 - Use a noun phrase with a present tense verb that describes the scenario for the H1 title.
   - Don't use gerunds, or "-ing" verbs. 
-  - Enter the H1 title as the **name** value in the corresponding YML file.> 
-> Include the solution idea header note at the top of the solution idea. This clarifies why this is a scaled-back architecture and provides consistency with our other SIs.
+  - Enter the H1 title as the **name** value in the corresponding YML file. 
+  - Include the solution idea header note at the top of the solution idea. This clarifies why this is a scaled-back architecture and provides consistency with our other SIs.
 -->
 
 [!INCLUDE [header_file](../../../includes/sol-idea-header.md)]
