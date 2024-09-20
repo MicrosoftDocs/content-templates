@@ -76,7 +76,7 @@ You can apply the following recommendations to most scenarios. Follow these reco
 - REQUIRED STATEMENT: Include the following statement to introduce this section:
 -->
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/architecture/framework).
+These considerations implement the pillars of the Azure Well-Architected Framework, which are guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/architecture/framework).
 
 <!--
 - Describe any lessons learned from running this that would be helpful for new customers. 
@@ -117,7 +117,7 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 - Answer the following questions:
     - How much will this cost to run? Try to answer without using dollar amounts.
     - Are there ways I could save cost?
-    - If it scales linearly, then should we break it down by cost or unit. If it doesn't scale linearly, why?
+    - If it scales linearly, then should we break it down by cost or unit? If it doesn't scale linearly, why?
     - What components make up the cost?
     - How does scale affect the cost?
 - Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>). Include all the components in the architecture, even if they have a $0 or $1 usage.
@@ -179,7 +179,7 @@ Principal authors: <!--List only the primary authors. List them alphabetically a
  - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
  - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
 
-Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically and by last name. Use the *First-name Last-name* format. It's okay to add newer contributors.-->
+Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically by last name. Use the *First-name Last-name* format. It's okay to add newer contributors.-->
 
  - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
  - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
