@@ -165,7 +165,7 @@ Performance Efficiency refers to the ability of your workload to scale efficient
 
 1. Link each contributor's name to the person's LinkedIn profile. 
 
-1. Insert a pipe symbol ("|") with spaces after the name, and then enter the person's title. To minimize edits or updates, don't include the person's company, MVP status, or links to additional profiles. You can link profiles from the person's LinkedIn page. In the future, we aim to automate this process on the platform.
+1. Insert a pipe symbol ("|") with spaces after the name, and then enter the person's title. To minimize edits or updates, don't include the person's company, MVP status, or links to additional profiles. 
 -->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
