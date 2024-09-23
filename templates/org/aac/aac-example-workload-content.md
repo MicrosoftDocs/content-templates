@@ -127,7 +127,7 @@ Cost Optimization is about looking at ways to reduce unnecessary expenses and im
 ### Operational Excellence
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
+Operational Excellence addresses the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 
 <!--
 - Include DevOps, monitoring, and diagnostics considerations in this section.
