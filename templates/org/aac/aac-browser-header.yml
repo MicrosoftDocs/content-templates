@@ -14,7 +14,7 @@ azureCategories:
   - <There can be more than one category>
 products:
   - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
-  - <Include between 1 and 5 products, but no more than five>
+  - <Include between one and five products, but no more than five>
 name: <The H1 title is a phrase with a present tense verb that describes the scenario. Don't use gerunds, or "-ing" verbs. For example: "Use Azure monitoring to integrate security components">
 summary: <Write a summary. Can be same as description.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
