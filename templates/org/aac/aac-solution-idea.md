@@ -64,7 +64,7 @@ This should be an explanation of the business problem and why this scenario was 
 ### Potential use cases
 
 <!--
-- Use the following industry keywords when possible to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
+- Use the following industry keywords, when possible, to get the article into the proper search and filter results: retail, finance, manufacturing, healthcare, government, energy, telecommunications, education, automotive, nonprofit, game, media (media and entertainment), travel (includes hospitality, like restaurants), facilities (includes real estate), aircraft (includes aerospace and satellites), agriculture, and sports.
 - Describe any other use cases or industries where this would be a good fit.
 - Explain how similar or different they are to what's in this article.
 --> 
