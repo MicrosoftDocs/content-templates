@@ -1,8 +1,11 @@
-<!--Add the aac-browse-header.yml here.-->
-
 <!--
+The Example workload template can include a metadata block within the article or uses the Azure Architecture Center browser header for its metadata.
+  - Most example workload articles use the standard Learn format, which is located in a single file in a YML block at the top of the article. Use the standard Markdown format if the content of the article is conceptual, process oriented, or implementation level like a how-to guide. For more information, see [Metadata in the standard Markdown format](help/patterns/level4/aac-example-workload-instructions?branch=main#metadata-in-the-standard-markdown-format).
+  - An Azure Architecture Center browser header supports the browser by containing the metadata, the link to the thumbnail, and hyperlinks of one or more content markdown files. These architecture guides appear in the AAC browse experience for customers and support workloads that focus on architectural diagrams. If you use the browse format, you will need to create a separate YML file for the article metadata. For more information, see [Template for the Azure Architecture Center browser header](/help/patterns/level4/aac-browser-header-template)
+---
+- Add either the YML block for the standard Markdown format at the top of the article, or create an AAC browser header in a separate YML file.
 - Add an introductory section that doesn't have a heading.
-- Include 1-2 sentences to briefly explain this architecture.
+- Include 1 to 2 sentences to briefly explain this architecture.
 - Place all scenario information in the **Scenario details** section that's located below the **Architecture** H2 heading, the **Alternatives** H3 header, and above the **Considerations** H2 heading. This includes the **Potential use cases** H3 section that goes under the **Scenario details** H2 section.
 -->
 

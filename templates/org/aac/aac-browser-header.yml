@@ -2,10 +2,10 @@
 metadata:
   title: <Article title, which becomes the title metadata>
   titleSuffix: Azure Architecture Center
-  description: <Write a 100-160 character description that ends with a period and starts with a call to action. This becomes the browse card description.>
-  author: <Contributor's GitHub username. If no GitHub account, use martinekuan>
-  ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas. If there's no alias, use the Microsoft email alias "architectures".>
-  ms.date: <Publish or major update date - mm/dd/yyyy>
+  description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
+  author: <Contributor's GitHub username>
+  ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.>
+  ms.date: <Date of publish or major update, in mm/dd/yyyy format>
   ms.topic: conceptual
   ms.service: architecture-center
   ms.subservice: example-scenario
@@ -14,8 +14,8 @@ azureCategories:
   - <There can be more than one category>
 products:
   - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
-  - <1-5 products--no more than 5!>
-name: <The H1 title is a phrase with a present tense verb that describes the scenario (no gerunds, "-ing" verbs). Example: "Use Azure monitoring to integrate security components">
+  - <Include between 1 and 5 products, but no more than five>
+name: <The H1 title is a phrase with a present tense verb that describes the scenario. Don't use gerunds, or "-ing" verbs. For example: "Use Azure monitoring to integrate security components">
 summary: <Write a summary. Can be same as description.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
 content: |
