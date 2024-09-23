@@ -6,9 +6,9 @@ metadata:
   author: <Contributor's GitHub username. If no GitHub account, use martinekuan>
   ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas. If there's no alias, use the Microsoft email alias "architectures".>
   ms.date: <Publish or major update date - mm/dd/yyyy>
-  ms.topic: conceptual
-  ms.service: architecture-center
-  ms.subservice: example-scenario
+  ms.topic: <For an example workload, use `example-scenario``; for a reference architecture, use `reference-architecture``; for a solution idea, use `solution-idea`.>
+  ms.service: azure-architecture-center
+  ms.subservice: <For an example workload, use `example-scenario`; for a reference architecture, use `reference-architecture`; for a solution idea, use `solution-idea`.>
 azureCategories:
   - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
   - <There can be more than one category>

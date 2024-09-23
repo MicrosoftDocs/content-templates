@@ -5,8 +5,8 @@ author: <Contributor's GitHub username. If no GitHub account, use martinekuan>
 ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas. If no alias, use the Microsoft email alias "architectures".>
 ms.date: <Publish or major update date - mm/dd/yyyy>
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: azure-guide
+ms.service: azure-architecture-center
+ms.subservice: architecture-guide
 products:
   - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
   - <1-5 products>
