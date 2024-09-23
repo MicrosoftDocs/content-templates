@@ -111,7 +111,7 @@ Security provides assurances against deliberate attacks and the abuse of your va
 - REQUIRED STATEMENT: Include the following statement to introduce the section:
 -->
 
-Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+Cost Optimization is about considering ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
 <!--
 - Answer the following questions:
