@@ -1,5 +1,5 @@
-<!--Use the aac-browse-header.yml-->
 <!--
+- Add the YML block for the standard Markdown format at the top of the article, or create an AAC browser header in a separate YML file by using the [Azure Architecture Center browser header](/help/patterns/level4/aac-browser-header-template) template.
 - Match the H1 title to the title metadata. Don't enter it here, but as the **name** value in the corresponding YAML file.
 - Add a brief introduction of no more than three sentences and formatted as a single paragraph.
 -->
