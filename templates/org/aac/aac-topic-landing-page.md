@@ -6,7 +6,6 @@ ms.author: <Contributor's Microsoft alias>
 ms.date: 2/4/2019
 ms.topic: landing-page
 ms.service: azure-architecture-center
-ms.subservice: 
 ---
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD026 -->
