@@ -19,4 +19,4 @@ name: <The H1 title at the top of the article>
 summary: <Write a summary. Can be same as description.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
 content: |
-  [!include[](<guide>-content.md)]
+  [!INCLUDE[](<guide>-content.md)]
