@@ -1,12 +1,12 @@
 ---
 title: <Article title, which becomes the title metadata>
 description: <Write a 100-160 character description that ends with a period and ideally starts with a call to action. This becomes the browse card description.>
-author: <Contributor's GitHub username. If no GitHub account, use martinekuan>
-ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas. If no alias, use the Microsoft email alias "architectures".>
-ms.date: <Publish or major update date - mm/dd/yyyy>
+author: <Contributor's GitHub username>
+ms.author: <Contributor's Microsoft alias>
+ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: conceptual
-ms.service: architecture-center
-ms.subservice: azure-guide
+ms.service: azure-architecture-center
+ms.subservice: architecture-guide
 products:
   - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
   - <1-5 products>
