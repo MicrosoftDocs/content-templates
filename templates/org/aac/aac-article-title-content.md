@@ -76,13 +76,13 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 > How do I need to think about managing, maintaining, and monitoring this long term?
 
 > REQUIREMENTS: 
->   For a Reference Architecture, you must include all of these H3 sub-sections/WAF pillars: Reliability, Security, Cost optimization, Operational excellence, and Performance efficiency.
+>   For a Reference Architecture, you must include all of these H3 sub-sections/WAF pillars: Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency.
 
 ### Reliability
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the reliability pillar](/azure/architecture/framework/resiliency/overview).
+Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the Reliability pillar](/azure/architecture/framework/resiliency/overview).
 
 > This section includes resiliency and availability considerations. They can also be H4 headers in this section, if you think they should be separated.
 > Are there any key resiliency and reliability considerations (past the typical)?
@@ -91,17 +91,17 @@ Reliability ensures your application can meet the commitments you make to your c
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the security pillar](/azure/architecture/framework/security/overview).
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
 
 > This section includes identity and data sovereignty considerations.
 > Are there any security considerations (past the typical) that I should know about this?
 > Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
 
-### Cost optimization
+### Cost Optimization
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the cost optimization pillar](/azure/architecture/framework/cost/overview).
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
 
 > How much will this cost to run? See if you can answer this without dollar amounts.
 > Are there ways I could save cost?
@@ -112,20 +112,20 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 > Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
 > If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
-### Operational excellence
+### Operational Excellence
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the operational excellence pillar](/azure/architecture/framework/devops/overview).
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the Operational Excellence pillar](/azure/architecture/framework/devops/overview).
 
 > This includes DevOps, monitoring, and diagnostics considerations.
 > How do I need to think about operating this solution?
 
-### Performance efficiency
+### Performance Efficiency
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Performance efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
 
 > This includes scalability considerations.
 > Are there any key performance considerations (past the typical)?
@@ -153,15 +153,15 @@ A deployment for a reference architecture that implements these recommendations 
 
 Principal authors: > Only the primary authors. Listed alphabetically by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
 
- - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - > Continue for each primary author (even if there are 10 of them).
+- [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- > Continue for each primary author (even if there are 10 of them).
 
 Other contributors: > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. Listed alphabetically by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
 
- - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - > Continue for each additional contributor (even if there are 10 of them).
+- [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- > Continue for each additional contributor (even if there are 10 of them).
 
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
@@ -170,8 +170,8 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 > Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post.
 
 Examples:
-* [Azure Machine Learning documentation](/azure/machine-learning)
-* [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
 
 ## Related resources
 
@@ -182,6 +182,6 @@ Examples:
 
 Fully deployable architectures:
 
-* [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-* [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-* [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)

@@ -44,12 +44,19 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 
 ## Next steps
 
-- Bulleted list of third-party and other Learn and Microsoft links.
-- Links shouldn't include en-us locale unless they don't work without it.
-- Learn links should be site-relative, for example (/azure/feature/article-name).
-- Don't include trailing slash in any links.
+> Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. Examples:
+
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
 
 ## Related resources
 
-- Links to related Azure Architecture Center articles.
-- Links should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
+> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+> Here is an example section:
+
+Fully deployable architectures:
+
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)

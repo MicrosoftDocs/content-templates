@@ -1,4 +1,4 @@
-<!-- Use the aac-browse-header.yml -->
+<!-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. -->
 
 > Introductory section - no heading
 >   In this section, include 1-2 sentences to briefly explain this architecture. 
@@ -90,19 +90,19 @@ Reliability ensures your application can meet the commitments you make to your c
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the security pillar](/azure/architecture/framework/security/overview).
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
 
 > This section includes identity and data sovereignty considerations.
 > Are there any security considerations (past the typical) that I should know about this?
 > Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
 
-### Cost optimization
+### Cost Optimization
 
 > REQUIRED: This section is required. Cost is of the utmost importance to our customers.
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Cost optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the cost optimization pillar](/azure/architecture/framework/cost/overview).
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
 
 > How much will this cost to run? See if you can answer this without dollar amounts.
 > Are there ways I could save cost?
@@ -113,20 +113,20 @@ Cost optimization is about looking at ways to reduce unnecessary expenses and im
 > Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
 > If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
-### Operational excellence
+### Operational Excellence
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Operational excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the operational excellence pillar](/azure/architecture/framework/devops/overview).
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the Operational Excellence pillar](/azure/architecture/framework/devops/overview).
 
 > This includes DevOps, monitoring, and diagnostics considerations.
 > How do I need to think about operating this solution?
 
-### Performance efficiency
+### Performance Efficiency
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Performance efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
 
 > This includes scalability considerations.
 > Are there any key performance considerations (past the typical)?
@@ -168,14 +168,14 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 > Is there any other documentation that might be useful? Are there product documents that go into more detail on specific technologies that are not already linked?
 
 Examples:
-* [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-* [Azure Machine Learning documentation](/azure/machine-learning)
-* [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
-* [What is Language Understanding (LUIS)?](/azure/cognitive-services/luis/what-is-luis)
-* [What is the Speech service?](/azure/cognitive-services/speech-service/overview)
-* [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-* [Introduction to Bot Framework Composer](/composer/introduction)
-* [What is Application Insights](/azure/azure-monitor/app/app-insights-overview)
+- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [What is Language Understanding (LUIS)?](/azure/cognitive-services/luis/what-is-luis)
+- [What is the Speech service?](/azure/cognitive-services/speech-service/overview)
+- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
+- [Introduction to Bot Framework Composer](/composer/introduction)
+- [What is Application Insights](/azure/azure-monitor/app/app-insights-overview)
  
 ## Related resources
 
@@ -183,8 +183,8 @@ Examples:
 > Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
 
 Examples:
-  - [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
-  - [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
-  - [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-  - [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-  - [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
+- [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
