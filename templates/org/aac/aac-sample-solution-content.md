@@ -148,14 +148,14 @@ Performance Efficiency is the ability of your workload to scale to meet the dema
 
 Principal authors: > Only the primary authors. Listed alphabetically by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
 
- - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+ - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+ - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
  - > Continue for each primary author (even if there are 10 of them).
 
 Other contributors: > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. Listed alphabetically by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
 
- - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+ - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+ - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
  - > Continue for each additional contributor (even if there are 10 of them).
  
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
@@ -170,7 +170,7 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 Examples:
 - [Azure Kubernetes Service (AKS) documentation](/azure/aks)
 - [Azure Machine Learning documentation](/azure/machine-learning)
-- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [What are Azure AI Services?](/azure/ai-services/what-are-ai-services)
 - [What is Language Understanding (LUIS)?](/azure/cognitive-services/luis/what-is-luis)
 - [What is the Speech service?](/azure/cognitive-services/speech-service/overview)
 - [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
