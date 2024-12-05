@@ -44,7 +44,11 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 
 ## Next steps
 
-> Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. Examples:
+> Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. 
+> - Links shouldn't include en-us locale unless they don't work without it.
+> - Learn links should be site-relative, for example (/azure/feature/article-name).
+> - Don't include trailing slash in any links.
+> Example:
 
 - [Azure Machine Learning documentation](/azure/machine-learning)
 - [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
