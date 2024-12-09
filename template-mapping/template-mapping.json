@@ -64,6 +64,13 @@
       ]
     },
     {
+      "templateFileName": "..\\structured-how-to.md",
+      "templateFriendlyName": "Structured How-to (save as .yml)",
+      "repos": [
+        "docs-help-pr"
+      ]
+    },
+    {
       "templateFileName": "..\\smb-article-template.md",
       "templateFriendlyName": "SMB article",
       "repos": [
