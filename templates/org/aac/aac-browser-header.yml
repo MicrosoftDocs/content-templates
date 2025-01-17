@@ -1,22 +1,23 @@
 ### YamlMime:Architecture
 metadata:
-  title: <Article title, which becomes the title metadata>
+  title: <Article Title in Title Casing>
   titleSuffix: Azure Architecture Center
-  description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
-  author: <Contributor's GitHub username>
+  description: <A description that's 120-165 characters and ends with a period>
+  author: <Contributor's GitHub user name>
   ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
   ms.topic: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
   ms.service: azure-architecture-center
   ms.subservice: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
 azureCategories:
-  - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
-  - <There can be more than one category>
+  - <Choose at least one category, as explained in the template instructions.>
+  - <There can be more than one category.>
 products:
-  - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
-  - <Include between 1 and 5 products, but no more than five>
-name: <The H1 title is a phrase with a present tense verb that describes the scenario. Don't use gerunds, or "-ing" verbs. For example: "Use Azure monitoring to integrate security components">
-summary: <Write a summary. Can be same as description.>
-thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
+  - <Choose 1-5 products, as explained in the template instructions.>
+  - <1-5 products>
+  - <1-5 products>
+name: <Article title in sentence casing>
+summary: <A summary of 120-165 characters. Can be the same as the description.>
+thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
 content: |
-  [!INCLUDE[](<sample-solution>-content.md)]
+  [!INCLUDE[](<file-name>-content.md)]

@@ -1,30 +1,17 @@
-<!-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. -->
-
 <!-- 
-  - Use a noun phrase with a present tense verb that describes the scenario for the H1 title.
-  - Don't use gerunds, or "-ing" verbs. 
-  - Enter the H1 title as the **name** value in the corresponding YML file. 
-  - Include the solution idea header note at the top of the solution idea. This clarifies why this is a scaled-back architecture and provides consistency with our other SIs.
--->
-
-[!INCLUDE [header_file](../../../includes/sol-idea-header.md)]
-
-<!--
-- Add an introductory section without a heading.
-- Include 1-2 sentences to briefly explain this architecture. The full scenario info will go in the **Scenario details** section, which is below the "Architecture" H2 (top level) heading, below the "Components" H3 header, and above the "Contributors" H2 (top level) header. That includes the "Potential use cases" H3 section, which goes under the "Scenario details" H2 section. The reason why we moved this content down lower, is because customers want the emphasis on the diagram and architecture first, not the scenario.
+- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
+- Before the "Architecture" heading, add a brief introduction of no more than three sentences. Format it as a single paragraph with no heading. 
 -->
 
 ## Architecture
 
-> Architecture diagram goes here. Use the following format:
+<!-- Architecture diagram goes here. Use the following format to link to your image file:-->
 
-![Diagram that shows the <solution name> architecture.](./images/<file-name>.png)
+:::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
 
-> Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file:
+<!-- Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file. In the work item for your article, add a link to your Visio or PowerPoint file. Alternatively, send the link to the AAC team so that the file can be uploaded to the Azure CDN. -->
 
-*Download a [Visio file](https://arch-center.azureedge.net/[file-name].vsdx) of this architecture.*
-
-<!-- Note that Visio or PowerPoint files aren't allowed in the GitHub repo. Send the file or provide a link so that the file can be uploaded to our limited-access CDN server.-->
+*Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
 ### Dataflow
 <!--

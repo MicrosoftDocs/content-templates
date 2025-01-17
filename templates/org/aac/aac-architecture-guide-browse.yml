@@ -1,22 +1,22 @@
 ### YamlMime:Architecture
 metadata:
-  title: <Article title, which becomes the title metadata>
-  description: <Write a 100-160 character description that ends with a period and ideally starts with a call to action. This becomes the browse card description.>
-  author: <Contributor's GitHub username>
+  title: <Article Title in Title Casing>
+  description: <A description that's 120-165 characters and ends with a period>
+  author: <Contributor's GitHub user name>
   ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
-  ms.topic: conceptual
+  ms.topic: <Topic specified in the template instructions for this content type>
   ms.service: azure-architecture-center
-  ms.subservice: architecture-guide
+  ms.subservice: <Subservice specified in the template instructions for this content type>
 azureCategories:
-  - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
-  - <There can be more than one category>
+  - <Choose at least one category, as explained in the template instructions.>
+  - <There can be more than one category.>
 products:
-  - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
+  - <Choose 1-5 products, as explained in the template instructions.>
   - <1-5 products>
   - <1-5 products>
-name: <The H1 title at the top of the article>
-summary: <Write a summary. Can be same as description.>
-thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
+name: <Article title in sentence casing>
+summary: <A summary of 120-165 characters. Can be the same as the description.>
+thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
 content: |
-  [!INCLUDE[](<guide>-content.md)]
+  [!INCLUDE[](<file-name>-content.md)]

@@ -1,63 +1,76 @@
-<!--
-- Add the YML block for the standard Markdown format at the top of the article, or create an AAC browser header in a separate YML file by using the [Azure Architecture Center browser header](/help/patterns/level4/aac-browser-header-template) template.
-- Match the H1 title to the title metadata. Don't enter it here, but as the **name** value in the corresponding YAML file.
-- Add a brief introduction of no more than three sentences and formatted as a single paragraph.
+<!-- 
+- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
+- Before the "Architecture" heading, add a brief introductory paragraph with no heading. 
 -->
 
 ## Architecture
 
-![Diagram that shows the components of the reference architecture.](./media/folder_name/architecture-diagram.png)
+<!-- Architecture diagram goes here. Use the following format to link to your image file:-->
 
-_Download a [Visio file](https://arch-center.azureedge.net/architecture.vsdx) that contains this architecture diagram. This file must be uploaded to `https://arch-center.azureedge.net/`_
+:::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
+
+<!-- Under the architecture diagram, link to the Visio or PowerPoint file. The link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
+
+*Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
 ### Dataflow
 
 <!--
-- Title this section "Workflow" if data isn't in the scenario.
-- Use a numbered list that describes the dataflow or workflow of each step in the solution. Use a bulleted list if there are no numbers in the diagram. Start from the user or external data source, and then follow the flow through the rest of the solution. The following section uses the previous diagram as an example and should be updated for your specific article. The following dataflow corresponds to the previous diagram:
+- If your scenario doesn't include data, title this section "Workflow".
+- Add a numbered list for the steps in your architecture diagram.
 -->
-
-The following dataflow (or workflow) corresponds to the previous diagram:
-
-- **Thing 1**. Explain what happens with the first technology in the diagram.
-
-- **Thing 2**. Explain what happens with the second technology in the diagram.
 
 ### Components
 <!-- 
-- Add a bulleted list of components in the architecture. It includes all relevant Azure services from this architecture and has links to the Well-Architected Framework service guide for the product.
-- Describe what each component is and why it's necessary in this architecture. This is usually two sentences.
-- Link the name of the service via embedded link to the Azure Well-Architected service guide if it exists, or to the service's product page.
-- The following section contains example components but should be updated for your specific article.
--->
+- Add a bulleted list of all components in the architecture. 
+- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product page.
 
-Examples:
+Example list:
+
 - [Machine Learning](/azure/well-architected/service-guides/azure-machine-learning) is a managed cloud service that you can use to train, deploy, and manage machine learning models. This architecture uses several other features of Machine Learning that are used to develop and deploy executable flows for AI applications that are powered by language models.
 - [Container Registry](/azure/container-registry/) lets you build, store, and manage container images and artifacts in a private registry for all types of container deployments. In this architecture, flows are packaged as container images and stored in Container Registry.
 - [Azure AI Search](/azure/search/) is a cloud search service that supports [full-text search](/azure/search/search-lucene-query-architecture), [semantic search](/azure/search/semantic-search-overview), [vector search](/azure/search/vector-search-overview), and [hybrid search](/azure/search/vector-search-ranking#hybrid-search). AI Search is included in the architecture because it's a common service used in the flows behind chat applications. AI Search can be used to retrieve and index data that's relevant for user queries. The prompt flow implements the RAG [Retrieval Augmented Generation](/azure/search/retrieval-augmented-generation-overview) pattern to extract the appropriate query from the prompt, query AI Search, and use the results as grounding data for the Azure OpenAI model.
+-->
 
 ### Alternatives
 <!-- 
-
-- Use this section to talk about alternative Azure services or architectures that you might consider for this solution. 
-- Include the reasons why you might choose these alternatives. Customers find this valuable because they want to know what other services or technologies they can use as part of this architecture.
-- Describe alternative technologies that were considered and why they weren't used.
+- List alternative Azure services or architectures for this solution. 
+- Include reasons to choose these alternatives.
 -->
 
 ## Scenario details
 <!--
 - Explain the business problem and why this scenario was built to solve it.
-- Answer the following questions:
-  - What prompted them to solve the problem?
+- Answer the questions like these:
+  - What prompted the problem?
   - What services were used in building out this solution?
-  - What does this example scenario show? What are the customer's goals?
-  - What were the benefits of implementing the solution?
+  - What does this example scenario show? 
+  - What are the customer's goals?
+  - What are the benefits of implementing the solution?
 -->
 
 ### Potential use cases
 <!--
 - Describe any other use cases or industries where this would be a fit.
 - Describe how similar or different they are to what's in the article.
+- For SEO, use industry keywords when possible. Examples: 
+  - retail 
+  - finance
+  - manufacturing
+  - healthcare
+  - government
+  - energy
+  - telecommunications
+  - education
+  - automotive
+  - nonprofit
+  - game
+  - media (media and entertainment) 
+  - travel (includes hospitality, like restaurants)
+  - facilities (includes real estate)
+  - aircraft (includes aerospace and satellites)
+  - agriculture
+  - sports
 -->
 
 These other uses cases have similar design patterns:
@@ -70,144 +83,124 @@ You can apply the following recommendations to most scenarios. Follow these reco
 <!--Include considerations for how to deploy or configure the elements of this architecture.-->
 
 ## Considerations
+
+<!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
+
+These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/well-architected/).
+
 <!--
-- Include *all* of these H3 sub-sections for the Reference Architecture template: Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency.
-- REQUIRED STATEMENT: Include the following statement to introduce this section:
+In this section, you can answer questions such as these:
+- What lessons did we learn that would be helpful for new customers?  
+- What went wrong or right when building it out?
+- How do I need to consider to manage, maintain, and monitor this long term?
+
+Include ALL of the following H3 sub-sections, in the following order.
 -->
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/architecture/framework).
-
-> Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
-> How do I need to think about managing, maintaining, and monitoring this long term?
-
-> REQUIREMENTS: 
->   For a Reference Architecture, you must include all of these H3 sub-sections/WAF pillars: Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency.
-
 ### Reliability
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the Reliability pillar](/azure/architecture/framework/resiliency/overview).
+Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
 
 <!--
-- Include resiliency and availability considerations. They can also be H4 headers in this section, if you think that they should be separate.
+- Include resiliency and availability considerations. These considerations can be H4 headers.
 - Describe any key resilience and reliability considerations that aren't typical.
 -->
 
 ### Security
 
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
 
-> This section includes identity and data sovereignty considerations.
-> Are there any security considerations (past the typical) that I should know about this?
-> Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
+<!--
+> Include identity and data sovereignty considerations.
+> Explain any security considerations (beyond the typical).
+> Include your Azure security baseline assessment recommendations.
+-->
 
 ### Cost Optimization
 
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
-> How much will this cost to run? See if you can answer this without dollar amounts.
-> Are there ways I could save cost?
-> If it scales linearly, than we should break it down by cost/unit. If it does not, why?
-> What are the components that make up the cost?
-> How does scale affect the cost?
+<!-- Address questions such as these:
+- How much will this cost to run? (Don't give dollar amounts.)
+- Are there ways to save costs?
+- If it scales linearly, break it down by cost/unit. If it doesn't, why?
+- What components make up the cost?
+- How does scale affect the cost?
 
-> Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
-> If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
+Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator). Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. -->
 
 ### Operational Excellence
 
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the Operational Excellence pillar](/azure/architecture/framework/devops/overview).
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 
-> This includes DevOps, monitoring, and diagnostics considerations.
-> How do I need to think about operating this solution?
+<!--
+How do customers need to think about operating this solution? 
+Consider DevOps, monitoring, and diagnostics. 
+-->
 
 ### Performance Efficiency
 
-> REQUIRED STATEMENT: Include the following statement to introduce the section:
+<!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
-> This includes scalability considerations.
-> Are there any key performance considerations (past the typical)?
-> Are there any size considerations around this specific solution? What scale does this work at? At what point do things break or not make sense for this architecture?
-
-## Deploy this scenario
-<!--
-- REQUIRED: Reference Architectures require a deployment. If you can't provide a deployment, use the Example Workload template instead.
-- Describe a step-by-step process for implementing the reference architecture solution. Add the solution to GitHub, provide a link by using the following boilerplate text, and explain how to roll out the solution.
+<!-- 
+- Explain key performance considerations, beyond the typical. 
+- This includes scalability considerations.
 -->
-
-A deployment for a reference architecture that implements these recommendations and considerations is available on [GitHub](https://www.github.com/path-to-repo).
-
-1. First step
-2. Second step
-3. Third step ...
 
 ## Contributors
-<!--This section is expected but optional if all the contributors prefer not to include it.
 
-1. Start with the explanation text in italics that's the same for every article. This makes it clear that Microsoft takes responsibility for the article and not a single contributor.
-
-1. Include the list of "Principal authors" and the list of "Additional contributors," if there are any. Format in plain text, not italics or bold.
-
-1. Link each contributor's name to the person's LinkedIn profile. 
-
-1. Insert a pipe symbol ("|") with spaces after the name, and then enter the person's title. To minimize edits or updates, don't include the person's company, MVP status, or links to additional profiles. You can link profiles from the person's LinkedIn page. In the future, we aim to automate this process on the platform.
--->
+<!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
-Principal authors: <!--List only the primary authors. List them alphabetically and by last name. Use the *First-name Last-name* format. If the article is rewritten, keep the original authors and add the new ones. List each primary author, even if there are 10 of them. Update the following example text.-->
+Principal authors: 
 
-- [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- > Continue for each primary author (even if there are 10 of them).
+<!--List the primary authors alphabetically and by last name. Use the *FirstName LastName* format.-->
 
-Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically by last name. Use the *First-name Last-name* format. It's okay to add newer contributors.-->
+- [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
 
-- [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- > Continue for each additional contributor (even if there are 10 of them).
+Other contributors: 
+
+<!--This section is optional. List contributors and technical reviewers. -->
+
+- [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
-<!--
-- Add a bulleted list of links to third-party and other Learn and Microsoft topics. These topics can include links to pages that provide additional context or that might be useful in a next-steps context.
-- Format Learn links to be site relative, such as (/azure/feature/article-name).
-- Don't include locales such as `en-us` in links unless they don't work without it.
-- Don't include a trailing slash in any links.
-- Link to documentation that answers the following questions:
-  - Where should I go next if I want to start building this?
-  - Are there any relevant case studies or customers doing something similar?
-  - Is there any other documentation that might be useful? 
-  - Are there product documents that go into more detail on specific technologies that are not already linked?
-- Update the following example links.
--->
 
-Examples:
+<!--
+- Add a bulleted list of links to third-party or Microsoft topics that can help customers build the workload.
+- Link formats: 
+  - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
+  - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
+  - Omit a trailing slash.
+
+Example list:
+
 - [Azure Machine Learning documentation](/azure/machine-learning)
 - [What are Azure AI Services?](/azure/ai-services/what-are-ai-services)
-
-## Related resources
-<!--
-- Add a bulleted list of related resource links.
-- Use this section for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to but can be from a repo other than the AAC repo.
-- Ensure that links to articles in the AAC repo are repo-relative, such as (../../solution-ideas/articles/article-name.yml).
-- Update the following example links.
 -->
 
-Fully deployable architectures:
+## Related resources
+
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC.
+
+Example list:
 
 - [Baseline Azure OpenAI reference architecture](/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
 - [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
 - [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
-
+-->
