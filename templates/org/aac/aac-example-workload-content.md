@@ -98,62 +98,41 @@ Reliability ensures that your application can meet the commitments you make to y
 
 Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
 
-<!--
-- Include identity and data sovereignty considerations in this section.
-- Describe any security considerations that aren't typical.
-- Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines.
--->
+> This section includes identity and data sovereignty considerations.
+> Are there any security considerations (past the typical) that I should know about this?
+> Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
 
 ### Cost Optimization
-<!--
-- REQUIRED: This section is required. Cost is of the utmost importance to our customers.
-- REQUIRED STATEMENT: Include the following statement to introduce the section:
--->
 
-Cost Optimization is about considering ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+> REQUIRED: This section is required. Cost is of the utmost importance to our customers.
+>
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-<!--
-- Answer the following questions:
-    - How much will this cost to run? Try to answer without using dollar amounts.
-    - Are there ways I could save cost?
-    - If it scales linearly, then should we break it down by cost or unit? If it doesn't scale linearly, why?
-    - What components make up the cost?
-    - How does scale affect the cost?
-- Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>). Include all the components in the architecture, even if they have a $0 or $1 usage.
-- Include small, medium, or large configurations if it makes sense to. Describe what needs to be changed when you move to larger sizes.
--->
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+
+> How much will this cost to run? See if you can answer this without dollar amounts.
+> Are there ways I could save cost?
+> If it scales linearly, than we should break it down by cost/unit. If it does not, why?
+> What are the components that make up the cost?
+> How does scale affect the cost?
+>
+> Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>) with all of the components in the architecture included, even if they're a $0 or $1 usage.
+> If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
 ### Operational Excellence
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Operational Excellence addresses the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
+> REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-<!--
-- Include DevOps, monitoring, and diagnostics considerations in this section.
-- Describe how to think about operating this solution.
--->
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
+
+> This includes DevOps, monitoring, and diagnostics considerations.
+> How do I need to think about operating this solution?
 
 ### Performance Efficiency
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Performance Efficiency refers to the ability of your workload to scale efficiently to meet user demands. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
+> REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-<!--
-- Include scalability considerations in this section.
-- Answer the following questions:
-  - Are there any key performance considerations beyond the typical?`
-  - Are there any size considerations around this solution specifically?
-  - What scale does this work at?  
-  - At what point do things break or not make sense for this architecture?
--->
-
-## Deploy this scenario
-<!--
-- This section is optional but greatly encouraged.
-- Answer the following questions:
-  - Is there an example deployment that can show me this in action?
-  - What would I need to change to run this in production?
--->
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
 ## Contributors
 <!--This section is expected but optional if all the contributors prefer not to include it.

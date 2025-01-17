@@ -50,22 +50,22 @@
       ]
     },
     {
-      "templateFileName": "..\\docs-product-update.md",
-      "templateFriendlyName": "Feature announcement: Product Update",
-      "repos": [
-        "new-hope"
-      ]
-    },
-    {
-      "templateFileName": "..\\docs-released.md",
-      "templateFriendlyName": "Feature announcement: Released",
-      "repos": [
-        "new-hope"
-      ]
-    },
-    {
       "templateFileName": "..\\docs-validation-ref-template.md",
       "templateFriendlyName": "Contributor Guide: Error reference",
+      "repos": [
+        "docs-help-pr"
+      ]
+    },
+    {
+      "templateFileName": "..\\structured-how-to.yml",
+      "templateFriendlyName": "Structured How-to (YAML)",
+      "repos": [
+        "docs-help-pr"
+      ]
+    },
+    {
+      "templateFileName": "..\\structured-how-to.md",
+      "templateFriendlyName": "Structured How-to (save as .yml)",
       "repos": [
         "docs-help-pr"
       ]

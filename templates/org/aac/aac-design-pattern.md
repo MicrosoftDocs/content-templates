@@ -1,13 +1,13 @@
 ---
-title: <Replace this text based on the guidance located in Completing the metadata under the Article title section.>   
-description: <Replace this text based on the guidance located in Completing the metadata under the Article title section.>
-keywords: <Replace this text based on the guidance located in Completing the metadata under the Article title section.>
-ms.date: <Date of publish or major update, in mm/dd/yyyy format>
+title: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>   
+description: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
+keywords: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
+ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.service: azure-architecture-center
 ms.subservice: design-pattern
 pnp.series.title: Cloud Design Patterns
-pnp.pattern.categories: <Replace this text based on the guidance located in Completing the metadata under the Article title section.>
+pnp.pattern.categories: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
 ---
 
 # Article title

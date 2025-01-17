@@ -1,9 +1,9 @@
 ---
 title: <Article title, which becomes the title metadata>
-description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
+description: <Write a 100-160 character description that ends with a period and ideally starts with a call to action. This becomes the browse card description.>
 author: <Contributor's GitHub username>
-ms.author: <Contributor's Microsoft alias. Can include multiple contributors, separated by commas.>
-ms.date: <Date of publish or major update, in mm/dd/yyyy format>
+ms.author: <Contributor's Microsoft alias>
+ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: conceptual
 ms.service: azure-architecture-center
 ms.subservice: architecture-guide
@@ -40,25 +40,34 @@ categories:
 
 Principal authors: <!--List only the primary authors. List them alphabetically and by last name. Use the *First-name Last-name* format. If the article is rewritten, keep the original authors and add the new ones. List each primary author, even if there are 10 of them.-->
 
- - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+ * [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+ * [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+ * > Continue for each primary author (even if there are 10 of them).
 
 Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically and by last name. Use the *First-name Last-name* format. It's okay to add newer contributors.-->
 
- - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+ * [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+ * [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 ## Next steps
-<!--
-- Add a bulleted list of links to third-party and other Learn and Microsoft topics. These topics can include links to pages that provide additional context or that might be useful in a next-steps context.
-- Format Learn links to be site relative, such as (/azure/feature/article-name).
-- Don't include locales such as `en-us` in links unless they don't work without it.
-- Don't include a trailing slash in any links.
--->
+
+> Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. 
+> - Links shouldn't include en-us locale unless they don't work without it.
+> - Learn links should be site-relative, for example (/azure/feature/article-name).
+> - Don't include trailing slash in any links.
+> Example:
+
+- [Azure Machine Learning documentation](/azure/machine-learning)
+- [What are Azure AI Services?](/azure/ai-services/what-are-ai-services)
 
 ## Related resources
-<!--
-- Add a bulleted list of related resource links.
-- Use this section for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to but can be from a repo other than the AAC repo.
-- Ensure that links to articles in the AAC repo are repo-relative, such as (../../solution-ideas/articles/article-name.yml).
--->
+
+> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
+> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+> Here is an example section:
+
+Fully deployable architectures:
+
+- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
+- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)

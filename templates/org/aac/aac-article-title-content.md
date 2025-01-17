@@ -76,18 +76,20 @@ You can apply the following recommendations to most scenarios. Follow these reco
 - REQUIRED STATEMENT: Include the following statement to introduce this section:
 -->
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which are guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/architecture/framework).
+These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that can be used to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/architecture/framework).
 
-<!--
-- Describe any lessons learned from running this that would be helpful for new customers. 
-- Describe what went wrong and what went right when building it out. 
-- Describe how to manage, maintain, and monitor this long term.
--->
+> Are there any lessons learned from running this that would be helpful for new customers?  What went wrong when building it out?  What went right?
+> How do I need to think about managing, maintaining, and monitoring this long term?
+
+> REQUIREMENTS: 
+>   For a Reference Architecture, you must include all of these H3 sub-sections/WAF pillars: Reliability, Security, Cost Optimization, Operational Excellence, and Performance Efficiency.
 
 ### Reliability
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Reliability ensures that your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
+
+Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Overview of the Reliability pillar](/azure/architecture/framework/resiliency/overview).
 
 <!--
 - Include resiliency and availability considerations. They can also be H4 headers in this section, if you think that they should be separate.
@@ -95,58 +97,48 @@ Reliability ensures that your application can meet the commitments you make to y
 -->
 
 ### Security
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-<!--
-- Include identity and data sovereignty considerations in this section.
-- Describe any security considerations that aren't typical.
-- Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines.
--->
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
+
+> This section includes identity and data sovereignty considerations.
+> Are there any security considerations (past the typical) that I should know about this?
+> Because security is important to our business, be sure to include your Azure security baseline assessment recommendations in this section. See https://aka.ms/AzureSecurityBaselines
 
 ### Cost Optimization
-<!--
-- REQUIRED: This section is required. Cost is of the utmost importance to our customers.
-- REQUIRED STATEMENT: Include the following statement to introduce the section:
--->
 
-Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-<!--
-- Answer the following questions:
-    - How much will this cost to run? Try to answer without using dollar amounts.
-    - Are there ways I could save cost?
-    - If it scales linearly, then should we break it down by cost or unit? If it doesn't scale linearly, why?
-    - What components make up the cost?
-    - How does scale affect the cost?
-- Link to the pricing calculator (<https://azure.microsoft.com/pricing/calculator>). Include all the components in the architecture, even if they have a $0 or $1 usage.
-- Include small, medium, or large configurations if it makes sense to. Describe what needs to be changed when you move to larger sizes.
--->
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
+
+> How much will this cost to run? See if you can answer this without dollar amounts.
+> Are there ways I could save cost?
+> If it scales linearly, than we should break it down by cost/unit. If it does not, why?
+> What are the components that make up the cost?
+> How does scale affect the cost?
+
+> Link to the pricing calculator (https://azure.microsoft.com/en-us/pricing/calculator) with all of the components in the architecture included, even if they're a $0 or $1 usage.
+> If it makes sense, include small/medium/large configurations. Describe what needs to be changed as you move to larger sizes.
 
 ### Operational Excellence
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-<!--
-- Include DevOps, monitoring, and diagnostics considerations in this section.
-- Describe how to think about operating this solution.
--->
+Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Overview of the Operational Excellence pillar](/azure/architecture/framework/devops/overview).
+
+> This includes DevOps, monitoring, and diagnostics considerations.
+> How do I need to think about operating this solution?
 
 ### Performance Efficiency
-<!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Performance Efficiency refers to the ability of your workload to scale efficiently to meet user demands. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
+> REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-<!--
-- Include scalability considerations in this section.
-- Answer the following questions:
-  - Are there any key performance considerations beyond the typical?
-  - Are there any size considerations around this solution specifically?
-  - What scale does this work at?  
-  - At what point do things break or not make sense for this architecture?
--->
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+
+> This includes scalability considerations.
+> Are there any key performance considerations (past the typical)?
+> Are there any size considerations around this specific solution? What scale does this work at? At what point do things break or not make sense for this architecture?
 
 ## Deploy this scenario
 <!--
@@ -176,13 +168,17 @@ A deployment for a reference architecture that implements these recommendations 
 
 Principal authors: <!--List only the primary authors. List them alphabetically and by last name. Use the *First-name Last-name* format. If the article is rewritten, keep the original authors and add the new ones. List each primary author, even if there are 10 of them. Update the following example text.-->
 
- - [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- > Continue for each primary author (even if there are 10 of them).
 
 Other contributors: <!--Include the contributing authors, editors who make major content changes, and technical reviewers. List them alphabetically by last name. Use the *First-name Last-name* format. It's okay to add newer contributors.-->
 
- - [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
- - [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- > Continue for each additional contributor (even if there are 10 of them).
+
+*To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 <!--
@@ -200,7 +196,7 @@ Other contributors: <!--Include the contributing authors, editors who make major
 
 Examples:
 - [Azure Machine Learning documentation](/azure/machine-learning)
-- [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)
+- [What are Azure AI Services?](/azure/ai-services/what-are-ai-services)
 
 ## Related resources
 <!--
@@ -215,3 +211,4 @@ Fully deployable architectures:
 - [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
 - [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
 - [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+

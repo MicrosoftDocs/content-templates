@@ -4,11 +4,11 @@ metadata:
   titleSuffix: Azure Architecture Center
   description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
   author: <Contributor's GitHub username>
-  ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.>
+  ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
-  ms.topic: conceptual
+  ms.topic: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
   ms.service: azure-architecture-center
-  ms.subservice: example-scenario
+  ms.subservice: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
 azureCategories:
   - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
   - <There can be more than one category>
@@ -19,4 +19,4 @@ name: <The H1 title is a phrase with a present tense verb that describes the sce
 summary: <Write a summary. Can be same as description.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
 content: |
-  [!include[](<sample-solution>-content.md)]
+  [!INCLUDE[](<sample-solution>-content.md)]

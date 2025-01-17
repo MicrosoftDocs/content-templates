@@ -1,9 +1,9 @@
 ---
-title: <Topic name> on Azure
-description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description. Include "<Topic name> on Azure" in the description.>
+title: TOPIC NAME on Azure
+description: A guide to building running TOPIC NAME on Azure
 author: <Contributor's GitHub username>
-ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.> 
-ms.date: <Date of publish or major update, in mm/dd/yyyy format>
+ms.author: <Contributor's Microsoft alias> 
+ms.date: 2/4/2019
 ms.topic: landing-page
 ms.service: azure-architecture-center
 ---

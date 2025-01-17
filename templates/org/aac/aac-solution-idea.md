@@ -1,4 +1,4 @@
-<!-- Use the aac-browse-header.yml -->
+<!-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. -->
 
 <!-- 
   - Use a noun phrase with a present tense verb that describes the scenario for the H1 title.
