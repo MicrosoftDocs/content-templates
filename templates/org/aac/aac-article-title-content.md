@@ -25,17 +25,16 @@ The following dataflow (or workflow) corresponds to the previous diagram:
 
 ### Components
 <!-- 
-- Add a bulleted list of components in the architecture. It includes all relevant Azure services and has links to the Well-Architected Framework service guide for the product. This is for lead generation (what business, marketing, and PG want). It helps drive revenue.
-- Describe why each component is necessary and what it does.
-- Link the name of the service via embedded link to the Azure Well-Architected service guide if it exists, or to the service's product page. Exclude the localization part of the URL, such as `en-us`.
+- Add a bulleted list of components in the architecture. It includes all relevant Azure services from this architecture and has links to the Well-Architected Framework service guide for the product.
+- Describe what each component is and why it's necessary in this architecture. This is usually two sentences.
+- Link the name of the service via embedded link to the Azure Well-Architected service guide if it exists, or to the service's product page.
 - The following section contains example components but should be updated for your specific article.
 -->
 
-- Examples:
-  - [Azure Cognitive Services Language Understanding](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service)
-  - [Azure Cognitive Services Speech Services](https://azure.microsoft.com/services/cognitive-services/speech-services)
-  - [Azure SQL Database](https://azure.microsoft.com/services/sql-database)
-  - [Azure Monitor](https://azure.microsoft.com/services/monitor): Application Insights is a feature of Azure Monitor.
+Examples:
+- [Machine Learning](/azure/well-architected/service-guides/azure-machine-learning) is a managed cloud service that you can use to train, deploy, and manage machine learning models. This architecture uses several other features of Machine Learning that are used to develop and deploy executable flows for AI applications that are powered by language models.
+- [Container Registry](/azure/container-registry/) lets you build, store, and manage container images and artifacts in a private registry for all types of container deployments. In this architecture, flows are packaged as container images and stored in Container Registry.
+- [Azure AI Search](/azure/search/) is a cloud search service that supports [full-text search](/azure/search/search-lucene-query-architecture), [semantic search](/azure/search/semantic-search-overview), [vector search](/azure/search/vector-search-overview), and [hybrid search](/azure/search/vector-search-ranking#hybrid-search). AI Search is included in the architecture because it's a common service used in the flows behind chat applications. AI Search can be used to retrieve and index data that's relevant for user queries. The prompt flow implements the RAG [Retrieval Augmented Generation](/azure/search/retrieval-augmented-generation-overview) pattern to extract the appropriate query from the prompt, query AI Search, and use the results as grounding data for the Azure OpenAI model.
 
 ### Alternatives
 <!-- 
@@ -47,7 +46,7 @@ The following dataflow (or workflow) corresponds to the previous diagram:
 
 ## Scenario details
 <!--
-- Explain the business problem and why this scenario was built to solve it. 
+- Explain the business problem and why this scenario was built to solve it.
 - Answer the following questions:
   - What prompted them to solve the problem?
   - What services were used in building out this solution?
@@ -208,7 +207,7 @@ Examples:
 
 Fully deployable architectures:
 
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
+- [Baseline Azure OpenAI reference architecture](/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
 - [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
 - [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
 

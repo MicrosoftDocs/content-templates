@@ -19,7 +19,7 @@ categories:
 # H1 title
 <!--
 - Follow the instructions in the following H2 (##) headings and adhere to all Microsoft and Learn style and pull request criteria. Architecture Guides don't have any other content requirements.
-- Diagrams aren't required for this content type, but if a diagram is included, include a subsequent **Dataflow** or **Workflow** section to explain it. For more information, see the [Example workload template](sample-solution-templates). 
+- Diagrams aren't required for this content type, but if a diagram is included, include a subsequent **Dataflow** or **Workflow** section to explain it. For more information, see the Example workload template. 
 - The Architecture Guide template requires the following sections at the end of the article.
 -->
   
