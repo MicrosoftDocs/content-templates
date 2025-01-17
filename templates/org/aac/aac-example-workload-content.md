@@ -16,7 +16,7 @@
 ### Dataflow
 <!--
 - If your scenario doesn't include data, title this section "Workflow".
-- Add a numbered list for the steps in your dataflow or workflow.
+- Add a numbered list for the steps in your architecture diagram.
 -->
 
 The following dataflow corresponds to the previous diagram:
@@ -29,6 +29,7 @@ The following dataflow corresponds to the previous diagram:
 -->
 
 ### Components
+
 <!-- 
 - Add a bulleted list of all components in the architecture. 
 - Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product page.
@@ -43,12 +44,14 @@ Example list:
 -->
 
 ### Alternatives
+
 <!-- 
 - List alternative Azure services or architectures for this solution. 
 - Include reasons to choose these alternatives.
 -->
 
 ## Scenario details
+
 <!-- Explain the business problem and why this scenario was built to solve it. 
 
 Questions this section can address:
@@ -59,6 +62,7 @@ Questions this section can address:
 -->
 
 ### Potential use cases
+
 <!--
 - List example use cases.
 - For SEO, use industry keywords when possible. Examples: 
@@ -81,6 +85,9 @@ Questions this section can address:
   - sports
 - Explain how similar or different these use cases are to the main scenario.
 -->
+
+These other uses cases have similar design patterns:
+<!--List example use cases.-->
 
 ## Considerations
 <!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
@@ -151,11 +158,10 @@ Consider DevOps, monitoring, and diagnostics.
 
 Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
-<!--
-Explain key performance considerations, beyond the typical.
--->
+<!-- Explain key performance considerations, beyond the typical. -->
 
 ## Contributors
+
 <!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
@@ -164,19 +170,20 @@ Principal authors:
 
 <!--List the primary authors alphabetically and by last name. Use the *FirstName LastName* format.-->
 
-- [Author 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Author 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 Other contributors: 
 
 <!--This section is optional. List contributors and technical reviewers. -->
 
-- [Contributor 1 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Contributor 2 Name](http://linkedin.com/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 *To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
+
 <!--
 - Add a bulleted list of links to third-party or Microsoft topics that can help customers build the workload.
 - Link formats: 
@@ -193,6 +200,7 @@ Example list:
 -->
 
 ## Related resources
+
 <!-- Add a bulleted list of links to related architecture information in the AAC TOC.
 
 Example list:
