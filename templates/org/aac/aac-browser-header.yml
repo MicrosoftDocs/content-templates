@@ -5,9 +5,9 @@ metadata:
   description: <Write a 100-160 character description that starts with a call to action and ends with a period. This becomes the browse card description.>
   author: <Contributor's GitHub username>
   ms.author: <Contributor's Microsoft alias. This can include multiple contributors, separated by commas.>
-  ms.date: <Date of publish or major update, in mm/dd/yyyy format>
+  ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
   ms.topic: conceptual
-  ms.service: architecture-center
+  ms.service: azure-architecture-center
   ms.subservice: example-scenario
 azureCategories:
   - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
