@@ -1,7 +1,7 @@
 ### YamlMime:Architecture
 metadata:
   title: <Article Title in Title Casing>
-  description: <A description that's 120-165 characters and ends with a period>
+  description: <A description that's 120-165 characters and ends with a period.>
   author: <Contributor's GitHub user name>
   ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>

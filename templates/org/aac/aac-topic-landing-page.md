@@ -10,8 +10,9 @@ ms.service: azure-architecture-center
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD026 -->
 
-# <!--Topic name-->
+# TOPIC NAME
 
+## Introduction to TOPIC
 
 <!-- markdownlint-disable MD034 -->
 
@@ -19,24 +20,26 @@ ms.service: azure-architecture-center
 
 <!-- markdownlint-enable MD034 -->
 
-<!--Add the <Topic> description.-->
+<description of Topic>
 
 ## Implementation checklist
 
-If you want to implement <!--Topic name-->, ensure that you've reviewed the following topics:
+As you're looking to implement TOPIC, ensure you're reviewed the following topics:
 
 <!-- markdownlint-disable MD032 -->
 
 > [!div class="checklist"]
-> - Important [SECTION1](#section1)
-> - Important [SECTION2](#section2)
+> - Important [SECTION1](#section1) 
+> - Important [SECTION2](#section2) 
 
 <!-- markdownlint-enable MD032 -->
 
 ## SECTION1
 
+
 ### SUB-SECTION
-<!-- This template enables the card layout on topic pages. Use this template for links to scenarios, reference architectures, and solutions. You need to change only the highlighted sections, including the link, image, title, and description.-->
+
+This is a template that allows for the card layout on topic pages.  Use it for links to scenarios, reference architectures, and solutions.  Only the highlighted sections (link, image, title, & description) will need to be changed.
 
 <ul class="columns is-multiline has-margin-left-none has-margin-bottom-none has-padding-top-medium">
     <li class="column is-one-third has-padding-top-small-mobile has-padding-bottom-small">
@@ -51,7 +54,7 @@ If you want to implement <!--Topic name-->, ensure that you've reviewed the foll
                         <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computer-aided engineering services on Azure</h3>
                     </div>
                     <div class="is-size-7 has-margin-top-small has-line-height-reset">
-                        <p>Provide a software as a service (SaaS) platform for computer-aided engineering (CAE) on Azure.</p>
+                        <p>Provide a software-as-a-service (SaaS) platform for computer-aided engineering (CAE) on Azure.</p>
                     </div>
                 </div>
             </article>
@@ -66,7 +69,7 @@ If you want to implement <!--Topic name-->, ensure that you've reviewed the foll
                     </figure>
                 <div class="card-content has-text-overflow-ellipsis">
                     <div class="has-padding-bottom-none">
-                        <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computational fluid dynamics (CFD) simulations on Azure.</h3>
+                        <h3 class="is-size-4 has-margin-top-none has-margin-bottom-none has-text-primary">Computational fluid dynamics (CFD) simulations on Azure</h3>
                     </div>
                     <div class="is-size-7 has-margin-top-small has-line-height-reset">
                         <p>Execute computational fluid dynamics (CFD) simulations on Azure.</p>
@@ -77,38 +80,24 @@ If you want to implement <!--Topic name-->, ensure that you've reviewed the foll
     </li>
  </ul>
 
+
 ## Cost or pricing
-<!--This section details cost and what affects it.-->
+
+Details of how much this will cost and what effects it
 
 ## Security
 
-For more information about security best practices on Azure, see [Azure security documentation](https://learn.microsoft.com/azure/security/azure-security?context=/azure/architecture/topics/high-performance-computing/context/hpc-context).  
+For an overview of security best practices on Azure, review the [Azure Security Documentation](https://learn.microsoft.com/azure/security/azure-security?context=/azure/architecture/topics/high-performance-computing/context/hpc-context).  
 
-<!--Add security-related information.-->
+
+Anything else that would relate to security
+
 
 ## Customer stories
-<!--Add a bulleted list of links to case studies or customer stories that run this workload.-->
+
+Links to case studies or customer stories running this workload
+
+## Other important information
+
 
 ## Next steps
-<!--
-- Add a bulleted list of links to Learn articles. You can also link to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. 
-
-- Update the following example links.
--->
-
-Examples:
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What is Azure AI Services?](/azure/cognitive-services/what-are-cognitive-services)
-
-## Related resources
-<!--
-- Add a bulleted list of related resource links.
-- Use this section for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to but can be from a repo other than the AAC repo.
-- Ensure that links to articles in the AAC repo are repo-relative, such as (../../solution-ideas/articles/article-name.yml).
--->
-
-Fully deployable architectures:
-
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
