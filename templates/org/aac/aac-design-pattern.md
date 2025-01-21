@@ -1,6 +1,6 @@
 ---
 title: <Article Title in Title Casing> 
-description: <A description that's 120-165 characters and ends with a period>
+description: <A description that's 120-165 characters and ends with a period.>
 keywords: <Choose values as described in the template instructions>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
@@ -96,9 +96,8 @@ Example list:
 
 Example list:
 
-- [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
-- [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Image classification on Azure](../../example-scenario/ai/intelligent-apps-image-processing.yml)
+- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
+- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
+- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
 -->

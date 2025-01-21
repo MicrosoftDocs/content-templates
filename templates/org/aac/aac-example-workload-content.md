@@ -1,5 +1,5 @@
 <!-- 
-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
+- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file for your metadata. 
 - Before the "Architecture" heading, add a brief introductory paragraph with no heading. 
 -->
 
@@ -9,7 +9,7 @@
 
 :::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
 
-<!-- In the following line, the link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
+<!-- The following link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
 
 *Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
@@ -65,24 +65,6 @@ Questions this section can address:
 
 <!--
 - List example use cases.
-- For SEO, use industry keywords when possible. Examples: 
-  - retail 
-  - finance
-  - manufacturing
-  - healthcare
-  - government
-  - energy
-  - telecommunications
-  - education
-  - automotive
-  - nonprofit
-  - game
-  - media (media and entertainment) 
-  - travel (includes hospitality, like restaurants)
-  - facilities (includes real estate)
-  - aircraft (includes aerospace and satellites)
-  - agriculture
-  - sports
 - Explain how similar or different these use cases are to the main scenario.
 -->
 
@@ -162,20 +144,29 @@ Performance Efficiency is the ability of your workload to scale to meet the dema
 
 ## Contributors
 
-<!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
+<!-- 
+- This section is expected but optional if the contributors prefer to omit it. 
+- Implement this format: 
+-->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal authors: 
 
-<!--List the primary authors alphabetically and by last name. Use the *FirstName LastName* format.-->
+<!--
+- List the primary authors alphabetically and by last name. 
+- Use the *FirstName LastName* format.
+-->
 
 - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 Other contributors: 
 
-<!--This section is optional. List contributors and technical reviewers. -->
+<!--
+- This section is optional. 
+- List contributors and technical reviewers. 
+-->
 
 - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
@@ -205,9 +196,8 @@ Example list:
 
 Example list:
 
-- [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
-- [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Image classification on Azure](../../example-scenario/ai/intelligent-apps-image-processing.yml)
+- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
+- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
+- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
 -->

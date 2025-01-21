@@ -1,6 +1,6 @@
 ---
 title: <Article Title in Title Casing>
-description: <A description that's 120-165 characters and ends with a period>
+description: <A description that's 120-165 characters and ends with a period.>
 author: <Contributor's GitHub user name>
 ms.author: <Contributor's Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
@@ -26,7 +26,7 @@ categories:
 
 :::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
 
-<!-- In the following line, the link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
+<!-- The following link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
 
 *Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
@@ -34,20 +34,29 @@ categories:
  
 ## Contributors
 
-<!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
+<!-- 
+- This section is expected but optional if the contributors prefer to omit it. 
+- Implement this format: 
+-->
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
 Principal authors: 
 
-<!--List the primary authors alphabetically and by last name. Use the *FirstName LastName* format.-->
+<!--
+- List the primary authors alphabetically and by last name. 
+- Use the *FirstName LastName* format.
+-->
 
 - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
 Other contributors: 
 
-<!--This section is optional. List contributors and technical reviewers. -->
+<!--
+- This section is optional. 
+- List contributors and technical reviewers. 
+-->
 
 - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
@@ -75,7 +84,7 @@ Example list:
 
 Example list:
 
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
+- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
+- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
 -->
