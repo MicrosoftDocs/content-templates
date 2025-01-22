@@ -1,4 +1,4 @@
-<!-- Architecture guides have no content guidelines, except for the required sections "Contributors", "Next steps", and "Related resources". They should follow Microsoft and Learn style guidelines. -->
+<!-- Add a brief introductory paragraph. -->
 
 ## Architecture
 
@@ -16,11 +16,11 @@
 
 <!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+*Microsoft maintains this article. The following contributors wrote this article.*
 
 Principal authors: 
 
-<!--List the primary authors alphabetically and by last name. Use the *FirstName LastName* format.-->
+<!--List the primary authors alphabetically by last name. Use the *FirstName LastName* format.-->
 
 - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
@@ -32,7 +32,7 @@ Other contributors:
 - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
-*To see non-public LinkedIn profiles, sign in to LinkedIn.*
+*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 <!--
@@ -41,23 +41,7 @@ Other contributors:
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
   - Omit a trailing slash.
-
-Example list:
-
-- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-- [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
 -->
 
 ## Related resources
-<!-- Add a bulleted list of links to related architecture information in the AAC TOC.
-
-Example list:
-
-- [Artificial intelligence (AI) - Architectural overview](/azure/architecture/data-guide/big-data/ai-overview)
-- [Choosing a Microsoft cognitive services technology](/azure/architecture/data-guide/technology-choices/cognitive-services)
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
--->
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->

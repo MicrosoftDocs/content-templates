@@ -1,11 +1,11 @@
 <!-- 
 - Don't add metadata to this Markdown file. Use the browser header template to create a YAML file for your metadata. 
-- Before the "Architecture" heading, add a brief introductory paragraph with no heading. 
+- Add a brief introductory paragraph with no heading. 
 -->
 
 ## Architecture
 
-<!-- Architecture diagram goes here. Use the following format:-->
+<!-- Use the following format to add your diagram. -->
 
 :::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
 
@@ -14,62 +14,31 @@
 *Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
 ### Dataflow
-<!--
-- If your scenario doesn't include data, title this section "Workflow".
-- Add a numbered list for the steps in your architecture diagram.
--->
+
+<!-- If your scenario doesn't include data, title this section "Workflow". -->
 
 The following dataflow corresponds to the previous diagram:
 
-<!-- Example list:
-1. Admin 1 adds, updates, or deletes an entry in Admin 1's fork of the Microsoft 365 configuration file.
-2. Admin 1 commits and syncs the changes to Admin 1's forked repository.
-3. Admin 1 creates a pull request to merge the changes to the main repository.
-4. The build pipeline runs on the PR.
--->
+<!-- Add a numbered list for the steps in your architecture diagram. -->
 
 ### Components
 
 <!-- 
 - Add a bulleted list of all components in the architecture. 
 - Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product page.
-
-Example list: 
-- [Azure App Service](https://azure.microsoft.com/services/app-service) is a compute service that is specifically built to host web applications. In this architecture ….
-- [Azure Cosmos DB for NoSQL](/azure/well-architected/service-guides/cosmos-db) is a …. In this architecture ….
-- [Azure OpenAI](/azure/well-architected/service-guides/azure-openai) is a …. In this architecture ….
-- [Log Analytics](/azure/well-architected/service-guides/azure-log-analytics) is a …. In this architecture ….
-- [Azure Virtual Machines](/azure/well-architected/service-guides/virtual-machines) is a …. In this architecture ….
-
 -->
 
 ### Alternatives
 
-<!-- 
-- List alternative Azure services or architectures for this solution. 
-- Include reasons to choose these alternatives.
--->
+<!-- List alternative Azure services or architectures for this solution. -->
 
 ## Scenario details
 
-<!-- Explain the business problem and why this scenario was built to solve it. 
-
-Questions this section can address:
-- What services were used to build out this solution?
-- What does this example scenario show? 
-- What are the customer's goals?
-- What are the benefits of implementing the solution?
--->
+<!-- Explain the business problem and why this scenario was built to solve it. -->
 
 ### Potential use cases
 
-<!--
-- List example use cases.
-- Explain how similar or different these use cases are to the main scenario.
--->
-
-These other uses cases have similar design patterns:
-<!--List example use cases.-->
+<!-- List example use cases in a bulleted list.-->
 
 ## Considerations
 <!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
@@ -77,10 +46,6 @@ These other uses cases have similar design patterns:
 These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/well-architected/).
 
 <!--
-- Describe any lessons learned from running this that would be helpful for new customers. 
-- Describe what went wrong and what went right when building it out. 
-- Describe how to manage, maintain, and monitor it long term.
-
 REQUIREMENTS:
 - Include the **Cost Optimization** H3 section.
 - Include at least two of the other H3 sub-sections, in the order shown below. 
@@ -89,38 +54,28 @@ REQUIREMENTS:
 ### Reliability
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Reliability ensures that your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
+Reliability helps ensure that your application can meet the commitments that you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
 
-<!--
-- Include resiliency and availability considerations. These considerations can be H4 headers.
-- Describe any key resilience and reliability considerations that aren't typical.
--->
+<!-- Explain resiliency and availability considerations. -->
 
 ### Security
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
+Security provides assurances against deliberate attacks and the misuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
 
-<!--
-> Include identity and data sovereignty considerations.
-> Explain any security considerations (beyond the typical).
-> Include your Azure security baseline assessment recommendations.
--->
+<!-- Explain security, identity, and data sovereignty considerations. -->
 
 ### Cost Optimization
 
 <!-- REQUIRED: This section and the following statement are required. -->
 
-Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
+Cost Optimization focuses on ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
-<!-- Address questions such as these:
-- How much will this cost to run? (Don't give dollar amounts.)
-- Are there ways to save costs?
-- If it scales linearly, break it down by cost/unit. If it doesn't, why?
-- What components make up the cost?
-- How does scale affect the cost?
-
-Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator). Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. -->
+<!-- 
+- Explain Cost Optimization considerations. 
+- Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator). 
+- Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. 
+-->
 
 ### Operational Excellence
 
@@ -128,35 +83,26 @@ Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator).
 
 Operational Excellence covers the operations processes that deploy an application and keep it running in production. For more information, see [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist).
 
-<!--
-How do customers need to think about operating this solution? 
-Consider DevOps, monitoring, and diagnostics. 
--->
-
+<!-- Explain Operational Excellence considerations. -->
 
 ### Performance Efficiency
 
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
-Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
+Performance Efficiency refers to your workload's ability to scale to meet user demands efficiently. For more information, see [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist).
 
 <!-- Explain key performance considerations, beyond the typical. -->
 
 ## Contributors
 
-<!-- 
-- This section is expected but optional if the contributors prefer to omit it. 
-- Implement this format: 
--->
+<!-- This section is expected but optional if the contributors prefer to omit it. -->
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+*Microsoft maintains this article. The following contributors wrote this article.*
+
 
 Principal authors: 
 
-<!--
-- List the primary authors alphabetically and by last name. 
-- Use the *FirstName LastName* format.
--->
+<!-- List the primary authors alphabetically by last name. -->
 
 - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
@@ -171,7 +117,7 @@ Other contributors:
 - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
-*To see non-public LinkedIn profiles, sign in to LinkedIn.*
+*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 
@@ -181,23 +127,8 @@ Other contributors:
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
   - Omit a trailing slash.
-
-Example list:
-
-- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-- [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
 -->
 
 ## Related resources
 
-<!-- Add a bulleted list of links to related architecture information in the AAC TOC.
-
-Example list:
-
-- [Image classification on Azure](../../example-scenario/ai/intelligent-apps-image-processing.yml)
-- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
-- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
-- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
--->
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->

@@ -2,13 +2,13 @@
 metadata:
   title: <Article Title in Title Casing>
   titleSuffix: Azure Architecture Center
-  description: <A description that's 120-165 characters and ends with a period.>
+  description: <Align with the template instructions for your content type.>
   author: <Contributor's GitHub user name>
   ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
-  ms.topic: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
+  ms.topic: <Align with the template instructions for your content type.>
   ms.service: azure-architecture-center
-  ms.subservice: <For an example workload, use example-scenario; for a reference architecture, use reference-architecture; for a solution idea, use solution-idea>
+  ms.subservice: <Align with the template instructions for your content type.>
 azureCategories:
   - <Choose at least one category, as explained in the template instructions.>
   - <There can be more than one category.>
@@ -17,7 +17,7 @@ products:
   - <1-5 products>
   - <1-5 products>
 name: <Article title in sentence casing>
-summary: <A summary of 120-165 characters. Can be the same as the description.>
+summary: <Align with the template instructions for your content type.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
 content: |
   [!INCLUDE[](<file-name>-content.md)]

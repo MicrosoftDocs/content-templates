@@ -1,13 +1,13 @@
 ---
 title: <Article Title in Title Casing> 
-description: <A description that's 120-165 characters and ends with a period.>
-keywords: <Choose values as described in the template instructions>
+description: <Align with the template instructions for this content type.>
+keywords: <Align with the template instructions for this content type.>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.service: azure-architecture-center
 ms.subservice: design-pattern
 pnp.series.title: Cloud Design Patterns
-pnp.pattern.categories: <Choose values as described in the template instructions>
+pnp.pattern.categories: <Align with the template instructions for this content type.>
 ---
 
 # <!-- Article title in sentence casing -->
@@ -16,19 +16,13 @@ pnp.pattern.categories: <Choose values as described in the template instructions
 
 ## Context and problem
 
-<!-- Provide a brief background on the pattern and the problem that the pattern addresses.-->
+<!-- Provide a brief background about the pattern and the problem that the pattern addresses.-->
 
 ## Solution
 
-<!--
-- Describe the solution you introduced in the previous section. 
-- If there are multiple solutions, list them in order of complexity, starting with the simplest. 
-- Explain how to choose the best solution. 
-- Provide steps to implement the solution. 
-- Include screenshots to guide the reader.
--->
+<!-- Describe the solution you introduced in the previous section. -->
 
-## Issues and considerations
+## Problems and considerations
 
 Consider the following points as you decide how to implement this pattern:
 
@@ -42,11 +36,11 @@ Use this pattern when:
 
 This pattern might not be suitable when:
 
-<!--Add a bulleted-list of items that describe when this pattern isn't a good choice.-->
+<!--Add a bulleted-list of items that describe when this pattern is not a good choice.-->
 
 ## Workload design
 
-An architect should evaluate how they can use <!--insert name of pattern here--> in their workload's design to address the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). The following table provides guidance about how this pattern supports the goals of each pillar.
+Evaluate how to use <!--insert name of pattern--> in a workload's design to address the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). The following table provides guidance about how this pattern supports the goals of each pillar.
 
 <!--
 - In the following table, include only the relevant rows. 
@@ -56,20 +50,17 @@ An architect should evaluate how they can use <!--insert name of pattern here-->
 
 | Pillar | How this pattern supports pillar goals |
 | :----- | :------------------------------------- |
-| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and ensure that it **recovers** to a fully functioning state after a failure occurs. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/reliability/design-patterns>.<br/><br/> - [RE:nm Relevant guide name]()<br/> - [RE:nn Relevant guide name]() |
-| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/security/design-patterns>.<br/><br/> - [SE:nm Relevant guide name]()<br/> - [SE:nn Relevant guide name]() |
-| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) focuses on **sustaining and improving** your workload's **return on investment**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/cost-optimization/design-patterns>.<br/><br/> - [CO:nm Relevant guide name]()<br/> - [CO:nn Relevant guide name]() |
-| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br/><br/> - [OE:nm Relevant guide name]()<br/> - [OE:nn Relevant guide name]() |
-| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br/><br/> - [PE:nm Relevant guide name]()<br/> - [PE:nn Relevant guide name]() |
+| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and ensure that it **recovers** to a fully functioning state after a failure occurs. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/reliability/design-patterns>.<br><br> - [RE:nn Relevant guide name](<link>)<br> - [RE:nn Relevant guide name](<link>) |
+| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/security/design-patterns>.<br><br> - [SE:nn Relevant guide name](<link>)<br> - [SE:nn Relevant guide name](<link>) |
+| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) focuses on **sustaining and improving** your workload's **return on investment**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/cost-optimization/design-patterns>.<br><br> - [CO:nn Relevant guide name](<link>)<br> - [CO:nn Relevant guide name](<link>) |
+| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br><br> - [OE:nn Relevant guide name](<link>)<br> - [OE:nn Relevant guide name]() |
+| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br><br> - [PE:nn Relevant guide name](<link>)<br> - [PE:nn Relevant guide name]() |
 
-Consider any tradeoffs against the goals of the other pillars that this pattern might introduce.
+Consider any trade-offs against the goals of the other pillars that this pattern might introduce.
 
 ## Example
 
-<!--
-- Include a working sample that shows a real-world application. 
-- The sample should be specific and provide code snippets when appropriate.
--->
+<!-- Include a working sample that shows a real-world application. -->
 
 ## Next steps
 
@@ -81,23 +72,8 @@ The following information might be relevant when you implement this pattern:
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
   - Omit a trailing slash.
-
-Example list:
-
-- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-- [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
 -->
 
 ## Related resources
 
-<!-- Add a bulleted list of links to related architecture information in the AAC TOC.
-
-Example list:
-
-- [Image classification on Azure](../../example-scenario/ai/intelligent-apps-image-processing.yml)
-- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
-- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
-- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
--->
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->

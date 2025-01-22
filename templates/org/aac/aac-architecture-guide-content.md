@@ -1,6 +1,6 @@
 ---
 title: <Article Title in Title Casing>
-description: <A description that's 120-165 characters and ends with a period.>
+description: <Align with the template instructions for this content type.>
 author: <Contributor's GitHub user name>
 ms.author: <Contributor's Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
@@ -34,19 +34,13 @@ categories:
  
 ## Contributors
 
-<!-- 
-- This section is expected but optional if the contributors prefer to omit it. 
-- Implement this format: 
--->
+<!-- This section is expected but optional if the contributors prefer to omit it. -->
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+*Microsoft maintains this article. The following contributors wrote this article.*
 
 Principal authors: 
 
-<!--
-- List the primary authors alphabetically and by last name. 
-- Use the *FirstName LastName* format.
--->
+<!-- List the primary authors alphabetically by last name. -->
 
 - [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
@@ -61,7 +55,7 @@ Other contributors:
 - [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
 
-*To see non-public LinkedIn profiles, sign in to LinkedIn.*
+*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 <!--
@@ -70,21 +64,7 @@ Other contributors:
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
   - Omit a trailing slash.
-
-Example list:
-
-- [Azure Kubernetes Service (AKS) documentation](/azure/aks)
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What is Azure Active Directory B2C?](/azure/active-directory-b2c/overview)
-- [Application Insights overview](/azure/azure-monitor/app/app-insights-overview)
 -->
 
 ## Related resources
-<!-- Add a bulleted list of links to related architecture information in the AAC TOC.
-
-Example list:
-
-- [Baseline OpenAI end-to-end chat reference architecture](./ai-ml/architecture/baseline-openai-e2e-chat.yml)
-- [Azure OpenAI chat baseline architecture in an Azure landing zone](./ai-ml/architecture/azure-openai-baseline-landing-zone.yml)
-- [Extract and analyze call center data](./ai-ml/architecture/openai/architecture/call-center-openai-analytics.yml)
--->
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->
