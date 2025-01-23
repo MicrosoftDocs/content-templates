@@ -2,7 +2,7 @@
 metadata:
   title: <Article Title in Title Casing>
   titleSuffix: Azure Architecture Center
-  description: <Align with the template instructions for your content type.>
+  description: <Align with the browser header template instructions.>
   author: <Contributor's GitHub user name>
   ms.author: <Contributor's Microsoft alias>
   ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
@@ -10,14 +10,14 @@ metadata:
   ms.service: azure-architecture-center
   ms.subservice: <Align with the template instructions for your content type.>
 azureCategories:
-  - <Choose at least one category, as explained in the template instructions.>
+  - <Choose at least one category, as explained in the browser header template instructions.>
   - <There can be more than one category.>
 products:
-  - <Choose 1-5 products, as explained in the template instructions.>
+  - <Choose 1-5 products, as explained in the browser header template instructions.>
   - <1-5 products>
   - <1-5 products>
 name: <Article title in sentence casing>
-summary: <Align with the template instructions for your content type.>
+summary: <Align with the browser header template instructions.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
 content: |
   [!INCLUDE[](<file-name>-content.md)]

@@ -25,7 +25,7 @@ The following dataflow corresponds to the previous diagram:
 
 <!-- 
 - Add a bulleted list of all components in the architecture. 
-- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product page.
+- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product's overview page on learn.microsoft.com.
 -->
 
 ## Scenario details

@@ -14,7 +14,7 @@
  
 ## Contributors
 
-<!-- This section is expected but optional if the contributors prefer to omit it. Implement this format: -->
+<!-- This section is expected but optional if the contributors prefer to omit it. -->
 
 *Microsoft maintains this article. The following contributors wrote this article.*
 
