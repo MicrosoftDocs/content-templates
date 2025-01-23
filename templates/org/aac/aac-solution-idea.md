@@ -46,8 +46,8 @@ Principal authors:
 
 <!-- List the primary authors alphabetically by last name. -->
 
-- [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
 Other contributors: 
 
@@ -56,8 +56,8 @@ Other contributors:
 - List contributors and technical reviewers. 
 -->
 
-- [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
 *To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 

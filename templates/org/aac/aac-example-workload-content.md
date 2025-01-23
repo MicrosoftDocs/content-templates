@@ -7,7 +7,9 @@
 
 <!-- Use the following format to add your diagram. -->
 
-:::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
+:::image type="complex" border="false" source="./images/<file-name-and-extension>" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name-and-extension>":::
+   <Long description that ends with a period.>
+:::image-end:::
 
 <!-- The following link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
 
@@ -25,12 +27,12 @@ The following dataflow corresponds to the previous diagram:
 
 <!-- 
 - Add a bulleted list of all components in the architecture. 
-- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product page.
+- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product's documentation page.
 -->
 
 ### Alternatives
 
-<!-- List alternative Azure services or architectures for this solution. -->
+<!-- List alternative Azure services or approaches for this solution. -->
 
 ## Scenario details
 
@@ -73,7 +75,7 @@ Cost Optimization focuses on ways to reduce unnecessary expenses and improve ope
 
 <!-- 
 - Explain Cost Optimization considerations. 
-- Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator). 
+- Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator), with this architecture prepopulated. 
 - Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. 
 -->
 
@@ -100,22 +102,22 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 *Microsoft maintains this article. The following contributors wrote this article.*
 
 
-Principal authors: 
+Principal authors:
 
 <!-- List the primary authors alphabetically by last name. -->
 
-- [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Author 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
-Other contributors: 
+Other contributors:
 
 <!--
 - This section is optional. 
 - List contributors and technical reviewers. 
 -->
 
-- [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-- [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+- [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
 *To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
@@ -126,7 +128,7 @@ Other contributors:
 - Link formats: 
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
-  - Omit a trailing slash.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
 -->
 
 ## Related resources

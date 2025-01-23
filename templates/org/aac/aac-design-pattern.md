@@ -50,11 +50,11 @@ Evaluate how to use <!--insert name of pattern--> in a workload's design to addr
 
 | Pillar | How this pattern supports pillar goals |
 | :----- | :------------------------------------- |
-| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and ensure that it **recovers** to a fully functioning state after a failure occurs. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/reliability/design-patterns>.<br><br> - [RE:nn Relevant guide name](<link>)<br> - [RE:nn Relevant guide name](<link>) |
-| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/security/design-patterns>.<br><br> - [SE:nn Relevant guide name](<link>)<br> - [SE:nn Relevant guide name](<link>) |
-| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) focuses on **sustaining and improving** your workload's **return on investment**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/cost-optimization/design-patterns>.<br><br> - [CO:nn Relevant guide name](<link>)<br> - [CO:nn Relevant guide name](<link>) |
-| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br><br> - [OE:nn Relevant guide name](<link>)<br> - [OE:nn Relevant guide name]() |
-| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br><br> - [PE:nn Relevant guide name](<link>)<br> - [PE:nn Relevant guide name]() |
+| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and ensure that it **recovers** to a fully functioning state after a failure occurs. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) focuses on **sustaining and improving** your workload's **return on investment**. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 
 Consider any trade-offs against the goals of the other pillars that this pattern might introduce.
 
@@ -71,7 +71,7 @@ The following information might be relevant when you implement this pattern:
 - Link formats: 
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
-  - Omit a trailing slash.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
 -->
 
 ## Related resources
