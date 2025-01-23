@@ -7,7 +7,9 @@
 
 <!-- Use the following format to link to your image file:-->
 
-:::image type="content" border="false" source="./images/<file-name>.png" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name>.png":::
+:::image type="complex" border="false" source="./images/<file-name-and-extension>" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name-and-extension>":::
+   <Long description that ends with a period.>
+:::image-end:::
 
 <!-- Under the architecture diagram, link to the Visio or PowerPoint file. The link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
 
@@ -42,14 +44,14 @@ The following dataflow corresponds to the previous diagram:
 
 *Microsoft maintains this article. The following contributors wrote this article.*
 
-Principal authors: 
+Principal authors:
 
 <!-- List the primary authors alphabetically by last name. -->
 
 - [Author 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 - [Author 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
-Other contributors: 
+Other contributors:
 
 <!--
 - This section is optional. 
@@ -68,7 +70,7 @@ Other contributors:
 - Link formats: 
   - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
   - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
-  - Omit a trailing slash.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
 -->
 
 ## Related resources
