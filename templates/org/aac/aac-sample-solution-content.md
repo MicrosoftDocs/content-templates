@@ -90,7 +90,7 @@ Reliability ensures your application can meet the commitments you make to your c
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Security provides assurances against deliberate attacks and the misuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
+Security provides assurances against deliberate attacks and the abuse of your valuable data and systems. For more information, see [Overview of the Security pillar](/azure/architecture/framework/security/overview).
 
 > This section includes identity and data sovereignty considerations.
 > Are there any security considerations (past the typical) that I should know about this?
@@ -102,7 +102,7 @@ Security provides assurances against deliberate attacks and the misuse of your v
 
 > REQUIRED STATEMENT: Include the following statement to introduce the section:
 
-Cost Optimization focuses on ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
+Cost Optimization is about looking at ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Overview of the Cost Optimization pillar](/azure/architecture/framework/cost/overview).
 
 > How much will this cost to run? See if you can answer this without dollar amounts.
 > Are there ways I could save cost?
@@ -126,7 +126,7 @@ Operational Excellence covers the operations processes that deploy an applicatio
 
 > REQUIRED STATEMENT: If using this section, include the following statement to introduce the section:
 
-Performance Efficiency refers to your workload's ability to scale to meet user demands efficiently. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
+Performance Efficiency is the ability of your workload to scale to meet the demands placed on it by users in an efficient manner. For more information, see [Performance Efficiency pillar overview](/azure/architecture/framework/scalability/overview).
 
 > This includes scalability considerations.
 > Are there any key performance considerations (past the typical)?
@@ -144,7 +144,7 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 
 > Start with the explanation text (same for every section), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). Implement this format:
 
-*Microsoft maintains this article. The following contributors wrote this article.*
+*This article is maintained by Microsoft. It was originally written by the following contributors.* 
 
 Principal authors: > Only the primary authors. Listed alphabetically by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
 
@@ -158,7 +158,7 @@ Other contributors: > Include contributing (but not primary) authors, major edit
  - [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
  - > Continue for each additional contributor (even if there are 10 of them).
  
-*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
+*To see non-public LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 
