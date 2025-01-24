@@ -106,7 +106,6 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 
 *Microsoft maintains this article. The following contributors wrote this article.*
 
-
 Principal authors:
 
 <!-- List the primary authors alphabetically by last name. -->

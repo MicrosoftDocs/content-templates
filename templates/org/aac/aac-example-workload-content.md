@@ -43,6 +43,7 @@ The following dataflow corresponds to the previous diagram:
 <!-- List example use cases in a bulleted list.-->
 
 ## Considerations
+
 <!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
 
 These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/well-architected/).
@@ -54,6 +55,7 @@ REQUIREMENTS:
 -->
 
 ### Reliability
+
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
 Reliability helps ensure that your application can meet the commitments that you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
@@ -61,6 +63,7 @@ Reliability helps ensure that your application can meet the commitments that you
 <!-- Explain resiliency and availability considerations. -->
 
 ### Security
+
 <!--REQUIRED STATEMENT: If you use this section, include the following statement:-->
 
 Security provides assurances against deliberate attacks and the misuse of your valuable data and systems. For more information, see [Design review checklist for Security](/azure/well-architected/security/checklist).
@@ -100,7 +103,6 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 <!-- This section is expected but optional if the contributors prefer to omit it. -->
 
 *Microsoft maintains this article. The following contributors wrote this article.*
-
 
 Principal authors:
 

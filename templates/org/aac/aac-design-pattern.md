@@ -1,15 +1,21 @@
 ---
-title: <Article Title in Title Casing> 
+title: <Article Title in Title Casing>
 description: <Align with the template instructions for this content type.>
-keywords: <Align with the template instructions for this content type.>
+author: <Contributor's GitHub user name>
+ms.author: <Contributor's Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.service: azure-architecture-center
 ms.subservice: design-pattern
-pnp.series.title: Cloud Design Patterns
-pnp.pattern.categories: <Align with the template instructions for this content type.>
+products:
+  - <Choose 1-5 products, as explained in the template instructions.>
+  - <1-5 products>
+  - <1-5 products>
+categories:
+  - <Choose at least one category, as explained in the template instructions.>
+  - <There can be more than one category.>
 ---
-
+  
 # <!-- Article title in sentence casing -->
 
 <!-- Add a brief introductory paragraph with no heading. -->
@@ -45,7 +51,6 @@ Evaluate how to use <!--insert name of pattern--> in a workload's design to addr
 <!--
 - In the following table, include only the relevant rows. 
 - Don't add information that's not part of the Well-Architected Framework pillars. 
-- Replace or remove the table's italicized content.
 -->
 
 | Pillar | How this pattern supports pillar goals |
