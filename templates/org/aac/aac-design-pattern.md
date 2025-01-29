@@ -11,7 +11,7 @@ products:
   - <Choose 1-5 products, as explained in the template instructions.>
   - <1-5 products>
   - <1-5 products>
-categories:
+azure.category:
   - <Choose at least one category, as explained in the template instructions.>
   - <There can be more than one category.>
 ---
