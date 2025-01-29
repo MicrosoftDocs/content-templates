@@ -15,7 +15,6 @@ azure.category:
   - <Choose at least one category, as explained in the template instructions.>
   - <There can be more than one category.>
 ---
-  
 # <!-- Article title in sentence casing -->
 
 <!-- Add a brief introductory paragraph with no heading. -->
