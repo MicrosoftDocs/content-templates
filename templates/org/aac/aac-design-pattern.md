@@ -1,95 +1,83 @@
 ---
-title: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>   
-description: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
-keywords: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
+title: <Article Title in Title Casing>
+description: <Align with the template instructions for this content type.>
+author: <Contributor's GitHub user name>
+ms.author: <Contributor's Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.service: azure-architecture-center
 ms.subservice: design-pattern
-pnp.series.title: Cloud Design Patterns
-pnp.pattern.categories: <Replace this text based on the guidance in Completing the metadata under the Article Title section.>
+products:
+  - <Choose 1-5 products, as explained in the template instructions.>
+  - <1-5 products>
+  - <1-5 products>
+azure.category:
+  - <Choose at least one category, as explained in the template instructions.>
+  - <There can be more than one category.>
 ---
+# <!-- Article title in sentence casing -->
 
-# Article title
-
-_Your article can have only one **H1 heading (#)**, which is the article title. The H1 heading is always followed by a succinct descriptive paragraph that informs the reader what the article is about and how it can help them. Do not start the article with a note or tip. Descriptive text always appears in italics. Descriptive text should be deleted or replaced with your text prior to publication._
-
-_This template is specific to **Cloud Design Patterns**. Your article should describe the problem that the pattern addresses, identify considerations for applying the pattern, and provide an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. Your article should be broken down into six subheadings (H2, ## in markdown)--Context and problem, Solution, Issues and considerations, When to use this pattern, Workload design, Example, and Next steps. The H2 headings and descriptions are included in this template. If you need to create a new heading under one of the H2 headings, use an H3 heading (###)._
-
-_**Completing the metadata:**_
-_This section provides guidance on completing the metadata section at the top of this template. Update the placeholder text based on the following guidance:_
-
-- _**title:** Use the H1 (#) title of your article from the top of this section. Both titles should be identical. Maximum recommended length is 60 characters._
-- _**description:** Provide a brief summary of your article. This is the description that appears in search engine results, so ensure the summary is clear and concise and attracts your intended audience. Maximum recommended length is 150-160 characters._
-- _**keywords:** Add a comma-separated list of key concepts and terms from your article. These are the words your intended audience will submit in a search engine._
-- _**ms.date:** Enter the date in mm/dd/yyyy format, as shown in the metadata field. Initially this should be the date your article is published. After publication, this field should be refreshed whenever the article is updated so readers can see that the content is fresh._
-- _**pnp.series.title:** Cloud Design Patterns is always the correct patterns and practices series title for this template. Do not change._
-- _**pnp.pattern.categories:** Review the bracketed list that follows and delete all categories that don't apply to your article: [availability, data-management, design-implementation, messaging, management-monitoring, performance-scalability, resiliency, security]. Copy and paste the final bracketed list into the metadata section._
+<!-- Add a brief introductory paragraph with no heading. -->
 
 ## Context and problem
 
-_Provide a brief background on the specific pattern and the problem that the pattern addresses._
+<!-- Provide a brief background about the pattern and the problem that the pattern addresses.-->
 
 ## Solution
 
-_Describe the solution for the problem identified in the **Context and problem** section. If there are multiple solutions, put them in order of complexity and provide instructions on how the reader can choose the best solution for their given problem. Best practices are to provide a step-by-step approach to implement the solution, and to include screenshots to help guide the reader._
+<!-- Describe the solution you introduced in the previous section. -->
 
-## Issues and considerations
+## Problems and considerations
 
-_Highlight pertinent concerns relevant to implementing the solution provided in the previous section. Best practices are to start this section with the following boilerplate sentence, followed by a bulleted list of topics for the reader to contemplate prior to implementing the given solution._
+Consider the following points as you decide how to implement this pattern:
 
-Consider the following points when deciding how to implement this pattern:
-
-- Item 1
-- Item 2
-- Item 3
+<!-- Add a bulleted list of topics to consider before the solution is implemented. -->
 
 ## When to use this pattern
 
-_Deliver specific guidance on when this pattern should and should not be used. Use the following boilerplate text, followed by bullet points, to help the reader determine if the solution is applicable to their specific scenario._
-
 Use this pattern when:
 
-- Item 1
-- Item 2
-- Item 3
+<!--Add a bulleted-list of items that describe when this pattern is a good choice.-->
 
-This pattern might not be suitable:
+This pattern might not be suitable when:
 
-- Item 1
-- Item 2
-- Item 3
+<!--Add a bulleted-list of items that describe when this pattern is not a good choice.-->
 
 ## Workload design
 
-An architect should evaluate how the _pattern name_ can be used in their workload's design to addresses the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). For example:
+Evaluate how to use <!--insert name of pattern--> in a workload's design to address the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). The following table provides guidance about how this pattern supports the goals of each pillar.
 
-_Include just the rows that are relevant. This list should be a pivot of the data on the design patterns lists in the Azure Well-Architected Framework, so the two lists should maintain parity. Do not add something here that isn't also in WAF's lists._
+<!--
+- In the following table, include only the relevant rows. 
+- Don't add information that's not part of the Well-Architected Framework pillars. 
+-->
 
 | Pillar | How this pattern supports pillar goals |
 | :----- | :------------------------------------- |
-| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and to ensure that it **recovers** to a fully functioning state after a failure occurs. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/reliability/design-patterns>.<br/><br/> - [RE:nm Relevant guide name]()<br/> - [RE:nn Relevant guide name]() |
-| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/security/design-patterns>.<br/><br/> - [SE:nm Relevant guide name]()<br/> - [SE:nn Relevant guide name]() |
-| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) is focused on **sustaining and improving** your workload's **return on investment**. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/cost-optimization/design-patterns>.<br/><br/> - [CO:nm Relevant guide name]()<br/> - [CO:nn Relevant guide name]() |
-| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/operational-excellence/design-patterns>.<br/><br/> - [OE:nm Relevant guide name]()<br/> - [OE:nn Relevant guide name]() |
-| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, code. | _Explain how this pattern supports the stated goal of the pillar. Ideally, this should use practically the same text as found on <https://learn.microsoft.com/azure/well-architected/performance-efficiency/design-patterns>.<br/><br/> - [PE:nm Relevant guide name]()<br/> - [PE:nn Relevant guide name]() |
+| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and ensure that it **recovers** to a fully functioning state after a failure occurs. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Security](/azure/well-architected/security/checklist) design decisions help ensure the **confidentiality**, **integrity**, and **availability** of your workload's data and systems. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Cost Optimization](/azure/well-architected/cost-optimization/checklist) focuses on **sustaining and improving** your workload's **return on investment**. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
+| [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 
-As with any design decision, consider any tradeoffs against the goals of the other pillars that might be introduced with this pattern.
+Consider any trade-offs against the goals of the other pillars that this pattern might introduce.
 
 ## Example
 
-_Include a working sample that shows the reader how the pattern solution is used in a real-world situation. The sample should be specific and provide code snippets when appropriate._
+<!-- Include a working sample that shows a real-world application. -->
 
 ## Next steps
 
-_Provide links to other topics that provide additional information about the pattern covered in the article. Topics can include links to pages that provide additional context for the pattern discussed in the article or links to pages that may be useful in a next-steps context. Use the following boilerplate sentence followed by a bulleted list._
+The following information might be relevant when you implement this pattern:
 
-The following information may be relevant when implementing this pattern:
-
-- Item 1
-- Item 2
-- Item 3
+<!--
+- Add a bulleted list of links to third-party or Microsoft topics that can help customers build the workload.
+- Link formats: 
+  - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
+  - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
+-->
 
 ## Related resources
 
-_Bulleted list that links to one or more related patterns._
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->

@@ -1,47 +1,54 @@
-Architecture Guides don't have specific content guidelines (except for the three sections at the end), but they should follow all Microsoft and Learn style and pull request criteria.
+<!-- 
+- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
+- Add a brief introductory paragraph with no heading. 
+-->
 
 ## Architecture
 
-<Architecture diagram goes here.>
+<!-- This section is optional. Use the following format to link to your image file:-->
 
-*Download a [Visio file](https://arch-center.azureedge.net/DiagramName.vsdx) of this architecture.*
+:::image type="complex" border="false" source="./images/<file-name-and-extension>" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name-and-extension>":::
+   <Long description that ends with a period.>
+:::image-end:::
 
-- If the diagram has Visio or PowerPoint source uploaded to the CDN, include the download link.
-- A numbered or bulleted list describing the architecture usually follows the diagram.
-- However, the Architecture Guide template doesn't require a section named Architecture, nor a bulleted or numbered list.
+<!-- In the following line, the link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
 
-The Architecture Guide template requires the following sections at the end of the article:
-  
+*Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
+
+<!-- Add a numbered or bulleted list describing the architecture. -->
+ 
 ## Contributors
 
-> (Expected, but this section is optional if all the contributors would prefer to not include it)
+<!-- This section is expected but optional if the contributors prefer to omit it. -->
 
-> Start with the explanation text (same for every article), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Pricipal authors" list and the "Additional contributors" list (if there are additional contributors). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). (The profiles can be linked to from the person's LinkedIn page, and we hope to automate that on the platform in the future). 
-> Implement this format:
+*Microsoft maintains this article. The following contributors wrote this article.*
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+Principal authors:
 
-**Principal authors:** > Only the primary authors. List them alphabetically, by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
+<!--List the primary authors alphabetically by last name. Use the *FirstName LastName* format.-->
 
- * [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * > Continue for each primary author (even if there are 10 of them).
+- [Author 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
-**Other contributors:** > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. List them alphabetically, by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
+Other contributors:
 
- * [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
-  
- *To see non-public LinkedIn profiles, sign in to LinkedIn.*
+<!--This section is optional. List contributors and technical reviewers. -->
+
+- [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+
+*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 
-- Bulleted list of third-party and other Learn and Microsoft links.
-- Links shouldn't include en-us locale unless they don't work without it.
-- Learn links should be site-relative, for example (/azure/feature/article-name).
-- Don't include trailing slash in any links.
+<!--
+- Add a bulleted list of links to third-party or Microsoft topics.
+- Link formats: 
+  - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
+  - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
+-->
 
 ## Related resources
 
-- Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
-- Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->

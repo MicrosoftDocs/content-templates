@@ -1,66 +1,74 @@
 ---
-title: <Article title, which becomes the title metadata>
-description: <Write a 100-160 character description that ends with a period and ideally starts with a call to action. This becomes the browse card description.>
-author: <Contributor's GitHub username>
+title: <Article Title in Title Casing>
+description: <Align with the template instructions for this content type.>
+author: <Contributor's GitHub user name>
 ms.author: <Contributor's Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: conceptual
 ms.service: azure-architecture-center
 ms.subservice: architecture-guide
 products:
-  - <Choose 1-5 products from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#products>
+  - <Choose 1-5 products, as explained in the template instructions.>
   - <1-5 products>
   - <1-5 products>
-categories:
-  - <Choose at least one category from the list at https://review.learn.microsoft.com/help/contribute/architecture-center/aac-browser-authoring#azure-categories>
-  - <There can be more than one category>
+azure.category:
+  - <Choose at least one category, as explained in the template instructions.>
+  - <There can be more than one category.>
 ---
 
-# H1 title
+# <!-- Article title in sentence casing -->
 
-Other than the H2s listed below, there are no further content requirements for Architecture Guides, except to follow all Microsoft and Learn style and pull request criteria. Diagrams are not required for this content type, but if a diagram is included, it should have a Dataflow/Workflow section underneath the diagram to explain it. See the [Example workload template](sample-solution-templates) sections on Architecture and Dataflow for details.
+<!-- Add a brief introductory paragraph. -->
 
-The Architecture Guide template requires the following sections at the end of the article:
-  
+## Architecture
+
+<!-- This section is optional. Use the following format to link to your image file:-->
+
+:::image type="complex" border="false" source="./images/<file-name-and-extension>" alt-text="Diagram that shows the <solution name> architecture." lightbox="./images/<file-name-and-extension>":::
+   <Long description that ends with a period.>
+:::image-end:::
+
+<!-- The following link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
+
+*Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
+
+<!-- Add a numbered or bulleted list describing the architecture. -->
+ 
 ## Contributors
 
-> (Expected, but this section is optional if all the contributors would prefer to not include it)
+<!-- This section is expected but optional if the contributors prefer to omit it. -->
 
-> Start with the explanation text (same for every article), in italics. This makes it clear that Microsoft takes responsibility for the article (not the one contributor). Then include the "Pricipal authors" list and the "Additional contributors" list (if there are additional contributors) (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles (to minimize edits/updates). (The profiles can be linked to from the person's LinkedIn page, and we hope to automate that on the platform in the future). 
-> Implement this format:
+*Microsoft maintains this article. The following contributors wrote this article.*
 
-*This article is maintained by Microsoft. It was originally written by the following contributors.*
+Principal authors:
 
-Principal authors: > Only the primary authors. List them alphabetically, by last name. Use this format: Fname Lname. If the article gets rewritten, keep the original authors and add in the new one(s).
+<!-- List the primary authors alphabetically by last name. -->
 
- * [Author 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * [Author 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * > Continue for each primary author (even if there are 10 of them).
+- [Author 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Author 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
 
-Other contributors: > Include contributing (but not primary) authors, major editors (not minor edits), and technical reviewers. List them alphabetically, by last name. Use this format: Fname Lname. It's okay to add in newer contributors.
+Other contributors:
 
- * [Contributor 1 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
- * [Contributor 2 Name](https://linkedin.com/in/ProfileURL) | Title, such as "Cloud Solution Architect"
+<!--
+- This section is optional. 
+- List contributors and technical reviewers. 
+-->
+
+- [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+- [Contributor 2 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
+
+*To see nonpublic LinkedIn profiles, sign in to LinkedIn.*
 
 ## Next steps
 
-> Link to Learn articles. Could also be to appropriate sources outside of Learn, such as GitHub repos, third-party documentation, or an official technical blog post. 
-> - Links shouldn't include en-us locale unless they don't work without it.
-> - Learn links should be site-relative, for example (/azure/feature/article-name).
-> - Don't include trailing slash in any links.
-> Example:
-
-- [Azure Machine Learning documentation](/azure/machine-learning)
-- [What are Azure AI Services?](/azure/ai-services/what-are-ai-services)
+<!--
+- Add a bulleted list of links to third-party or Microsoft topics.
+- Link formats: 
+  - Make Learn links site relative (for example, /azure/<feature>/<article-name>).
+  - Start third-party links with `https://` and omit `en-us` unless the links don't work without it.
+  - Omit a trailing slash, unless that is how the final URL renders after redirects.
+-->
 
 ## Related resources
 
-> Use "Related resources" for architecture information that's relevant to the current article. It must be content that the Azure Architecture Center TOC refers to, but may be from a repo other than the AAC repo.
-> Links to articles in the AAC repo should be repo-relative, for example (../../solution-ideas/articles/article-name.yml).
-> Here is an example section:
-
-Fully deployable architectures:
-
-- [Chatbot for hotel reservations](/azure/architecture/example-scenario/ai/commerce-chatbot)
-- [Build an enterprise-grade conversational bot](/azure/architecture/reference-architectures/ai/conversational-bot)
-- [Speech-to-text conversion](/azure/architecture/reference-architectures/ai/speech-ai-ingestion)
+<!-- Add a bulleted list of links to related architecture information in the AAC TOC. -->
