@@ -8,13 +8,6 @@
       ]
     },
     {
-      "templateFileName": "..\\docs-coming-soon.md",
-      "templateFriendlyName": "Feature announcement: Coming Soon",
-      "repos": [
-        "new-hope"
-      ]
-    },
-    {
       "templateFileName": "..\\docs-concept-article.md",
       "templateFriendlyName": "Docs template: Concept article",
       "repos": [
@@ -60,14 +53,7 @@
       "templateFileName": "..\\structured-how-to.yml",
       "templateFriendlyName": "Structured How-to (YAML)",
       "repos": [
-        "docs-help-pr"
-      ]
-    },
-    {
-      "templateFileName": "..\\structured-how-to.md",
-      "templateFriendlyName": "Structured How-to (save as .yml)",
-      "repos": [
-        "docs-help-pr"
+        "*"
       ]
     },
     {
