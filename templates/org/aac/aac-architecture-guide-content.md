@@ -1,19 +1,15 @@
 ---
 title: <Article Title in Title Casing>
 description: <Align with the template instructions for this content type.>
-author: <Contributor's GitHub user name>
-ms.author: <Contributor's Microsoft alias>
+author: <Contributor GitHub user name>
+ms.author: <Contributor Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: conceptual
-ms.service: azure-architecture-center
 ms.subservice: architecture-guide
 products:
-  - <Choose 1-5 products, as explained in the template instructions.>
-  - <1-5 products>
-  - <1-5 products>
+  - <List 1-5 products, as explained in the template instructions.>
 categories:
-  - <Choose at least one category, as explained in the template instructions.>
-  - <There can be more than one category.>
+  - <List at least one category, as explained in the template instructions.>
 ---
 
 # <!-- Article title in sentence casing -->
@@ -32,7 +28,7 @@ categories:
 
 *Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
-<!-- Add a numbered or bulleted list describing the architecture. -->
+<!-- Add a numbered or bulleted list that describes the architecture. -->
  
 ## Contributors
 
