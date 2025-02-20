@@ -11,7 +11,7 @@ products:
   - <Choose 1-5 products, as explained in the template instructions.>
   - <1-5 products>
   - <1-5 products>
-azure.category:
+categories:
   - <Choose at least one category, as explained in the template instructions.>
   - <There can be more than one category.>
 ---
@@ -60,7 +60,7 @@ Evaluate how to use <!--insert name of pattern--> in a workload's design to addr
 | [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 
-Consider any trade-offs against the goals of the other pillars that this pattern might introduce.
+If this pattern introduces any trade-offs, consider them against the goals of the other pillars.
 
 ## Example
 
