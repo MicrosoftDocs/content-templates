@@ -1,19 +1,15 @@
 ---
 title: <Article Title in Title Casing>
 description: <Align with the template instructions for this content type.>
-author: <Contributor's GitHub user name>
-ms.author: <Contributor's Microsoft alias>
+author: <Contributor GitHub user name>
+ms.author: <Contributor Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
-ms.service: azure-architecture-center
 ms.subservice: design-pattern
 products:
-  - <Choose 1-5 products, as explained in the template instructions.>
-  - <1-5 products>
-  - <1-5 products>
-azure.category:
-  - <Choose at least one category, as explained in the template instructions.>
-  - <There can be more than one category.>
+  - <List 1-5 products, as explained in the template instructions.>
+categories:
+  - <List at least one category, as explained in the template instructions.>
 ---
 # <!-- Article title in sentence casing -->
 
@@ -25,7 +21,7 @@ azure.category:
 
 ## Solution
 
-<!-- Describe the solution you introduced in the previous section. -->
+<!-- Describe the solution that you introduced in the previous section. -->
 
 ## Problems and considerations
 
@@ -60,15 +56,13 @@ Evaluate how to use <!--insert name of pattern--> in a workload's design to addr
 | [Operational Excellence](/azure/well-architected/operational-excellence/checklist) helps deliver **workload quality** through **standardized processes** and team cohesion. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) helps your workload **efficiently meet demands** through optimizations in scaling, data, and code. | <!--Explanation--><br><br> - <!--[Guide code and relevant guide name](<link>)--><br> - <!--[Guide code and relevant guide name](<link>)--> |
 
-Consider any trade-offs against the goals of the other pillars that this pattern might introduce.
+If this pattern introduces trade-offs within a pillar, consider them against the goals of the other pillars.
 
 ## Example
 
 <!-- Include a working sample that shows a real-world application. -->
 
 ## Next steps
-
-The following information might be relevant when you implement this pattern:
 
 <!--
 - Add a bulleted list of links to third-party or Microsoft topics that can help customers build the workload.
