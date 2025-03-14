@@ -60,7 +60,7 @@ These considerations implement the pillars of the Azure Well-Architected Framewo
 
 <!--REQUIRED STATEMENT: Include the following statement to introduce the section:-->
 
-Reliability ensures your application can meet the commitments you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
+Reliability helps ensure that your application can meet the commitments that you make to your customers. For more information, see [Design review checklist for Reliability](/azure/well-architected/reliability/checklist).
 
 <!-- Explain resiliency and availability considerations. -->
 
