@@ -6,10 +6,6 @@ ms.author: <Contributor Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.subservice: design-pattern
-products:
-  - <List 1-5 products, as explained in the template instructions.>
-categories:
-  - <List at least one category, as explained in the template instructions.>
 ---
 # <!-- Article title in sentence casing -->
 
