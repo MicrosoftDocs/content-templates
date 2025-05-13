@@ -100,6 +100,12 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 
 <!-- Explain key performance considerations, beyond the typical. -->
 
+## Deploy this scenario
+
+<!-- This section is required. 
+Link to a template or script that explains how to deploy the solution. 
+Include source code, deployment code, and instructions for how to test the scenario. -->
+
 ## Contributors
 
 <!-- This section is expected but optional if the contributors prefer to omit it. -->

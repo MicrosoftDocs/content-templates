@@ -10,7 +10,7 @@ metadata:
 azureCategories:
   - <List at least one category, as explained in the browser header template instructions.>
 products:
-  - <List 1-5 products, as explained in the browser header template instructions.>
+  - <List 1 to 5 products, as explained in the browser header template instructions.>
 name: <Article title in sentence casing>
 summary: <Align with the browser header template instructions.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
