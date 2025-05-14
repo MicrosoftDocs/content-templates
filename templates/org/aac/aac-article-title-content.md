@@ -1,6 +1,7 @@
 <!-- 
-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
-- Add a brief introductory paragraph with no heading. 
+Don't add metadata to this Markdown file.
+Use the browser header template to create a YAML file that contains your metadata. 
+Add a brief introductory paragraph with no heading. 
 -->
 
 ## Architecture
@@ -26,8 +27,9 @@ The following dataflow corresponds to the previous diagram:
 ### Components
 
 <!-- 
-- Add a bulleted list of all components in the architecture. 
-- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product's documentation page.
+Add a bulleted list of all components in the architecture.
+Where possible, link to the component's Well-Architected Framework service guide.
+Alternatively, link to the product's documentation page.
 -->
 
 ### Alternatives
@@ -79,9 +81,9 @@ Security provides assurances against deliberate attacks and the misuse of your v
 Cost Optimization focuses on ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
 <!-- 
-- Explain Cost Optimization considerations. 
-- Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator), with this architecture prepopulated. 
-- Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. 
+Explain Cost Optimization considerations. 
+Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator), with this architecture prepopulated. 
+Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. 
 -->
 
 ### Operational Excellence
@@ -102,9 +104,11 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 
 ## Deploy this scenario
 
-<!-- This section is required. 
+<!-- 
+This section is required. 
 Link to a template or script that explains how to deploy the solution. 
-Include source code, deployment code, and instructions for how to test the scenario. -->
+Include source code, deployment code, and instructions for how to test the scenario. 
+-->
 
 ## Contributors
 

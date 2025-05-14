@@ -1,6 +1,7 @@
 <!-- 
-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
-- Add a brief introductory paragraph with no heading. 
+Don't add metadata to this Markdown file.
+Use the browser header template to create a YAML file that contains your metadata.
+Add a brief introductory paragraph with no heading. 
 -->
 
 ## Architecture
@@ -11,7 +12,10 @@
    <Long description that ends with a period.>
 :::image-end:::
 
-<!-- Under the architecture diagram, link to the Visio or PowerPoint file. The link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. -->
+<!-- 
+Under the architecture diagram, link to the Visio or PowerPoint file. 
+The link will work after the AAC team uploads your Visio or PowerPoint file to the Azure CDN. 
+-->
 
 *Download a [Visio file](https://arch-center.azureedge.net/<file-name>.vsdx) of this architecture.*
 
@@ -26,8 +30,9 @@ The following dataflow corresponds to the previous diagram:
 ### Components
 
 <!-- 
-- Add a bulleted list of all components in the architecture. 
-- Where possible, link to the component's Well-Architected Framework service guide. Alternatively, link to the product's overview page on learn.microsoft.com.
+Add a bulleted list of all components in the architecture. 
+Where possible, link to the component's Well-Architected Framework service guide.
+Alternatively, link to the product's overview page on learn.microsoft.com.
 -->
 
 ## Scenario details
@@ -54,8 +59,8 @@ Principal authors:
 Other contributors:
 
 <!--
-- This section is optional. 
-- List contributors and technical reviewers. 
+This section is optional. 
+List contributors and technical reviewers. 
 -->
 
 - [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"

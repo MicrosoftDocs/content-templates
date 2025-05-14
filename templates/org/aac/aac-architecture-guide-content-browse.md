@@ -1,6 +1,7 @@
 <!-- 
-- Don't add metadata to this Markdown file. Use the browser header template to create a YAML file that contains your metadata. 
-- Add a brief introductory paragraph with no heading. 
+Don't add metadata to this Markdown file.
+Use the browser header template to create a YAML file that contains your metadata. 
+Add a brief introductory paragraph with no heading. 
 -->
 
 ## Architecture
