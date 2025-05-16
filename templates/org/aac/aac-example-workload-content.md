@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Don't add metadata to this Markdown file.
 Use the browser header template to create a YAML file for your metadata.
 Add a brief introductory paragraph with no heading.
@@ -78,10 +78,10 @@ Security provides assurances against deliberate attacks and the misuse of your v
 
 Cost Optimization focuses on ways to reduce unnecessary expenses and improve operational efficiencies. For more information, see [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist).
 
-<!-- 
-Explain Cost Optimization considerations. 
-Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator), with this architecture prepopulated. 
-Include the major cost-driving components, a typical scale or throughput, and recommended SKUs. 
+<!--
+Explain Cost Optimization considerations.
+Link to the pricing calculator (https://azure.microsoft.com/pricing/calculator), with this architecture prepopulated.
+Include the major cost-driving components, a typical scale or throughput, and recommended SKUs.
 -->
 
 ### Operational Excellence
@@ -102,9 +102,10 @@ Performance Efficiency refers to your workload's ability to scale to meet user d
 
 ## Deploy this scenario
 
-<!-- This section is expected but optional if the contributors prefer to omit it.
-Link to a template or script that explains how to deploy the workload.
-Include source code, deployment code, and instructions for how to test the scenario. 
+<!--
+This section is expected but optional if the contributors prefer to omit it.
+Link to a GitHub-hosted template or script that explains how to deploy the workload.
+The repo will contain all of the source code, deployment code, and instructions for how to try the scenario in the customer's own subscription.
 -->
 
 ## Contributors
@@ -123,8 +124,8 @@ Principal authors:
 Other contributors:
 
 <!--
-This section is optional. 
-List contributors and technical reviewers. 
+This section is optional.
+List contributors and technical reviewers.
 -->
 
 - [Contributor 1 Name](https://www.linkedin.com/in/ProfileURL/) | Title, such as "Cloud Solution Architect"
