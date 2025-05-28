@@ -6,10 +6,6 @@ ms.author: <Contributor Microsoft alias>
 ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
 ms.topic: design-pattern
 ms.subservice: design-pattern
-products:
-  - <List 1-5 products, as explained in the template instructions.>
-categories:
-  - <List at least one category, as explained in the template instructions.>
 ---
 # <!-- Article title in sentence casing -->
 
@@ -44,8 +40,8 @@ This pattern might not be suitable when:
 Evaluate how to use <!--insert name of pattern--> in a workload's design to address the goals and principles covered in the [Azure Well-Architected Framework pillars](/azure/well-architected/pillars). The following table provides guidance about how this pattern supports the goals of each pillar.
 
 <!--
-- In the following table, include only the relevant rows. 
-- Don't add information that's not part of the Well-Architected Framework pillars. 
+In the following table, include only the relevant rows.
+Don't add information that's not part of the Well-Architected Framework pillars.
 -->
 
 | Pillar | How this pattern supports pillar goals |

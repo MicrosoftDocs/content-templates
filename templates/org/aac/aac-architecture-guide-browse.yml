@@ -11,7 +11,7 @@ metadata:
 azureCategories:
   - <List at least one category, as explained in the template instructions.>
 products:
-  - <List 1-5 products, as explained in the template instructions.>
+  - <List 1 to 5 products, as explained in the template instructions.>
 name: <Article title in sentence casing>
 summary: <Align with the template instructions for this content type.>
 thumbnailUrl: /azure/architecture/browse/thumbs/<file-name>.png
