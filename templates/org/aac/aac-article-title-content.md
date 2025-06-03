@@ -54,7 +54,7 @@ You can apply the following recommendations to most scenarios. Follow these reco
 
 <!--REQUIRED STATEMENT: Include the following statement to introduce this section:-->
 
-These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Microsoft Azure Well-Architected Framework](/azure/well-architected/).
+These considerations implement the pillars of the Azure Well-Architected Framework, which is a set of guiding tenets that you can use to improve the quality of a workload. For more information, see [Well-Architected Framework](/azure/well-architected/).
 
 <!-- Include ALL of the following H3 sub-sections, in the following order. -->
 
