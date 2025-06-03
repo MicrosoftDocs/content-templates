@@ -3,7 +3,7 @@ title: <Article Title in Title Casing>
 description: <Align with the template instructions for this content type.>
 author: <Contributor GitHub user name>
 ms.author: <Contributor Microsoft alias>
-ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
+ms.date: <Date of publish or last full technical review, in mm/dd/yyyy format>
 ms.topic: conceptual
 ms.subservice: architecture-guide
 ---
