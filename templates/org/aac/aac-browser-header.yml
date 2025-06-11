@@ -4,7 +4,7 @@ metadata:
   description: <Align with the browser header template instructions.>
   author: <Contributor GitHub user name>
   ms.author: <Contributor Microsoft alias>
-  ms.date: <Date of publish or last freshness pass, in mm/dd/yyyy format>
+  ms.date: <Date of initial publish or last full technical review, in mm/dd/yyyy format>
   ms.topic: <Align with the template instructions for your content type.>
   ms.subservice: <Align with the template instructions for your content type.>
 azureCategories:
