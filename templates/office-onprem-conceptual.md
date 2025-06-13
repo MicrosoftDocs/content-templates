@@ -1,3 +1,4 @@
+```yaml
 ---   
 # This template provides a structure for Office on-prem conceptual articles.
 # For details about MAX content metadata requirements, see https://review.docs.microsoft.com/en-us/office-authoring-guide/metadata-for-max-content-on-dmc?branch=master
@@ -27,6 +28,7 @@ ms.reviewer: MsAlias1, MsAlias2, etc # List contributors' Microsoft aliases, sep
 robots:                              # Omit this field to make content searchable. Include it to hide from search.
 
 ---
+```
 # Feature name
 
 ## FeatureName overview
