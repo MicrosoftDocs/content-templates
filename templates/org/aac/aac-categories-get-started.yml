@@ -1,0 +1,20 @@
+### YamlMime:Architecture
+metadata:
+  title: <Category> architecture design
+  description: <Category description>  
+  author: <Contributor GitHub user name>
+  ms.author: <Contributor Microsoft alias>
+  ms.date: <Date of initial publish or last full technical review, in mm/dd/yyyy format>
+  ms.topic: concept-article
+  ms.subservice: architecture-guide
+  ms.category: <Category>
+  ms.custom: arb-data
+azureCategories:
+ - <List at least one category, as explained in the template instructions.>
+products:
+  - <List 1 to 5 products, as explained in the template instructions.>
+name: <Category> architecture design
+summary: <Category description>
+thumbnailUrl: /azure/architecture/browse/thumbs/<category>-get-started-diagram-thumb.png
+content: |
+   [!INCLUDE[](<category>-start-here-content.md)]
